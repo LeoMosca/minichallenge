@@ -8,17 +8,24 @@
 
 import UIKit
 
-class TopicsHeaderTableViewCell: UITableViewCell {
-
+class TopicsHeaderTableViewCell: UITableViewCell{
+    
+    @IBOutlet weak var languageImage: UIImageView!
+    
+    @IBOutlet weak var languageName: UILabel!
+    
+    @IBOutlet weak var topicName: UILabel!
+    
+    @IBOutlet weak var aboutTopic: UITextView!
+    
+    @IBOutlet weak var studyButton: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
 
 }
