@@ -10,9 +10,14 @@ import UIKit
 
 class ToolsWatchTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var docImage: UIImageView!
+    @IBOutlet weak var docTitle: UITextView!
+    @IBOutlet weak var docSubheading: UITextView!
+    @IBOutlet weak var docSource: UITextView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        docImage.layer.cornerRadius = docImage.frame.height / 2;
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

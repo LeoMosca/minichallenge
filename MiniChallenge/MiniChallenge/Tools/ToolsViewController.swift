@@ -8,8 +8,11 @@
 
 import UIKit
 
-class ToolsViewController: UIViewController {
+class ToolsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
 
+    @IBOutlet weak var toolsTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,6 +20,17 @@ class ToolsViewController: UIViewController {
     }
     
 
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+    }
+    
+    
+    
     /*
     // MARK: - Navigation
 

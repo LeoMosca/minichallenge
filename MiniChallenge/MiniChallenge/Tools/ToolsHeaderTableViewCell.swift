@@ -10,9 +10,17 @@ import UIKit
 
 class ToolsHeaderTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var numberOfItens: UILabel!
+    @IBOutlet weak var numberOfItensView: UIView!
+    @IBOutlet weak var toolImage: UIImageView!
+    @IBOutlet weak var toolName: UILabel!
+    @IBOutlet weak var toolDescription: UITextView!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        numberOfItensView.layer.cornerRadius = numberOfItensView.frame.height / 2;
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
