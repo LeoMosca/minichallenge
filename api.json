@@ -490,6 +490,7 @@
             "description": "",
             "topics": [
                 {
+                    "id": 210,
                     "name": "Package Manager",
                     "description": "Um package manager é uma ferramenta para instalação, remoção e atualização de softwares, que são distribuídos em pacotes.",
                     "tools": [
@@ -536,6 +537,7 @@
                     ]
                 },
                 {
+                    "id": 220,
                     "name":"Web Framework",
                     "description":"Um framework tem como foco a reusabilidade de código, dessa maneira, o desenvolvedor pode dedicar seu tempo em soluções mais complexas ao invés de ficar reescrevendo algo que já foi feito.",
                     "tools": [
@@ -622,6 +624,7 @@
                     ]
                 },
                 {
+                    "id": 230,
                     "name":"Database Connection",
                     "description":"Realiza a comunicação entre usúario e banco de dados, permitindo que os dados de uma aplicação sejam consistentes.",
                     "tools":[
@@ -658,6 +661,7 @@
                     ]
                 },
                 {
+                    "id": 240,
                     "name":"Testing",
                     "description":"Essas ferramentas facilitam o trabalho do desenvolvedor ao realizar testes em suas soluções de maneira eficiente e com menos configurações.",
                     "tools":[
@@ -714,6 +718,7 @@
                     ]
                 },
                 {
+                    "id": 250,
                     "name":"API Clients",
                     "description":"Ferramenta para integrar sistemas, possibilitando benefícios como a segurança dos dados, facilidade no intercâmbio entre informações com diferentes linguagens de programação.",
                     "tools":[
@@ -792,6 +797,7 @@
                     ]
                 },
                 {
+                    "id": 260,
                     "name":"Logger",
                     "description":"Biblioteca que gerencia os logs da saída de um terminal por exemplo.",
                     "tools":[
@@ -818,6 +824,7 @@
                     ]
                 },
                 {
+                    "id": 270,
                     "name":"Task Schedule",
                     "description":"Essas ferramentas permitem que você agende alguma função para rodar em um horário pré-determinado.",
                     "tools":[
@@ -837,6 +844,7 @@
                     ]
                 },
                 {
+                    "id": 280,
                     "name":"Template Engines",
                     "description":"O uso de template engines no desenvolvimento de aplicações permite manipular e organizar conteúdo de forma dinâmica.",
                     "tools":[
@@ -863,6 +871,7 @@
                     ]
                 },
                 {
+                    "id": 290,
                     "name":"Real Time Communication",
                     "description":"Utilizados com intuito de agilizar a construção de aplicações real-time bidirecionais. Como por exemplo webchats.",
                     "tools":[
