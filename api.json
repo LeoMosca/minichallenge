@@ -393,7 +393,7 @@
             },
             {
                 "name": "Real Time Communication",
-                "description":"Utilizados com intuito de agilizar a construção de aplicações real-time bidirecionais. Como por exemplo webchats",
+                "description":"Utilizados com intuito de agilizar a construção de aplicações real-time bidirecionais. Como por exemplo webchats.",
                 "tools": [
                     {
                         "name": "Socket.IO",
@@ -421,7 +421,409 @@
         ]
     },
     {
-        "language": "JAVA"
+        "language": "JAVA",
+        "logo": "",
+        "description": "",
+        "topics": [
+            {
+                "name": "Package Manager",
+                "description": "Um package manager é uma ferramenta para instalação, remoção e atualização de softwares, que são distribuídos em pacotes.",
+                "tools": [
+                    {
+                        "name": "Grandle",
+                        "description": "",
+                        "content": [
+                            {
+                                "type": "Artigo",
+                                "title": "",
+                                "subtitle": "",
+                                "image": "",
+                                "url": ""
+                            },
+                            {
+                                "type":"Documentação",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":""
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Maven",
+                        "description": "",
+                        "content":[
+                            {
+                                "type": "Artigo",
+                                "title": "",
+                                "subtitle": "",
+                                "image": "",
+                                "url": ""
+                            },
+                            {
+                                "type":"Documentação",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"Web Framework",
+                "description":"Um framework tem como foco a reusabilidade de código, dessa maneira, o desenvolvedor pode dedicar seu tempo em soluções mais complexas ao invés de ficar reescrevendo algo que já foi feito.",
+                "tools": [
+                    {
+                        "name":"Spring",
+                        "description": "",
+                        "content": [
+                            {
+                                "type": "Artigo",
+                                "title": "",
+                                "subtitle": "",
+                                "image": "",
+                                "url": ""
+                            },
+                            {
+                                "type":"Documentação",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":""
+                            },
+                            {
+                                "type":"Curso",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":"",
+                                "note":"",
+                                "author":"",
+                                "duration":""
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Jersey",
+                        "description": "",
+                        "content": [
+                            {
+                                "type": "Artigo",
+                                "title": "",
+                                "subtitle": "",
+                                "image": "",
+                                "url": ""
+                            },
+                            {
+                                "type":"Documentação",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":""
+                            },
+                            {
+                                "type":"Curso",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":"",
+                                "note":"",
+                                "author":"",
+                                "duration":""
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Play Framework",
+                        "description": "",
+                        "content": [
+                            {
+                                "type": "Artigo",
+                                "title": "",
+                                "subtitle": "",
+                                "image": "",
+                                "url": ""
+                            },
+                            {
+                                "type":"Documentação",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"Database Connection",
+                "description":"Realiza a comunicação entre usúario e banco de dados, permitindo que os dados de uma aplicação sejam consistentes.",
+                "tools":[
+                    {
+                        "name":"Hibernate",
+                        "description":"",
+                        "content":[
+                            {
+                                "type": "Artigo",
+                                "title": "",
+                                "subtitle": "",
+                                "image": "",
+                                "url": ""
+                            },
+                            {
+                                "type":"Documentação",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":""
+                            },
+                            {
+                                "type":"Curso",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":"",
+                                "note":"",
+                                "author":"",
+                                "duration":""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"Testing",
+                "description":"Essas ferramentas facilitam o trabalho do desenvolvedor ao realizar testes em suas soluções de maneira eficiente e com menos configurações.",
+                "tools":[
+                    {
+                        "name":"JUnit",
+                        "description":"",
+                        "content":[
+                            {
+                                "type": "Artigo",
+                                "title": "",
+                                "subtitle": "",
+                                "image": "",
+                                "url": ""
+                            },
+                            {
+                                "type":"Documentação",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":""
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Cucumber",
+                        "description": "",
+                        "content":[
+                            {
+                                "type": "Artigo",
+                                "title": "",
+                                "subtitle": "",
+                                "image": "",
+                                "url": ""
+                            },
+                            {
+                                "type":"Documentação",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":""
+                            },
+                            {
+                                "type":"Curso",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":"",
+                                "note":"",
+                                "author":"",
+                                "duration":""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"API Clients",
+                "description":"Ferramenta para integrar sistemas, possibilitando benefícios como a segurança dos dados, facilidade no intercâmbio entre informações com diferentes linguagens de programação.",
+                "tools":[
+                    {
+                        "name":"okhttp",
+                        "description":"",
+                        "content":[
+                            {
+                                "type":"Documentação",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":""
+                            }
+                        ]
+                    },
+                    {
+                        "name":"graphql-java",
+                        "description": "",
+                        "content":[
+                            {
+                                "type":"Documentação",
+                                "title": "",
+                                "subtitle": "",
+                                "image": "",
+                                "url": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"Caching",
+                "description":"",
+                "tools":[
+                    {
+                        "name":"Caffeine",
+                        "description":"",
+                        "content":[
+                            {
+                                "type": "Artigo",
+                                "title": "",
+                                "subtitle": "",
+                                "image": "",
+                                "url": ""
+                            },
+                            {
+                                "type":"Documentação",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":""
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Java-Redis",
+                        "description": "",
+                        "content":[
+                            {
+                                "type": "Artigo",
+                                "title": "",
+                                "subtitle": "",
+                                "image": "",
+                                "url": ""
+                            },
+                            {
+                                "type":"Documentação",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"Logger",
+                "description":"Biblioteca que gerencia os logs da saída de um terminal por exemplo.",
+                "tools":[
+                    {
+                        "name":"Log4j",
+                        "description":"",
+                        "content":[
+                            {
+                                "type": "Artigo",
+                                "title": "",
+                                "subtitle": "",
+                                "image": "",
+                                "url": ""
+                            },
+                            {
+                                "type":"Documentação",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"Task Schedule",
+                "description":"Essas ferramentas permitem que você agende alguma função para rodar em um horário pré-determinado.",
+                "tools":[
+                    {
+                        "name":"cron-utils",
+                        "description":"",
+                        "content":[
+                            {
+                                "type":"Artigo",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"Template Engines",
+                "description":"O uso de template engines no desenvolvimento de aplicações permite manipular e organizar conteúdo de forma dinâmica.",
+                "tools":[
+                    {
+                        "name":"JSP",
+                        "description":"",
+                        "content":[
+                            {
+                                "type":"Artigo",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":""
+                            },
+                            {
+                                "type":"Documentação",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"Real Time Communication",
+                "description":"Utilizados com intuito de agilizar a construção de aplicações real-time bidirecionais. Como por exemplo webchats.",
+                "tools":[
+                    {
+                        "name":"Atmosphere",
+                        "description":"",
+                        "content":[
+                            {
+                                "type":"Artigo",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":""
+                            },
+                            {
+                                "type":"Documentação",
+                                "title":"",
+                                "subtitle":"",
+                                "image":"",
+                                "url":""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 ]
-
