@@ -1,21 +1,23 @@
 {
     "challenge": [
         {
-            "id": 1,
+            "id": 100,
             "language": "Node JS",
             "logo": "",
             "description": "",
             "topics": [
                 {
-                    "id": 11,
+                    "id": 101,
                     "name": "Package Manager",
                     "description": "Um package manager é uma ferramenta para instalação, remoção e atualização de softwares, que são distribuídos em pacotes.",
                     "tools": [
                         {
+                            "id" : 102,
                             "name": "NPM",
                             "description": "Gerenciador de Pacotes, nativo do Node JS. O NPM (Node Package Manager) funciona como um repositório online para publicações de projetos de código aberto.",
                             "content": [
                                 {
+                                    "id" : 103,
                                     "type": "Artigo",
                                     "title": "O que é a NPM do Node.JS",
                                     "subtitle": "A NPM já conta com mais de 35 mil pacotes, sendo eles bibliotecas e aplicações de código aberto adicionados todos os dias. ",
@@ -25,10 +27,12 @@
                             ]
                         },
                         {
+                            "id" : 104,
                             "name": "Yarn",
                             "description":"Gerenciador de Pacotes, desenvolvido pelo Facebook. O Yarn é open source, e nasceu com a elaboração das empresas Exponent, Google e Tilde.",
                             "content": [
                                 {
+                                    "id" : 105,
                                     "type": "Artigo",
                                     "title":"Yarn: A evolução do NPM",
                                     "subtitle":"No dia 11 de outubro de 2016, o Facebook anunciou o seu novo gerenciador de pacotes para Javascript: o Yarn",
@@ -40,15 +44,17 @@
                     ]
                 },
                 {
-                    "id": 12,
+                    "id": 110,
                     "name": "Web Framework",
                     "description": "Um framework tem como foco a reusabilidade de código, dessa maneira, o desenvolvedor pode dedicar seu tempo em soluções mais complexas ao invés de ficar reescrevendo algo que já foi feito.",
                     "tools": [
                         {
+                            "id" : 111,
                             "name": "Express",
                             "description":"O Express, é uma estrutura de aplicativo da Web para o Node.js, lançada como software livre e de código aberto. Ele foi projetado para criar aplicativos da Web e APIs.",
                             "content": [
                                 {
+                                    "id" : 112,
                                     "type": "Curso",
                                     "title":"Primeiros passos com Express",
                                     "subtitle":"O Express é um framework JavaScript que facilita a criação de aplicativos web utilizando o Node.js",
@@ -59,6 +65,7 @@
                                     "url":"https://www.devmedia.com.br/curso/primeiros-passos-com-express/1907"
                                 },
                                 {
+                                    "id" : 113,
                                     "type": "Documentação",
                                     "title":"Node.js web application framework",
                                     "subtitle":"Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.",
@@ -69,10 +76,12 @@
                             
                         },
                         {
+                            "id" : 114,
                             "name": "Restify",
                             "description":"Amplamente utilizado em empresas como Netflix, Pinterest e Napster, ele foi inicialmente criado como uma alternativa ao Express. Ele é uma estrutura para construir serviços Web Restful semanticamente corretos, otimizado para introspecção e desempenho. ",
                             "content": [
                                 {
+                                    "id" : 115,
                                     "type": "Curso",
                                     "title":"Do Zero à Nuvem: API Restful com NodeJS, Restify e MongoDB",
                                     "subtitle":"Crie uma API com NodeJS, Restify, Mongoose, MongoDB e use o Gitlab para Automatizar o Deploy na Digital Ocean",
@@ -85,10 +94,12 @@
                             ]
                         },
                         {
+                            "id" : 116,
                             "name": "Koa",
                             "description":"Criado pelo mesmo time do Express, ele foi desenvolvido com o intuito de ser mais leve, expressivo e robusto.",
                             "content": [
                                 {
+                                    "id" : 117,
                                     "type": "Artigo",
                                     "title":"Criando um CRUD simples com Koa",
                                     "subtitle":"Vamos direto ao ponto de como fazer um CRUD utilizando o Koajs que é feito e mantido pelo mesmo time do Express tendo as mesmas funcionalidades e suporte as funções geradoras do ECMASCRIPT6.",
@@ -98,10 +109,12 @@
                             ]
                         },
                         {
+                            "id" : 118,
                             "name": "Nest",
                             "description": "Fornece uma arquitetura pronta para uso, permitindo a criação de aplicativos altamente testáveis, escalonáveis, fracamente acoplados e de fácil manutenção sem muito esforço.",
                             "content": [
                                 {
+                                    "id" : 119,
                                     "type": "Documentação",
                                     "title":"Documentation | NestJS - A progressive Node.js web framework",
                                     "subtitle":"Nest (NestJS) is a framework for building efficient, scalable Node.js server-side applications. It uses progressive JavaScript, is built with and fully supports TypeScript and combines elements of OOP, FP, and FRP.",
@@ -113,15 +126,17 @@
                     ]
                 },
                 {
-                    "id": 13,
+                    "id": 120,
                     "name": "Database Connection",
                     "description":"Realiza a comunicação entre usúario e banco de dados, permitindo que os dados de uma aplicação sejam consistentes.",
                     "tools": [
                         {
+                            "id": 121,
                             "name": "Sequelize",
                             "description":"Tem como funcionalidade fazer o mapeamento de dados relacionais (tabelas, colunas e linhas) para objetos Javascript. Ele permite criar, buscar, alterar e remover dados do banco de dados utilizando métodos JS, além de permitir a modificação da estrutura das tabelas. ",
                             "content": [
                                 {
+                                    "id": 122,
                                     "type": "Artigo",
                                     "title":"Conhecimentos do Sequelize",
                                     "subtitle":"Nesta série de artigos, irei compartilhar alguns conhecimentos, de como criar uma aplicação Node.JS utilizando comunicação de API RESTful e CRUD.",
@@ -129,6 +144,7 @@
                                     "url":"https://medium.com/@wagnerricardonet/restify-e-sequelize-com-node-js-parte-1-15b44a2861d6"
                                 },
                                 {
+                                    "id": 123,
                                     "type": "Documentação",
                                     "title":"Manual | Sequelize",
                                     "subtitle":"Sequelize is a promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server. It features solid transaction support, relations, eager and lazy loading, read replication and more.",
@@ -138,10 +154,12 @@
                             ]
                         },
                         {
+                            "id": 124,
                             "name": "Knex",
                             "description":"É um construtor de consultas JavaScript para bancos de dados relacionais, incluindo PostgreSQL, MySQL, SQLite3 e Oracle. Pode ser usado com retornos de callbacks e promises.",
                             "content": [
                                 {
+                                    "id": 125,
                                     "type": "Artigo",
                                     "title":"A brief introduction to Knex.js",
                                     "subtitle":"Knex.js is a SQL query builder that allows for easier interfacing with a DBMS during Node.js application development.",
@@ -149,6 +167,7 @@
                                     "url":"https://medium.com/ascherj/a-brief-introduction-to-knex-js-16b5648d7e1"
                                 },
                                 {
+                                    "id": 126,
                                     "type": "Documentação",
                                     "title":"A SQL Query Builder for Javascript",
                                     "subtitle":"Knex.js is a 'batteries included' SQL query builder for Postgres, MSSQL, MySQL, MariaDB, SQLite3, Oracle, and Amazon Redshift designed to be flexible, portable, and fun to use.",
@@ -158,10 +177,12 @@
                             ]
                         },
                         {
+                            "id": 127,
                             "name": "Mongoose",
                             "description":"Proporciona uma solução baseada em esquemas para modelar os dados da sua aplicação. Possui também um sistema de conversão de tipos, validação e criação de consultas.",
                             "content": [
                                 {
+                                    "id": 128,
                                     "type": "Curso",
                                     "title":"Do Zero à Nuvem: API Restful com NodeJS, Restify e MongoDB",
                                     "subtitle":"Crie uma API com NodeJS, Restify, Mongoose, MongoDB e use o Gitlab para Automatizar o Deploy na Digital Ocean",
@@ -171,6 +192,7 @@
                                     "url":"https://www.udemy.com/course/nodejs-rest-pt/"
                                 },
                                 {
+                                    "id": 129,
                                     "type": "Artigo",
                                     "title":"Mongoose - Criando Queries",
                                     "subtitle":"Iremos aprender um pouco a respeito de como funciona a criação de queries utilizando o Mongoose. Estarei abordando o assunto de maneira simplificada para um fácil entendimento.",
@@ -179,6 +201,7 @@
                                     
                                 },
                                 {
+                                    "id": 1299,
                                     "type": "Documentação",
                                     "title":"Mongoose ODM v5.7.3",
                                     "subtitle":"Mongoose provides a straight-forward, schema-based solution to model your application data. It includes built-in type casting, validation, query building, business logic hooks and more, out of the box.",
@@ -190,15 +213,17 @@
                     ]
                 },
                 {
-                    "id": 14,
+                    "id": 130,
                     "name": "Testing",
                     "description":"Essas ferramentas facilitam o trabalho do desenvolvedor ao realizar testes em suas soluções de maneira eficiente e com menos configurações.",
                     "tools": [
                         {
+                            "id": 131,
                             "name": "Jest",
                             "description":"É uma estrutura de teste de JavaScript com foco na simplicidade. Ele trabalha com projetos usando: Babel, TypeScript, Node.js, React, Angular e Vue.js. O objetivo é trabalhar fora da caixa e configurar gratuitamente.",
                             "content": [
                                 {
+                                    "id": 132,
                                     "type": "Artigo",
                                     "title":"Jest - Testando Javascript do jeito agradável",
                                     "subtitle":"Jest é um poderoso Framework de Testes em JavaScript com um foco na simplicidade. Funciona com projetos usando: Babel, TypeScript, Node, React, Angular, Vue e muito mais!",
@@ -206,6 +231,7 @@
                                     "url":"https://jestjs.io/pt-BR/"
                                 },
                                 {
+                                    "id": 133,
                                     "type": "Documentação",
                                     "title":"Jest - Testando JavaScript do jeito agradável",
                                     "subtitle":"Jest é um poderoso Framework de Testes em JavaScript com um foco na simplicidade. Funciona com projetos usando: Babel, TypeScript, Node, React, Angular, Vue e muito mais!",
@@ -215,10 +241,12 @@
                             ]
                         },
                         {
+                            "id": 134,
                             "name": "Mocha",
                             "description":"É uma estrutura de teste JavaScript, com suporte ao navegador, testes assíncronos, relatórios de cobertura de testes e uso de qualquer biblioteca de asserções.",
                             "content": [
                                 {
+                                    "id": 135,
                                     "type": "Artigo",
                                     "title":"Desenvolvendo TDD em Node.js com Mocha & Chai",
                                     "subtitle":"Toda linguagem possui seus determinados frameworks para realizar testes em suas aplicações, e no Node.Js não seria diferente. Com isso, a maioria dos desenvolvedores Node.js usam o Mocha.js.",
@@ -228,10 +256,12 @@
                             ]
                         },
                         {
+                            "id": 136,
                             "name": "Jasmine",
                             "description":"É uma estrutura de teste de código aberto para JavaScript. Seu objetivo é executar em qualquer plataforma habilitada para JavaScript, não se intrometer no aplicativo nem no IDE e ter uma sintaxe de fácil leitura.",
                             "content":[
                                 {
+                                    "id": 137,
                                     "type": "Artigo",
                                     "title":"Testando Javascript com o Jasmine",
                                     "subtitle":"Aprenda a testar de maneira simples seu código Javascript utilizando Jasmine.",
@@ -243,15 +273,17 @@
                     ]
                 },
                 {
-                    "id": 15,
+                    "id": 140,
                     "name": "API Clients",
                     "description":"Ferramenta para integrar sistemas, possibilitando benefícios como a segurança dos dados, facilidade no intercâmbio entre informações com diferentes linguagens de programação.",
                     "tools": [
                         {
+                            "id": 141,
                             "name": "Axios",
                             "description":"É um cliente HTTP para o navegador e o Node.js. O Axios facilita o envio de solicitações HTTP assíncronas para terminais REST e a execução de operações CRUD. Pode ser usado em JavaScript ou com uma biblioteca como Vue ou React.",
                             "content": [
                                 {
+                                    "id": 142,
                                     "type": "Documentação",
                                     "title":"Promise based HTTP client for the browser and node.js",
                                     "subtitle":"Make XMLHttpRequests from the browser, make http requests from node.js, supports the Promise API, intercept request and response, transform request and response data",
@@ -261,10 +293,12 @@
                             ]
                         },
                         {
+                            "id": 143,
                             "name": "GraphQL",
                             "description":"É uma linguagem de consulta criada pelo Facebook em 2012 e lançada publicamente em 2015. É considerada uma alternativa para arquiteturas REST, além de oferecer um serviço runtime para rodar comandos e consumir uma API.",
                             "content":[
                                 {
+                                    "id": 144,
                                     "type": "Artigo",
                                     "title":"Iniciando com GraphQL no NodeJS e ExpressJS",
                                     "subtitle":"No post de hoje criaremos um servidor simples com GraphQL e Express.js, mas que servira de base para estruturas mais complexas.",
@@ -272,6 +306,7 @@
                                     "url":"https://blog.rocketseat.com.br/iniciando-graphql-nodejs-expressjs/"
                                 },
                                 {
+                                    "id": 145,
                                     "type": "Documentação",
                                     "title":"GraphQL | A query language for your API",
                                     "subtitle":"GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data.",
@@ -283,14 +318,17 @@
                     ]
                 },
                 {
+                    "id": 150,
                     "name": "Logger",
                     "description":"Biblioteca que gerencia os logs da saída de um terminal por exemplo.",
                     "tools": [
                         {
+                            "id": 151,
                             "name": "Winston JS",
                             "description":"É uma biblioteca de registro JavaScript que simplifica muito o registro em vários locais de armazenamento persistentes, como bancos de dados ou arquivos.",
                             "content": [
                                 {
+                                    "id": 152,
                                     "type": "Artigo",
                                     "title":"Wiston: A Better Way To Log - Medium",
                                     "subtitle":"It is often used during the development process to help know what value certain variables have during an application’s execution.",
@@ -298,6 +336,7 @@
                                     "url":"https://medium.com/@davidmcintosh/winston-a-better-way-to-log-793ac19044c5"
                                 },
                                 {
+                                    "id": 153,
                                     "type": "Documentação",
                                     "title":"WinstonJS: A Logger for just avout everything",
                                     "subtitle":"Winston is designed to be a simple and universal logging library with support for multiple transports. A transport is essentially a storage device for your logs.",
@@ -309,14 +348,17 @@
                     ]
                 },
                 {
+                    "id": 160,
                     "name": "Task Schedule",
                     "description":"Essas ferramentas permitem que você agende alguma função para rodar em um horário pré-determinado.",
                     "tools": [
                         {
+                            "id": 161,
                             "name": "Agenda JS",
                             "description":"Permite agendar tarefas facilmente. Utiliza um banco de dados MongoDB para manter as tarefas agendadas, para que, mesmo que o servidor seja desativado, as tarefas ainda serão executadas no tempo ou intervalos especificados.",
                             "content": [
                                 {
+                                    "id": 162,
                                     "type": "Documentação",
                                     "title":"AgendaJS",
                                     "subtitle":"A light-weight job scheduling library for Node.js",
@@ -326,6 +368,7 @@
                             ]
                         },
                         {
+                            "id": 163,
                             "name": "Node Schedule",
                             "description":"É um agendador de tarefas flexível, para Node.js. Permite agendar trabalhos (funções arbitrárias) para execução em datas específicas, com regras de recorrência opcionais.",
                             "content": [
@@ -341,14 +384,17 @@
                     ]
                 },
                 {
+                    "id": 170,
                     "name": "Template Engines",
                     "description":"O uso de template engines no desenvolvimento de aplicações permite manipular e organizar conteúdo de forma dinâmica.",
                     "tools": [
                         {
+                            "id": 171,
                             "name": "PUG",
                             "description":"Gratuito, aberto, de alto desempenho, rico em recursos e fácil de usar são palavras que resumem essa Template Engine. ",
                             "content": [
                                 {
+                                    "id": 172,
                                     "type": "Artigo",
                                     "title":"Códigos HTML mais organizados e limpos com Pug",
                                     "subtitle":"Qual desenvolvedor nunca se atrapalhou com as tags do HTML? Aquelas dúvidas sempre surgem: “Será que eu fechei aquela div?” “Por que será que meu html quebrou?”. Para facilitar a vida do desenvolvedor front-end é que surgiu o Pug.",
@@ -356,6 +402,7 @@
                                     "url":"https://imasters.com.br/desenvolvimento/codigos-html-mais-organizados-e-limpos-com-pug"
                                 },
                                 {
+                                    "id": 173,
                                     "type": "Documentação",
                                     "title":"Getting Started – Pug",
                                     "subtitle":"Pug is a high performance template engine heavily influenced by Haml and implemented with JavaScript for Node.js and browsers.",
@@ -365,10 +412,12 @@
                             ]
                         },
                         {
+                            "id": 174,
                             "name": "EJS",
                             "description":"Permite transportar os dados do Back-End para o Front-End de maneira fácil e simples.",
                             "content": [
                                 {
+                                    "id": 175,
                                     "type": "Artigo",
                                     "title":"Getting started with EJS",
                                     "subtitle":"An understanding of how EJS actually works",
@@ -380,14 +429,17 @@
                     ]
                 },
                 {
+                    "id": 180,
                     "name": "Mail Handler",
                     "description":"Essa ferramenta facilitam o envio de e-mails pela sua aplicação.",
                     "tools": [
                         {
+                            "id": 181,
                             "name": "Node Mailer",
                             "description":"Esse pacote permite que sua aplicação envie e-mails de maneira bem fácil. O projeto foi iniciado em 2010, quando não havia opção para enviar mensagens de email, hoje é a solução para a qual a maioria dos usuários do Node.js. usa por padrão.",
                             "content": [
                                 {
+                                    "id": 182,
                                     "type": "Documentação",
                                     "title":"Nodemailer: Documentantion",
                                     "subtitle":"Nodemailer is a module for Node.js applications to allow easy as cake email sending. The project got started back in 2010 when there was no sane option to send email messages, today it is the solution most Node.js users turn to by default.",
@@ -399,14 +451,17 @@
                     ]
                 },
                 {
+                    "id": 190,
                     "name": "Real Time Communication",
                     "description":"Utilizados com intuito de agilizar a construção de aplicações real-time bidirecionais. Como por exemplo webchats.",
                     "tools": [
                         {
+                            "id": 191,
                             "name": "Socket.IO",
                             "description":"É uma biblioteca que permite a comunicação bidirecional em tempo real entre cliente e servidor (chats).",
                             "content": [
                                 {
+                                    "id": 192,
                                     "type": "Artigo",
                                     "title":"Conectando no Socket.IO – o básico",
                                     "subtitle":"O Socket.IO pretende tornar possíveis os aplicativos em tempo real em todos os navegadores e dispositivos móveis, minimizando as diferenças entre os mecanismos de transporte diferentes. ",
@@ -414,6 +469,7 @@
                                     "url":"https://imasters.com.br/devsecops/conectando-no-socket-io-o-basico"
                                 },
                                 {
+                                    "id": 193,
                                     "type": "Documentação",
                                     "title":"Socket.IO",
                                     "subtitle":"THE FASTEST AND MOST RELIABLE REAL-TIME ENGINE",
@@ -428,6 +484,7 @@
             ]
         },
         {
+            "id": 200,
             "language": "JAVA",
             "logo": "",
             "description": "",
