@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="q8j-Gz-PqR">
+
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -321,10 +323,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="359" id="Fnq-Vv-zNe">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="359" id="Fnq-Vv-zNe" customClass="TopicsHeaderTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="359"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Fnq-Vv-zNe" id="o3t-Hi-1iU">
+
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Fnq-Vv-zNe" id="o3t-Hi-1iU" customClass="TopicsHeaderTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
+
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="358.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
@@ -380,8 +384,15 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="aboutTopic" destination="5SW-qy-rwK" id="26J-Ns-haq"/>
+                                            <outlet property="languageImage" destination="MND-dH-IKN" id="CiA-DO-s2w"/>
+                                            <outlet property="languageName" destination="8ZH-8l-wVU" id="35X-uj-ItS"/>
+                                            <outlet property="studyButton" destination="ma8-jp-Xah" id="Z4L-tg-KAR"/>
+                                            <outlet property="topicName" destination="jIm-CP-V5f" id="H1u-MQ-bx1"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="182" id="Y5m-Ys-caC">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="182" id="Y5m-Ys-caC" customClass="TopicsItemTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="387" width="414" height="182"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Y5m-Ys-caC" id="l5V-6L-HRO">
@@ -422,6 +433,47 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="182" id="1zv-I7-USr" customClass="TopicsItemTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="569" width="414" height="182"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1zv-I7-USr" id="7kW-MK-OZ3">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="181.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rad-AP-KB4">
+                                                    <rect key="frame" x="20" y="26" width="128" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SPRING BOOT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KhP-oj-VZ2">
+                                                    <rect key="frame" x="170" y="26" width="186" height="34"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="04 materiais" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="71i-Pz-A37">
+                                                    <rect key="frame" x="170" y="59" width="71" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet felis id tortor ultricies eleifend..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6HC-fh-L7r">
+                                                    <rect key="frame" x="164" y="75" width="222" height="55"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="11"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F12-Uw-kEU">
+                                                    <rect key="frame" x="170" y="130" width="127" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                    <state key="normal" title="ACESSAR A FERRAMENTA"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </prototypes>
                                 <sections/>
                             </tableView>
@@ -430,6 +482,7 @@
                         <viewLayoutGuide key="safeArea" id="qOI-Jl-EF2"/>
                     </view>
                     <connections>
+                        <outlet property="tableView" destination="Xpa-XA-2LD" id="0gc-n2-Z6r"/>
                         <segue destination="Yor-2z-HdR" kind="show" id="RvF-5i-c5M"/>
                     </connections>
                 </viewController>
@@ -741,8 +794,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="estrela" width="34.333332061767578" height="33.333332061767578"/>
-        <image name="star" width="13.666666984558105" height="13"/>
+        <image name="estrela" width="34" height="33"/>
+        <image name="star" width="13" height="13"/>
         <image name="success" width="64" height="64"/>
     </resources>
 </document>
