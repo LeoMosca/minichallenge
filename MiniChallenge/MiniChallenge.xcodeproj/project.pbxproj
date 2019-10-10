@@ -24,6 +24,7 @@
 		5527768F234E230000A18807 /* RequestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5527768E234E230000A18807 /* RequestAPI.swift */; };
 		55277691234F4EE700A18807 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55277690234F4EE700A18807 /* MainViewController.swift */; };
 		55277693234F509B00A18807 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55277692234F509B00A18807 /* MainCollectionViewCell.swift */; };
+		5529B5A8234F68A600FEFD70 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5529B5A7234F68A600FEFD70 /* ContentModel.swift */; };
 		55BF9E91234CCA5A001C13AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BF9E90234CCA5A001C13AB /* AppDelegate.swift */; };
 		55BF9E96234CCA5A001C13AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BF9E94234CCA5A001C13AB /* Main.storyboard */; };
 		55BF9E99234CCA5A001C13AB /* MiniChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55BF9E97234CCA5A001C13AB /* MiniChallenge.xcdatamodeld */; };
@@ -49,6 +50,7 @@
 		5527768E234E230000A18807 /* RequestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAPI.swift; sourceTree = "<group>"; };
 		55277690234F4EE700A18807 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		55277692234F509B00A18807 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		5529B5A7234F68A600FEFD70 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		55BF9E8D234CCA5A001C13AB /* MiniChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BF9E90234CCA5A001C13AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55BF9E95234CCA5A001C13AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -104,12 +106,20 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		5527768D234E22F100A18807 /* DataAcess */ = {
+		5527768D234E22F100A18807 /* DataAccess */ = {
 			isa = PBXGroup;
 			children = (
 				5527768E234E230000A18807 /* RequestAPI.swift */,
 			);
-			path = DataAcess;
+			path = DataAccess;
+			sourceTree = "<group>";
+		};
+		5529B5A6234F682A00FEFD70 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				5529B5A7234F68A600FEFD70 /* ContentModel.swift */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 		55BF9E84234CCA59001C13AB = {
@@ -131,7 +141,8 @@
 		55BF9E8F234CCA5A001C13AB /* MiniChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				5527768D234E22F100A18807 /* DataAcess */,
+				5529B5A6234F682A00FEFD70 /* Content */,
+				5527768D234E22F100A18807 /* DataAccess */,
 				55277670234E21C900A18807 /* Tools */,
 				5527766F234E21C200A18807 /* Topics */,
 				5527766E234E21B500A18807 /* Language */,
@@ -235,6 +246,7 @@
 				55277678234E221900A18807 /* LanguageHeaderTableViewCell.swift in Sources */,
 				55277680234E226B00A18807 /* ToolsHeaderTableViewCell.swift in Sources */,
 				55277691234F4EE700A18807 /* MainViewController.swift in Sources */,
+				5529B5A8234F68A600FEFD70 /* ContentModel.swift in Sources */,
 				5527768F234E230000A18807 /* RequestAPI.swift in Sources */,
 				55BF9E91234CCA5A001C13AB /* AppDelegate.swift in Sources */,
 			);

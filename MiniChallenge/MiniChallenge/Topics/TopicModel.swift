@@ -6,6 +6,8 @@
 //  Copyright © 2019 Leo Mosca. All rights reserved.
 //
 
-class Topic {
-    
+class Topic: Codable {
+    var name: String?
+    var description: String?
+    var tools: [Tool]?
 }

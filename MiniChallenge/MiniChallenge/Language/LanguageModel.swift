@@ -6,6 +6,9 @@
 //  Copyright © 2019 Leo Mosca. All rights reserved.
 //
 
-class Language {
-    
+class Language:Codable {
+    var language: String?;
+    var logo: String?;
+    var description: String?;
+    var topics: [Topic]?;
 }

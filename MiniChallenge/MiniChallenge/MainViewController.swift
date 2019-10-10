@@ -13,6 +13,9 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        
+        RequestAPI.fetchLanguages({ print($0) })
         lastViewed.layer.cornerRadius = 10;
     }
 }
