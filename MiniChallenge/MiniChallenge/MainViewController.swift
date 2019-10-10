@@ -8,14 +8,45 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class MainViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+    var languages:[Language] = [];
     @IBOutlet weak var lastViewed: UIView!
+    @IBOutlet weak var collectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
-        RequestAPI.fetchLanguages({ print($0) })
-        lastViewed.layer.cornerRadius = 10;
+        collectionView.delegate = self;
+        collectionView.dataSource = self;
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        RequestAPI.fetchLanguages { (resp) in
+            self.languages = resp
+            DispatchQueue.main.async {
+                self.collectionView.reloadData()
+            }
+        }
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return languages.count
+    }
+    
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "mainCell", for: indexPath) as? MainCollectionViewCell {
+            
+            let row = indexPath.row
+            let lang:Language = self.languages[row];
+            cell.setLangCell(language: lang.language!, topics: lang.topics!.count)
+            return cell;
+            
+        } else {
+            print("i")
+            return MainCollectionViewCell()
+        }
     }
 }

@@ -21,7 +21,7 @@ class RequestAPI {
                 return
             }
                 
-            guard let resp = (try? JSONDecoder().decode(Array<Language>.self, from: content)) else {
+            guard let resp = (try? JSONDecoder().decode([Language].self, from: content)) else {
                 print("Not containing JSON")
                 return
             }
