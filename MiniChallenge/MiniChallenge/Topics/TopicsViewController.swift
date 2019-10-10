@@ -30,8 +30,6 @@ class TopicsViewController: UIViewController, UITableViewDataSource, UITableView
         return 120
     }
     
-
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! TopicsHeaderTableViewCell
         
