@@ -16,5 +16,4 @@ class MainCollectionViewCell: UICollectionViewCell {
         self.language.text = language;
         self.topics.text = String(topics) + " tópico" + (topics != 1 ? "s" : "")
     }
-    
 }

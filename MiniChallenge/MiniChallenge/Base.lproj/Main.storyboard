@@ -117,6 +117,7 @@
                                         <connections>
                                             <outlet property="language" destination="Ksi-07-ztd" id="tvL-av-TAW"/>
                                             <outlet property="topics" destination="0FR-tS-H6R" id="krT-b5-e0s"/>
+                                            <segue destination="0gz-gF-PRD" kind="show" id="Cch-iM-qj5"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -130,7 +131,6 @@
                         <outlet property="collectionView" destination="PlU-2x-0lr" id="Fx9-dA-CWB"/>
                         <outlet property="lastViewed" destination="fVR-wG-tGv" id="Nbt-pg-8tf"/>
                         <segue destination="izh-xV-M7X" kind="show" id="F8n-1k-7PB"/>
-                        <segue destination="0gz-gF-PRD" kind="show" id="Jpt-f3-5l2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -257,7 +257,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="447" id="Edc-Ht-4Jn">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="languageHeader" rowHeight="447" id="Edc-Ht-4Jn" customClass="LanguageHeaderTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="447"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Edc-Ht-4Jn" id="Z4C-aF-IrJ">
@@ -303,8 +303,9 @@
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </view>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Leitura Diária:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4i-GL-z3u">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Leitura Diária:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4i-GL-z3u">
                                                             <rect key="frame" x="50" y="217" width="71" height="12"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="10"/>
                                                             <color key="textColor" white="0.88939426369863017" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -350,9 +351,6 @@
                                                         </view>
                                                     </subviews>
                                                     <color key="backgroundColor" red="0.12549019607843137" green="0.49411764705882355" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <constraints>
-                                                        <constraint firstItem="K4i-GL-z3u" firstAttribute="leading" secondItem="uMX-cA-TTx" secondAttribute="leading" constant="50" id="UHh-Ad-32j"/>
-                                                    </constraints>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tópicos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1yv-Lq-3WE">
                                                     <rect key="frame" x="42" y="408" width="39" height="12"/>
@@ -362,8 +360,15 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="desc" destination="IXR-k7-uNS" id="HIz-wQ-q1G"/>
+                                            <outlet property="favbutton" destination="gq1-jA-SRn" id="fmU-wh-uQx"/>
+                                            <outlet property="items" destination="Xmw-xu-EO4" id="doo-VG-3xj"/>
+                                            <outlet property="name" destination="8AO-Cn-zgr" id="fdG-69-yBl"/>
+                                            <outlet property="topics" destination="tOx-CU-YWL" id="BP9-dz-uJF"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="71" id="wzg-wX-a9U">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="languageCell" rowHeight="71" id="wzg-wX-a9U" customClass="LanguageItemTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="475" width="414" height="71"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wzg-wX-a9U" id="c09-4u-LFg">
@@ -390,6 +395,11 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="image" destination="Vhv-rp-oZ7" id="kVm-YH-gsy"/>
+                                            <outlet property="item" destination="z8g-uo-yRz" id="LTm-rd-KW7"/>
+                                            <outlet property="name" destination="yTP-X5-594" id="2BP-oT-wck"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -399,6 +409,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="JAVA" id="WER-4B-fO5"/>
                     <connections>
+                        <outlet property="tableView" destination="SEV-eB-V2d" id="efe-Fr-Vmb"/>
                         <segue destination="4Ru-Dq-NPa" kind="show" id="ZqX-7g-Dzp"/>
                     </connections>
                 </viewController>
@@ -575,6 +586,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="qOI-Jl-EF2"/>
                     </view>
+                    <navigationItem key="navigationItem" id="XE5-n2-BwG"/>
                     <connections>
                         <outlet property="tableView" destination="Xpa-XA-2LD" id="0gc-n2-Z6r"/>
                         <segue destination="Yor-2z-HdR" kind="show" id="RvF-5i-c5M"/>

@@ -49,4 +49,11 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
             return MainCollectionViewCell()
         }
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let dest = segue.destination as? LanguageViewController {
+            let item = collectionView.indexPathsForSelectedItems
+            dest.lang = languages[item![0].row];
+        }
+    }
 }

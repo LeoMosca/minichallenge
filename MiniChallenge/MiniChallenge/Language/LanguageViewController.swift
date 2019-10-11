@@ -8,23 +8,42 @@
 
 import UIKit
 
-class LanguageViewController: UIViewController {
+class LanguageViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    var lang:Language = Language()
+    
+    @IBOutlet weak var tableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        tableView.delegate = self;
+        tableView.dataSource = self;
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        if(indexPath.row == 0) {
+            return 380
+        } else {
+            return 70
+        }
     }
-    */
-
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return (lang.topics!.count ?? 0) + 1;
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "languageHeader", for: indexPath) as? LanguageHeaderTableViewCell {
+            cell.setHeader(lang.language!, lang.topics!.count, nil, 30, lang.description!)
+            return cell;
+        }
+        else if let cell = tableView.dequeueReusableCell(withIdentifier: "languageCell", for: indexPath) as? LanguageItemTableViewCell {
+            let topic = lang.topics![indexPath.row]
+            cell.setItem(topic.name!, topic.tools!.count, "")
+            
+            return cell;
+        }
+        else {
+            return UITableViewCell()
+        }
+    }
 }

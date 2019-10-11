@@ -4,7 +4,7 @@
             "id": 100,
             "language": "Node JS",
             "logo": "",
-            "description": "",
+            "description": "Lorem Ipsum",
             "topics": [
                 {
                     "id": 101,
@@ -898,6 +898,13 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": 300,
+            "language": ".NET",
+            "logo": "",
+            "description": "",
+            "topics": []
         }
     ]    
 }
