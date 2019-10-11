@@ -27,6 +27,7 @@
 		5529B5A8234F68A600FEFD70 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5529B5A7234F68A600FEFD70 /* ContentModel.swift */; };
 		552B09872350A7840042A4E4 /* Entity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B09852350A7840042A4E4 /* Entity+CoreDataClass.swift */; };
 		552B09882350A7840042A4E4 /* Entity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B09862350A7840042A4E4 /* Entity+CoreDataProperties.swift */; };
+		552B098A2350B2BF0042A4E4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B09892350B2BF0042A4E4 /* Extensions.swift */; };
 		55BF9E91234CCA5A001C13AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BF9E90234CCA5A001C13AB /* AppDelegate.swift */; };
 		55BF9E96234CCA5A001C13AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BF9E94234CCA5A001C13AB /* Main.storyboard */; };
 		55BF9E99234CCA5A001C13AB /* MiniChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55BF9E97234CCA5A001C13AB /* MiniChallenge.xcdatamodeld */; };
@@ -55,6 +56,7 @@
 		5529B5A7234F68A600FEFD70 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		552B09852350A7840042A4E4 /* Entity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Entity+CoreDataClass.swift"; path = "MiniChallenge/Entity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		552B09862350A7840042A4E4 /* Entity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Entity+CoreDataProperties.swift"; path = "MiniChallenge/Entity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		552B09892350B2BF0042A4E4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		55BF9E8D234CCA5A001C13AB /* MiniChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BF9E90234CCA5A001C13AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55BF9E95234CCA5A001C13AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				5527766F234E21C200A18807 /* Topics */,
 				5527766E234E21B500A18807 /* Language */,
 				55BF9E90234CCA5A001C13AB /* AppDelegate.swift */,
+				552B09892350B2BF0042A4E4 /* Extensions.swift */,
 				55BF9E94234CCA5A001C13AB /* Main.storyboard */,
 				55277690234F4EE700A18807 /* MainViewController.swift */,
 				55277692234F509B00A18807 /* MainCollectionViewCell.swift */,
@@ -235,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				552B098A2350B2BF0042A4E4 /* Extensions.swift in Sources */,
 				55277688234E22B100A18807 /* ToolsModel.swift in Sources */,
 				5527767A234E222F00A18807 /* LanguageItemTableViewCell.swift in Sources */,
 				55277676234E21FD00A18807 /* ToolsViewController.swift in Sources */,

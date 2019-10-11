@@ -41,7 +41,7 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
             
             let row = indexPath.row
             let lang:Language = self.languages[row];
-            cell.setLangCell(language: lang.language!, topics: lang.topics!.count)
+            cell.setLangCell(language: lang.language!, topics: lang.topics!.count, color: lang.color!)
             cell.layer.borderColor = UIColor(red: 0.88, green: 0.88, blue: 0.88, alpha: 1.0).cgColor
             cell.layer.borderWidth = 1
             cell.layer.cornerRadius = 5

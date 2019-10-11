@@ -4,6 +4,7 @@
             "id": 100,
             "language": "Node JS",
             "logo": "",
+            "color": "#7DBB76",
             "description": "Lorem Ipsum",
             "topics": [
                 {
@@ -487,6 +488,7 @@
             "id": 200,
             "language": "JAVA",
             "logo": "",
+            "color": "#D97373",
             "description": "",
             "topics": [
                 {
@@ -903,6 +905,7 @@
             "id": 300,
             "language": ".NET",
             "logo": "",
+            "color": "#76C3E3",
             "description": "",
             "topics": []
         }
