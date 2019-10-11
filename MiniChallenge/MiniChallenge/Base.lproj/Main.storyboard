@@ -39,14 +39,14 @@
                                         <rect key="frame" x="22" y="115" width="37" height="17"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Testing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K3Z-5A-aec">
                                         <rect key="frame" x="74" y="115" width="51" height="17"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                        <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" systemColor="systemGreenColor" red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="•" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UBd-hW-lHM">
@@ -415,6 +415,7 @@
                                             <outlet property="icon" destination="Vhv-rp-oZ7" id="6is-5b-qof"/>
                                             <outlet property="item" destination="z8g-uo-yRz" id="LTm-rd-KW7"/>
                                             <outlet property="name" destination="yTP-X5-594" id="2BP-oT-wck"/>
+                                            <segue destination="4Ru-Dq-NPa" kind="show" id="8Di-br-Cgh"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -426,7 +427,6 @@
                     <navigationItem key="navigationItem" title="JAVA" id="WER-4B-fO5"/>
                     <connections>
                         <outlet property="tableView" destination="SEV-eB-V2d" id="efe-Fr-Vmb"/>
-                        <segue destination="4Ru-Dq-NPa" kind="show" id="ZqX-7g-Dzp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zib-ek-lni" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -446,7 +446,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="359" id="Fnq-Vv-zNe" customClass="TopicsHeaderTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TopicCellHeader" rowHeight="359" id="Fnq-Vv-zNe" customClass="TopicsHeaderTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="359"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Fnq-Vv-zNe" id="o3t-Hi-1iU" customClass="TopicsHeaderTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
@@ -513,10 +513,10 @@
                                             <outlet property="topicName" destination="jIm-CP-V5f" id="H1u-MQ-bx1"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="182" id="Y5m-Ys-caC" customClass="TopicsItemTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TopicCellItem" rowHeight="182" id="Y5m-Ys-caC" customClass="TopicsItemTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="387" width="414" height="182"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Y5m-Ys-caC" id="l5V-6L-HRO">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Y5m-Ys-caC" id="l5V-6L-HRO" customClass="TopicsHeaderTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="182"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
@@ -550,9 +550,18 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                     <state key="normal" title="ACESSAR A FERRAMENTA"/>
+                                                    <connections>
+                                                        <action selector="accessTools:" destination="Y5m-Ys-caC" eventType="touchUpInside" id="t5X-uU-IxG"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="howManyTools" destination="MpV-Uu-QMa" id="hhI-t0-ilA"/>
+                                            <outlet property="topicDescription" destination="ari-rE-AAq" id="AQB-UD-Kxr"/>
+                                            <outlet property="topicImage" destination="bd7-6I-bak" id="Gd9-5D-F7g"/>
+                                            <outlet property="topicName" destination="5zD-hO-weq" id="Yrd-n2-AvK"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="182" id="1zv-I7-USr" customClass="TopicsItemTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="569" width="414" height="182"/>

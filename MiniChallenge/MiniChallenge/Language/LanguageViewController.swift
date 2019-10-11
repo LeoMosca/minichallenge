@@ -44,4 +44,13 @@ class LanguageViewController: UIViewController, UITableViewDelegate, UITableView
         
         return UITableViewCell()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let dest = segue.destination as? TopicsViewController {
+            dest.lang = self.lang
+            if let indexPath = tableView.indexPathForSelectedRow {
+                dest.topicIndex = indexPath.row - 1
+            }
+        }
+    }
 }
