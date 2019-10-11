@@ -15,7 +15,7 @@ class LanguageItemTableViewCell: UITableViewCell {
     
     public func setItem(_ name: String, _ items: Int, _ icon: String){
         self.name.text = name;
-        self.item.text = String(items) + "itens";
+        self.item.text = String(items) + " itens";
         self.icon.image = UIImage(named: icon);
     }
     
