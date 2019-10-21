@@ -5,12 +5,20 @@
             "language": "Node JS",
             "logo": "",
             "color": "#7DBB76",
-            "description": "Lorem Ipsum",
+            "description": "Node.js é um interpretador de JavaScript assíncrono com código aberto orientado a eventos, criado por Ryan Dahl em 2009, focado em migrar a programação do Javascript do cliente (frontend) para os servidores.",
             "daily-reading": [
                 {
-                    "origin": "Medium",
-                    "title": "Iniciando com o Spring Boot",
-                    "author": "Mauricio Marques",
+                    "origin": "DevMedia",
+                    "title": "Criando serviço de microblog com Node.js",
+                    "author": "Rafael Milléo",
+                    "url": "https://www.devmedia.com.br/criando-servico-de-microblog-com-node-js/31036",
+                    "rating": 4.2
+                },
+                {
+                    "origin":"Medium",
+                    "title": "Organizando seu projeto em Node.js",
+                    "author": "Felipe Batista",
+                    "url": "https://medium.com/@febatista107/organizando-seu-projeto-em-node-js-be465c14d19",
                     "rating": 4.5
                 }
             ],
@@ -497,7 +505,7 @@
             "language": "Java",
             "logo": "",
             "color": "#D97373",
-            "description": "",
+            "description": "É uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems. Em 2008 o Java foi adquirido pela empresa Oracle Corporation.",
             "topics": [
                 {
                     "id": 210,
@@ -914,7 +922,7 @@
             "language": "CNET",
             "logo": "",
             "color": "#76C3E3",
-            "description": "",
+            "description": "É uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. A sua sintaxe orientada a objetos foi baseada no C++ mas inclui muitas influências de outras linguagens de programação, como Object Pascal e, principalmente, Java. ",
             "topics": []
         },
         {
@@ -922,7 +930,7 @@
             "language": "Python",
             "logo": "",
             "color": "#76C3E3",
-            "description": "",
+            "description": "É uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991. ",
             "topics": []
         }
     ]    
