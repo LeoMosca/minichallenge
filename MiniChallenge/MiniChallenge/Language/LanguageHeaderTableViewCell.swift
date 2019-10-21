@@ -13,6 +13,7 @@ class LanguageHeaderTableViewCell: UITableViewCell {
     @IBOutlet weak var topics: UILabel!
     @IBOutlet weak var items: UILabel!
     @IBOutlet weak var desc: UITextView!
+    @IBOutlet weak var background: UIImageView!
     
     @IBOutlet weak var favbutton: UIView!
     
@@ -21,6 +22,7 @@ class LanguageHeaderTableViewCell: UITableViewCell {
         self.topics.text = String(topics) + " tópicos / " + String(saw ?? 0) + " vistos";
         self.items.text = String(items) + " materials";
         self.desc.text = String(desc);
+        self.background.image = UIImage(named: (name + "BG") )
     }
 
     override func awakeFromNib() {
