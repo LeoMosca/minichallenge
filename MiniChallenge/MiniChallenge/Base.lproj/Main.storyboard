@@ -39,14 +39,14 @@
                                         <rect key="frame" x="22" y="115" width="37" height="17"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Testing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K3Z-5A-aec">
                                         <rect key="frame" x="74" y="115" width="51" height="17"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                        <color key="textColor" systemColor="systemGreenColor" red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="•" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UBd-hW-lHM">
@@ -105,6 +105,12 @@
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o7a-00-Nxk">
                                                     <rect key="frame" x="37" y="20" width="41" height="41"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xjv-TR-ACb">
+                                                            <rect key="frame" x="8" y="8" width="24" height="24"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
+                                                    </subviews>
                                                     <color key="backgroundColor" red="0.35686274509803922" green="0.71764705882352942" blue="0.51764705882352935" alpha="0.0" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="41" id="6un-hN-iYE"/>
@@ -128,6 +134,7 @@
                                         <connections>
                                             <outlet property="icon_wrapper" destination="o7a-00-Nxk" id="71t-6N-dtF"/>
                                             <outlet property="language" destination="Ksi-07-ztd" id="tvL-av-TAW"/>
+                                            <outlet property="languageicon" destination="xjv-TR-ACb" id="3AI-wi-Zy0"/>
                                             <outlet property="topics" destination="0FR-tS-H6R" id="krT-b5-e0s"/>
                                             <segue destination="0gz-gF-PRD" kind="show" id="Cch-iM-qj5"/>
                                         </connections>
@@ -927,6 +934,6 @@
     <resources>
         <image name="estrela" width="34.333332061767578" height="33.333332061767578"/>
         <image name="star" width="13.666666984558105" height="13"/>
-        <image name="success" width="64" height="64"/>
+        <image name="success" width="21.333333969116211" height="21.333333969116211"/>
     </resources>
 </document>
