@@ -20,6 +20,7 @@ class TopicsViewController: UIViewController, UITableViewDataSource, UITableView
         tableView.delegate = self
         tableView.dataSource = self
         
+        self.title = lang.topics?[topicIndex].name
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {

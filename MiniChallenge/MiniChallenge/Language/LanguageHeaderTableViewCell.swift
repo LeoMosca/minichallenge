@@ -18,7 +18,7 @@ class LanguageHeaderTableViewCell: UITableViewCell {
     @IBOutlet weak var favbutton: UIView!
     
     public func setHeader(_ name: String, _ topics: Int, _ saw: Int?, _ items: Int, _ desc: String){
-        self.name.text = name;
+        self.name.text = name.uppercased();
         self.topics.text = String(topics) + " tópicos / " + String(saw ?? 0) + " vistos";
         self.items.text = String(items) + " materials";
         self.desc.text = String(desc);
