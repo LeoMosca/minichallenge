@@ -16,7 +16,14 @@ class ToolsReadTableViewCell: UITableViewCell {
     @IBOutlet weak var articleSource: UITextView!
     
     
-    
+    public func setArticle(_ image: String?, _ title: String?, _ subheading: String?, _ source: String?){
+        self.articleTitle.text = title
+        self.articleSubheading.text = subheading
+        self.articleSource.text = source
+        
+        RequestAPI.fetchImage(image, articleImage)
+        
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()

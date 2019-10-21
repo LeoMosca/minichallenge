@@ -53,39 +53,48 @@ class ToolsViewController: UIViewController, UITableViewDelegate, UITableViewDat
         else{
             //Se for um curso
             if (lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].type == "Curso"){
+    
                 if let cell = tableView.dequeueReusableCell(withIdentifier: "ToolStudyCell", for: indexPath) as? ToolsStudyTableViewCell{
                     
-                    cell.courseAuthor.text = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].author
-                    //cell.courseImage = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].image
-                    cell.courseLength.text = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].duration
-                    cell.courseRating.text = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].rating
-                    cell.courseSubheading.text = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].subtitle
-                    cell.courseTitle.text = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].title
+                    let courseAuthor = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].author
+                    let courseImage = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].image
+                    let courseLength = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].duration
+                    let courseRating = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].rating
+                    let courseSubheading = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].subtitle
+                    let courseTitle = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].title
                     
+                    cell.setCourse(courseImage, courseTitle, courseSubheading, courseAuthor, courseLength, courseRating)
                     return cell
             }
             
         }
         
+            //Se for um artigo
             else if (lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].type == "Artigo"){
                 
                 if let cell = tableView.dequeueReusableCell(withIdentifier: "ToolReadCell", for: indexPath) as? ToolsReadTableViewCell{
                     
-                    //cell.articleImage = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].image
-                    cell.articleSource.text = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].author
-                    cell.articleSubheading.text = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].subtitle
-                    cell.articleTitle.text = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].title
+                    let articleImage = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].image
+                    let articleSource = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].author
+                    let articleSubheading = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].subtitle
+                    let articleTitle = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].title
+                    
+                    cell.setArticle(articleImage, articleTitle, articleSubheading, articleSource)
                     
                     return cell
             }
         }
+                
+            //Se for uma Documentação
             else{
                 if let cell = tableView.dequeueReusableCell(withIdentifier: "ToolWatchCell", for: indexPath) as? ToolsWatchTableViewCell{
                     
-                    //cell.docImage = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].image
-                    cell.docSource.text = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].author
-                    cell.docSubheading.text = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].subtitle
-                    cell.docTitle.text = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].title
+                    let docImage = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].image
+                    let docSource = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].author
+                    let docSubheading = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].subtitle
+                    let docTitle = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].title
+                    
+                    cell.setDoc(docImage, docTitle, docSubheading, docSource)
                     
                     return cell
                 }
