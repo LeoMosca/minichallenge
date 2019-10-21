@@ -6,7 +6,7 @@
             "logo": "",
             "color": "#7DBB76",
             "description": "Node.js é um interpretador de JavaScript assíncrono com código aberto orientado a eventos, criado por Ryan Dahl em 2009, focado em migrar a programação do Javascript do cliente (frontend) para os servidores.",
-            "daily-reading": [
+            "dailyreading": [
                 {
                     "origin": "DevMedia",
                     "title": "Criando serviço de microblog com Node.js",
@@ -32,6 +32,7 @@
                             "id" : 102,
                             "name": "NPM",
                             "description": "Gerenciador de Pacotes, nativo do Node JS. O NPM (Node Package Manager) funciona como um repositório online para publicações de projetos de código aberto.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcThbsbzgvHG_Ox1GuETGFSebo9muC2WKBi_NErHvMIjF8T82hJz",
                             "content": [
                                 {
                                     "id" : 103,
@@ -47,6 +48,7 @@
                             "id" : 104,
                             "name": "Yarn",
                             "description":"Gerenciador de Pacotes, desenvolvido pelo Facebook. O Yarn é open source, e nasceu com a elaboração das empresas Exponent, Google e Tilde.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzslDe6cjJVuwWw3xEkHwh6SlkCQmIaPFk09YzbIb5kwrFscEV",
                             "content": [
                                 {
                                     "id" : 105,
@@ -69,6 +71,7 @@
                             "id" : 111,
                             "name": "Express",
                             "description":"O Express, é uma estrutura de aplicativo da Web para o Node.js, lançada como software livre e de código aberto. Ele foi projetado para criar aplicativos da Web e APIs.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSUOpSMkwsY90ZOJB2LfxCzvZEoSUak0IePKyoCqX6-VStkrxYV",
                             "content": [
                                 {
                                     "id" : 112,
@@ -96,6 +99,7 @@
                             "id" : 114,
                             "name": "Restify",
                             "description":"Amplamente utilizado em empresas como Netflix, Pinterest e Napster, ele foi inicialmente criado como uma alternativa ao Express. Ele é uma estrutura para construir serviços Web Restful semanticamente corretos, otimizado para introspecção e desempenho. ",
+                            "image":"https://tsh.io/wp-content/uploads/2018/11/blog_nodejspodstawy-1024x683.jpg",
                             "content": [
                                 {
                                     "id" : 115,
@@ -114,6 +118,7 @@
                             "id" : 116,
                             "name": "Koa",
                             "description":"Criado pelo mesmo time do Express, ele foi desenvolvido com o intuito de ser mais leve, expressivo e robusto.",
+                            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnn9t5LT8jMp9K0_mUaVC954ehKhM6-xGS6Molyap2UZ5sMwbi",
                             "content": [
                                 {
                                     "id" : 117,
@@ -129,6 +134,7 @@
                             "id" : 118,
                             "name": "Nest",
                             "description": "Fornece uma arquitetura pronta para uso, permitindo a criação de aplicativos altamente testáveis, escalonáveis, fracamente acoplados e de fácil manutenção sem muito esforço.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ0Dm8Za1XrpuUd6LoUZJMrhs_ko3c8lIyUeg1QCoDxtjeORhT8",
                             "content": [
                                 {
                                     "id" : 119,
@@ -151,6 +157,7 @@
                             "id": 121,
                             "name": "Sequelize",
                             "description":"Tem como funcionalidade fazer o mapeamento de dados relacionais (tabelas, colunas e linhas) para objetos Javascript. Ele permite criar, buscar, alterar e remover dados do banco de dados utilizando métodos JS, além de permitir a modificação da estrutura das tabelas. ",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzyCZ54r2FIbp3QlHnWHP7iGkiBwR5TUofpmLqsQJ3HBBO3gTb",
                             "content": [
                                 {
                                     "id": 122,
@@ -174,6 +181,7 @@
                             "id": 124,
                             "name": "Knex",
                             "description":"É um construtor de consultas JavaScript para bancos de dados relacionais, incluindo PostgreSQL, MySQL, SQLite3 e Oracle. Pode ser usado com retornos de callbacks e promises.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSTcRk6QqWEd4fcUFovtxu9JGPd0pakuoiiHUMlA11KJ_QYfNhU",
                             "content": [
                                 {
                                     "id": 125,
@@ -197,6 +205,7 @@
                             "id": 127,
                             "name": "Mongoose",
                             "description":"Proporciona uma solução baseada em esquemas para modelar os dados da sua aplicação. Possui também um sistema de conversão de tipos, validação e criação de consultas.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQVFduy8oqPuy9eYkHZKPoaUE0Pyh1-JzlQ7rqid4MO6y1l8Xa6",
                             "content": [
                                 {
                                     "id": 128,
@@ -238,6 +247,7 @@
                             "id": 131,
                             "name": "Jest",
                             "description":"É uma estrutura de teste de JavaScript com foco na simplicidade. Ele trabalha com projetos usando: Babel, TypeScript, Node.js, React, Angular e Vue.js. O objetivo é trabalhar fora da caixa e configurar gratuitamente.",
+                            "image":"https://static.imasters.com.br/wp-content/uploads/2019/03/25142439/JEESTT.jpg",
                             "content": [
                                 {
                                     "id": 132,
@@ -261,6 +271,7 @@
                             "id": 134,
                             "name": "Mocha",
                             "description":"É uma estrutura de teste JavaScript, com suporte ao navegador, testes assíncronos, relatórios de cobertura de testes e uso de qualquer biblioteca de asserções.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS8j9utaKolU__zjF38Iizlq2UmpRD6ot2zmQSbnjjgnZcfinH-",
                             "content": [
                                 {
                                     "id": 135,
@@ -276,6 +287,7 @@
                             "id": 136,
                             "name": "Jasmine",
                             "description":"É uma estrutura de teste de código aberto para JavaScript. Seu objetivo é executar em qualquer plataforma habilitada para JavaScript, não se intrometer no aplicativo nem no IDE e ter uma sintaxe de fácil leitura.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR6yUuUgkN-mdcIxUk0LD8KIAIZ0Ofxv5dDSRiLOJoUAYD3YsKs",
                             "content":[
                                 {
                                     "id": 137,
@@ -298,6 +310,7 @@
                             "id": 141,
                             "name": "Axios",
                             "description":"É um cliente HTTP para o navegador e o Node.js. O Axios facilita o envio de solicitações HTTP assíncronas para terminais REST e a execução de operações CRUD. Pode ser usado em JavaScript ou com uma biblioteca como Vue ou React.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT9K87lks7JSqzWEFnHeOV_qjHw6ELWwWpMttklD2U6J_si0A2X",
                             "content": [
                                 {
                                     "id": 142,
@@ -313,6 +326,7 @@
                             "id": 143,
                             "name": "GraphQL",
                             "description":"É uma linguagem de consulta criada pelo Facebook em 2012 e lançada publicamente em 2015. É considerada uma alternativa para arquiteturas REST, além de oferecer um serviço runtime para rodar comandos e consumir uma API.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSA3mtZWOKL1jnvENhiIkoa1qskeSdbat_Rq7lh9AbtbbsKB8ts",
                             "content":[
                                 {
                                     "id": 144,
@@ -343,6 +357,7 @@
                             "id": 151,
                             "name": "Winston JS",
                             "description":"É uma biblioteca de registro JavaScript que simplifica muito o registro em vários locais de armazenamento persistentes, como bancos de dados ou arquivos.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRwk4728NojyP-fZlvYuJHbgfkYvkJ1BBVDHPd6c_5vubL-1zR-",
                             "content": [
                                 {
                                     "id": 152,
@@ -373,6 +388,7 @@
                             "id": 161,
                             "name": "Agenda JS",
                             "description":"Permite agendar tarefas facilmente. Utiliza um banco de dados MongoDB para manter as tarefas agendadas, para que, mesmo que o servidor seja desativado, as tarefas ainda serão executadas no tempo ou intervalos especificados.",
+                            "image":"https://cdn.dribbble.com/users/1519999/screenshots/6834299/shot_adson-04_2x.png",
                             "content": [
                                 {
                                     "id": 162,
@@ -388,6 +404,7 @@
                             "id": 163,
                             "name": "Node Schedule",
                             "description":"É um agendador de tarefas flexível, para Node.js. Permite agendar trabalhos (funções arbitrárias) para execução em datas específicas, com regras de recorrência opcionais.",
+                            "image":"https://kit8.net/images/thumbnails/580/386/detailed/4/Computer@2x.png",
                             "content": [
                                 {
                                     "type": "Documentação",
@@ -409,6 +426,7 @@
                             "id": 171,
                             "name": "PUG",
                             "description":"Gratuito, aberto, de alto desempenho, rico em recursos e fácil de usar são palavras que resumem essa Template Engine. ",
+                            "image":"https://res.cloudinary.com/practicaldev/image/fetch/s--Rr7K5gOm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dbalas.gallerycdn.vsassets.io/extensions/dbalas/vscode-html2pug/0.0.2/1532242577062/Microsoft.VisualStudio.Services.Icons.Default",
                             "content": [
                                 {
                                     "id": 172,
@@ -432,6 +450,7 @@
                             "id": 174,
                             "name": "EJS",
                             "description":"Permite transportar os dados do Back-End para o Front-End de maneira fácil e simples.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSZVNUmxBuwyDzKU-9PYJdqtquIzgMwCtvNl6FCO6OKlHNAUC-A",
                             "content": [
                                 {
                                     "id": 175,
@@ -454,6 +473,7 @@
                             "id": 181,
                             "name": "Node Mailer",
                             "description":"Esse pacote permite que sua aplicação envie e-mails de maneira bem fácil. O projeto foi iniciado em 2010, quando não havia opção para enviar mensagens de email, hoje é a solução para a qual a maioria dos usuários do Node.js. usa por padrão.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSGHqxmRVUEEpwmDE2ChbT-un0U3LjyOchR_5tkd89H6Dy4KAep",
                             "content": [
                                 {
                                     "id": 182,
@@ -476,6 +496,7 @@
                             "id": 191,
                             "name": "Socket.IO",
                             "description":"É uma biblioteca que permite a comunicação bidirecional em tempo real entre cliente e servidor (chats).",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSpcJAyftXR0KmbBOOngG8zOg24pQ-USo4E38WUaUP3h-JWIKvi",
                             "content": [
                                 {
                                     "id": 192,
@@ -506,7 +527,7 @@
             "logo": "",
             "color": "#D97373",
             "description": "É uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems. Em 2008 o Java foi adquirido pela empresa Oracle Corporation.",
-            "daily-reading":[
+            "dailyreading":[
                 {
                     "origin": "Medium",
                     "title": "Tem um tempinho para conversarmos sobre boas práticas de programação com Java?",
