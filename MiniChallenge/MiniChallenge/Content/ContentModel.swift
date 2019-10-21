@@ -14,4 +14,5 @@ class Content: Codable {
     var url: String?
     var author: String?
     var rating: String?
+    var duration: String?
 }

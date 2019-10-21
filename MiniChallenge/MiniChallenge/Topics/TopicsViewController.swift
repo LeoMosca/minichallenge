@@ -64,8 +64,12 @@ class TopicsViewController: UIViewController, UITableViewDataSource, UITableView
                 
                 cell.topicDescription.text = lang.topics?[topicIndex].tools?[indexPath.row - 1 ].description
                 
-                cell.howManyTools.text = String(lang.topics![topicIndex].tools!.count)
-                
+                if (lang.topics?[topicIndex].tools?[indexPath.row - 1].content?.count == 1){
+                    cell.howManyTools.text = String(lang.topics?[topicIndex].tools?[indexPath.row - 1].content?.count ?? 0) + " Item"
+                }
+                else{
+                    cell.howManyTools.text = String(lang.topics?[topicIndex].tools?[indexPath.row - 1].content?.count ?? 0) + " Itens"
+                }
                 
                 
                 return cell
@@ -78,6 +82,13 @@ class TopicsViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let dest = segue.destination as? ToolsViewController {
+            dest.lang = self.lang
+            dest.topicIndex = topicIndex
+            if let indexPath = tableView.indexPathForSelectedRow {
+                dest.toolIndex = indexPath.row - 1
+            }
+        }
     }
 
 }

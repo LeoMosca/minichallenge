@@ -568,6 +568,7 @@
                                             <outlet property="topicDescription" destination="ari-rE-AAq" id="AQB-UD-Kxr"/>
                                             <outlet property="topicImage" destination="bd7-6I-bak" id="Gd9-5D-F7g"/>
                                             <outlet property="topicName" destination="5zD-hO-weq" id="Yrd-n2-AvK"/>
+                                            <segue destination="Yor-2z-HdR" kind="show" id="Qbl-HU-bje"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="182" id="1zv-I7-USr" customClass="TopicsItemTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
@@ -621,7 +622,6 @@
                     <navigationItem key="navigationItem" id="XE5-n2-BwG"/>
                     <connections>
                         <outlet property="tableView" destination="Xpa-XA-2LD" id="0gc-n2-Z6r"/>
-                        <segue destination="Yor-2z-HdR" kind="show" id="RvF-5i-c5M"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tZ4-6O-kGx" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -641,7 +641,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="465" id="7h7-Ns-b3C" customClass="ToolsHeaderTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToolCellHeader" rowHeight="465" id="7h7-Ns-b3C" customClass="ToolsHeaderTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="465"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7h7-Ns-b3C" id="mq5-5Q-zl7">
@@ -692,7 +692,7 @@
                                             <outlet property="toolName" destination="tXW-5i-ONB" id="dEc-n7-Frb"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="465" id="g5z-ll-Esy" customClass="ToolsReadTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToolReadCell" rowHeight="465" id="g5z-ll-Esy" customClass="ToolsReadTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="493" width="414" height="465"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="g5z-ll-Esy" id="8Ro-7i-KzN">
@@ -741,7 +741,7 @@
                                             <outlet property="articleTitle" destination="1Wz-wm-sGj" id="WlO-iT-wOs"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="465" id="vNe-NK-L9W" customClass="ToolsStudyTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToolStudyCell" rowHeight="465" id="vNe-NK-L9W" customClass="ToolsStudyTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="958" width="414" height="465"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vNe-NK-L9W" id="zSd-YD-dRt">
@@ -809,7 +809,7 @@
                                             <outlet property="courseTitle" destination="Pfw-ec-Jhi" id="vVc-Ct-YhB"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="465" id="DE8-Py-Ekz" customClass="ToolsWatchTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToolWatchCell" rowHeight="465" id="DE8-Py-Ekz" customClass="ToolsWatchTableViewCell" customModule="MiniChallenge" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="1423" width="414" height="465"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DE8-Py-Ekz" id="xXe-nr-8V6">
