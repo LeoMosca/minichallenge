@@ -31,7 +31,7 @@ class ToolsStudyTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        courseImage.layer.cornerRadius = courseImage.frame.height / 2;
+        courseImage.layer.cornerRadius = 10;
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
