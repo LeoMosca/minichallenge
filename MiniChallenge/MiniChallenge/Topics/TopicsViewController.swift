@@ -48,9 +48,8 @@ class TopicsViewController: UIViewController, UITableViewDataSource, UITableView
             
         } else {
             if let cell = tableView.dequeueReusableCell(withIdentifier: "TopicCellItem", for: indexPath) as? TopicsItemTableViewCell{
-                
                 let toolname = lang.topics?[topicIndex].tools?[indexPath.row - 1 ].name;
-                let toolamount = lang.topics![topicIndex].tools!.count;
+                let toolamount = lang.topics?[topicIndex].tools?[indexPath.row - 1].content?.count ?? 0;
                 let description = lang.topics?[topicIndex].tools?[indexPath.row - 1 ].description;
                 let toolimage = lang.topics?[topicIndex].tools?[indexPath.row - 1].image;
                 
@@ -63,6 +62,13 @@ class TopicsViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let dest = segue.destination as? ToolsViewController {
+            dest.lang = self.lang
+            dest.topicIndex = topicIndex
+            if let indexPath = tableView.indexPathForSelectedRow {
+                dest.toolIndex = indexPath.row - 1
+            }
+        }
     }
 
 }

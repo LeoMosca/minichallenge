@@ -18,7 +18,7 @@ class LanguageViewController: UIViewController, UITableViewDelegate, UITableView
         tableView.delegate = self;
         tableView.dataSource = self;
         
-        self.title = lang.language?.uppercased()
+        self.title = lang.language
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
