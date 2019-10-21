@@ -35,45 +35,28 @@ class TopicsViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        
-        
-        
         if(indexPath.row == 0){
             if let cell = tableView.dequeueReusableCell(withIdentifier: "TopicCellHeader", for: indexPath) as? TopicsHeaderTableViewCell{
+                let topic = lang.topics?[topicIndex].name
+                let description = lang.topics?[topicIndex].description
+                let language = lang.language
                 
-                cell.topicName.text = lang.topics?[topicIndex].name
-                cell.aboutTopic.text = lang.topics?[topicIndex].description
-                cell.languageName.text = lang.language
-                
-                
-                //Borda das imagens
-                cell.studyButton.layer.borderWidth = 1
-                cell.studyButton.layer.masksToBounds = false
-                cell.studyButton.layer.borderColor = UIColor.black.cgColor
-                cell.studyButton.layer.cornerRadius = cell.studyButton.frame.height/3
-                cell.studyButton.clipsToBounds = true
-                
+                cell.setHeader(topic, description, language)
                 return cell
             }
             
         } else {
             if let cell = tableView.dequeueReusableCell(withIdentifier: "TopicCellItem", for: indexPath) as? TopicsItemTableViewCell{
                 
-                cell.topicName.text = lang.topics?[topicIndex].tools?[indexPath.row - 1 ].name
+                let toolname = lang.topics?[topicIndex].tools?[indexPath.row - 1 ].name;
+                let toolamount = lang.topics![topicIndex].tools!.count;
+                let description = lang.topics?[topicIndex].tools?[indexPath.row - 1 ].description;
                 
-                cell.topicDescription.text = lang.topics?[topicIndex].tools?[indexPath.row - 1 ].description
-                
-                cell.howManyTools.text = String(lang.topics![topicIndex].tools!.count)
-                
-                
-                
+                cell.setItem(toolname, description, toolamount);
                 return cell
-                
             }
-            
-            
         }
+        
         return UITableViewCell()
     }
     
