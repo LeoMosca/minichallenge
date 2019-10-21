@@ -51,8 +51,9 @@ class TopicsViewController: UIViewController, UITableViewDataSource, UITableView
                 let toolname = lang.topics?[topicIndex].tools?[indexPath.row - 1 ].name;
                 let toolamount = lang.topics![topicIndex].tools!.count;
                 let description = lang.topics?[topicIndex].tools?[indexPath.row - 1 ].description;
+                let toolimage = lang.topics?[topicIndex].tools?[indexPath.row - 1].image;
                 
-                cell.setItem(toolname, description, toolamount);
+                cell.setItem(toolname, description, toolamount, toolimage);
                 return cell
             }
         }
