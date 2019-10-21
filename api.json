@@ -551,7 +551,7 @@
                     "tools": [
                         {
                             "name": "Gradle",
-                            "description": "",
+                            "description": "Gradle é um sistema de automação de compilação open source que se baseia nos conceitos de Apache Ant e Apache Maven e introduz uma linguagem de domínio específico baseada em Groovy em vez do XML usado pelo Apache Maven para declarar a configuração do projeto.",
                             "image": "https://dwglogo.com/wp-content/uploads/2017/12/Gradle_logo_01.png",
                             "content": [
                                 {
@@ -572,7 +572,7 @@
                         },
                         {
                             "name":"Maven",
-                            "description": "",
+                            "description": "Maven, é uma ferramenta de automação de compilação utilizada primariamente em projetos Java. Ela é similar à ferramenta Ant, mas é baseada em conceitos e trabalhos diferentes em um modo diferente.",
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR3WjYSiV7VCaIJutYh811HbvXVgPhaSxQR0qkefI9CDqU6blbs",
                             "content":[
                                 {
@@ -600,7 +600,7 @@
                     "tools": [
                         {
                             "name":"Spring",
-                            "description": "",
+                            "description": "O Spring é um framework open source para a plataforma Java criado por Rod Johnson e descrito em seu livro 'Expert One-on-One: JEE Design e Development'. Trata-se de um framework não intrusivo, baseado nos padrões de projeto inversão de controle e injeção de dependência.",
                             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRQ8fqaQpvFKhZbZ25RXl0AL_C8zu5kdAcfukfIupAmtiwgtd-g",
                             "content": [
                                 {
@@ -631,7 +631,7 @@
                         },
                         {
                             "name":"Jersey",
-                            "description": "",
+                            "description": "ersey é uma estrutura de código-fonte aberto para o desenvolvimento de RESTful Web Services em Java. Ele fornece suporte para APIs JAX-RS e serve como uma Implementação de Referência JAX-RS.",
                             "image": "https://www.hostgator.com.br/blog/wp-content/uploads/2018/07/programador-front-end-blog-v01.png",
                             "content": [
                                 {
@@ -662,6 +662,7 @@
                         },
                         {
                             "name":"Play Framework",
+                            "description":"Play Framework é um framework de aplicativos da web de código aberto que segue o padrão de arquitetura model-view-controller. É escrito em Scala e utilizável a partir de outras linguagens de programação que são compiladas no JVM Bytecode, por exemplo Java.",
                             "image": "https://i.udemycdn.com/course/750x422/298880_8785_2.jpg",
                             "content": [
                                 {
@@ -689,7 +690,7 @@
                     "tools":[
                         {
                             "name":"Hibernate",
-                            "description":"",
+                            "description":"O Hibernate é um framework para o mapeamento objeto-relacional escrito na linguagem Java, mas também é disponível em .Net com o nome NHibernate.",
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ8yikS-F432t0NUYZW66HO3IfuMUE2ZUMaJQzoNCjOEHq2tDve",
                             "content":[
                                 {
@@ -727,7 +728,7 @@
                     "tools":[
                         {
                             "name":"JUnit",
-                            "description":"",
+                            "description":"O JUnit é um framework open-source, que se assemelha ao raio de testes software java, criado por Erich Gamma e Kent Beck, com suporte à criação de testes automatizados na linguagem de programação Java.",
                             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQt-hTkJZYRzhm6l0nmu7xHudsqVPH9hnZqO1jM6vFRXzaSc1-X",
                             "content":[
                                 {
@@ -748,7 +749,7 @@
                         },
                         {
                             "name":"Cucumber",
-                            "description": "",
+                            "description": "Cucumber ou Pepino é uma ferramenta de software usada por programadores de computador que suporta o desenvolvimento orientado a comportamento. O ponto central da abordagem do BDD do pepino é o analisador de linguagem simples chamado Gherkin.",
                             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcStnej7qOiczhtQw_BkpsPQSwJDu_agS-qlR2a-IXf_KWaDddBd",
                             "content":[
                                 {
