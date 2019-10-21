@@ -611,7 +611,7 @@
                         {
                             "name":"Jersey",
                             "description": "",
-                            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXM9brNnR3ESLoCvCNQj-akgsYaWE8o6G6Wubc0qb3upaeAPni",
+                            "image": "https://www.hostgator.com.br/blog/wp-content/uploads/2018/07/programador-front-end-blog-v01.png",
                             "content": [
                                 {
                                     "type": "Artigo",
@@ -898,7 +898,7 @@
                         {
                             "name":"JSP",
                             "description":"",
-                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLeRs7T3MQJmroHEQ6bCNqfEGn3vM4iUqTZvAC5P4_Z31IHVJN",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRxgr2rU8vzLZMs8ha7DECWYmqnTXTwEldOFxBAsituLHpxPCkR",
                             "content":[
                                 {
                                     "type":"Artigo",
@@ -926,6 +926,7 @@
                         {
                             "name":"Atmosphere",
                             "description":"",
+                            "image":"https://blog-content.sfo2.cdn.digitaloceanspaces.com/media/2018/09/Main-Image.png",
                             "content":[
                                 {
                                     "type":"Artigo",
