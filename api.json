@@ -5,12 +5,20 @@
             "language": "Node JS",
             "logo": "",
             "color": "#7DBB76",
-            "description": "Lorem Ipsum",
+            "description": "Node.js é um interpretador de JavaScript assíncrono com código aberto orientado a eventos, criado por Ryan Dahl em 2009, focado em migrar a programação do Javascript do cliente (frontend) para os servidores.",
             "daily-reading": [
                 {
-                    "origin": "Medium",
-                    "title": "Iniciando com o Spring Boot",
-                    "author": "Mauricio Marques",
+                    "origin": "DevMedia",
+                    "title": "Criando serviço de microblog com Node.js",
+                    "author": "Rafael Milléo",
+                    "url": "https://www.devmedia.com.br/criando-servico-de-microblog-com-node-js/31036",
+                    "rating": 4.2
+                },
+                {
+                    "origin":"Medium",
+                    "title": "Organizando seu projeto em Node.js",
+                    "author": "Felipe Batista",
+                    "url": "https://medium.com/@febatista107/organizando-seu-projeto-em-node-js-be465c14d19",
                     "rating": 4.5
                 }
             ],
@@ -54,7 +62,7 @@
                 },
                 {
                     "id": 110,
-                    "name": "Web Framework",
+                    "name": "Web Frameworks",
                     "description": "Um framework tem como foco a reusabilidade de código, dessa maneira, o desenvolvedor pode dedicar seu tempo em soluções mais complexas ao invés de ficar reescrevendo algo que já foi feito.",
                     "tools": [
                         {
@@ -497,7 +505,23 @@
             "language": "Java",
             "logo": "",
             "color": "#D97373",
-            "description": "",
+            "description": "É uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems. Em 2008 o Java foi adquirido pela empresa Oracle Corporation.",
+            "daily-reading":[
+                {
+                    "origin": "Medium",
+                    "title": "Tem um tempinho para conversarmos sobre boas práticas de programação com Java?",
+                    "author": "Mariana Azevedo",
+                    "url": "https://medium.com/@mari_azevedo/tem-um-tempinho-para-conversarmos-sobre-boas-práticas-de-programação-com-java-51c5bcc220ea",
+                    "rating": 4.8
+                },
+                {
+                    "origin": "DevMedia",
+                    "title": "Como tratar exceções na linguagem Java",
+                    "author": "Jose Fernandes",
+                    "url": "https://www.devmedia.com.br/como-tratar-excecoes-na-linguagem-java/39163",
+                    "rating": 4.1
+                }
+            ],
             "topics": [
                 {
                     "id": 210,
@@ -505,8 +529,9 @@
                     "description": "Um package manager é uma ferramenta para instalação, remoção e atualização de softwares, que são distribuídos em pacotes.",
                     "tools": [
                         {
-                            "name": "Grandle",
+                            "name": "Gradle",
                             "description": "",
+                            "image": "https://dwglogo.com/wp-content/uploads/2017/12/Gradle_logo_01.png",
                             "content": [
                                 {
                                     "type": "Artigo",
@@ -527,6 +552,7 @@
                         {
                             "name":"Maven",
                             "description": "",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR3WjYSiV7VCaIJutYh811HbvXVgPhaSxQR0qkefI9CDqU6blbs",
                             "content":[
                                 {
                                     "type": "Artigo",
@@ -548,12 +574,13 @@
                 },
                 {
                     "id": 220,
-                    "name":"Web Framework",
+                    "name":"Web Frameworks",
                     "description":"Um framework tem como foco a reusabilidade de código, dessa maneira, o desenvolvedor pode dedicar seu tempo em soluções mais complexas ao invés de ficar reescrevendo algo que já foi feito.",
                     "tools": [
                         {
                             "name":"Spring",
                             "description": "",
+                            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRQ8fqaQpvFKhZbZ25RXl0AL_C8zu5kdAcfukfIupAmtiwgtd-g",
                             "content": [
                                 {
                                     "type": "Artigo",
@@ -584,6 +611,7 @@
                         {
                             "name":"Jersey",
                             "description": "",
+                            "image": "https://www.hostgator.com.br/blog/wp-content/uploads/2018/07/programador-front-end-blog-v01.png",
                             "content": [
                                 {
                                     "type": "Artigo",
@@ -613,7 +641,7 @@
                         },
                         {
                             "name":"Play Framework",
-                            "description": "",
+                            "image": "https://i.udemycdn.com/course/750x422/298880_8785_2.jpg",
                             "content": [
                                 {
                                     "type": "Artigo",
@@ -641,6 +669,7 @@
                         {
                             "name":"Hibernate",
                             "description":"",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ8yikS-F432t0NUYZW66HO3IfuMUE2ZUMaJQzoNCjOEHq2tDve",
                             "content":[
                                 {
                                     "type": "Artigo",
@@ -678,6 +707,7 @@
                         {
                             "name":"JUnit",
                             "description":"",
+                            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQt-hTkJZYRzhm6l0nmu7xHudsqVPH9hnZqO1jM6vFRXzaSc1-X",
                             "content":[
                                 {
                                     "type": "Artigo",
@@ -698,6 +728,7 @@
                         {
                             "name":"Cucumber",
                             "description": "",
+                            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcStnej7qOiczhtQw_BkpsPQSwJDu_agS-qlR2a-IXf_KWaDddBd",
                             "content":[
                                 {
                                     "type": "Artigo",
@@ -735,6 +766,7 @@
                         {
                             "name":"okhttp",
                             "description":"",
+                            "image": "https://blog.one.com/wp-content/uploads/2018/08/ssl-https-732x549.jpg",
                             "content":[
                                 {
                                     "type":"Documentação",
@@ -748,6 +780,7 @@
                         {
                             "name":"graphql-java",
                             "description": "",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTtn4q8-7JaUKQYYagFaWZK8WwegDFtKO1zOwxK7PTVJEuOlU0Z",
                             "content":[
                                 {
                                     "type":"Documentação",
@@ -767,6 +800,7 @@
                         {
                             "name":"Caffeine",
                             "description":"",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQv_X0o4aWNNKg3hhG1ESNg30n9_eelbo_qCBCUpayg_3ejMuHR",
                             "content":[
                                 {
                                     "type": "Artigo",
@@ -787,6 +821,7 @@
                         {
                             "name":"Java-Redis",
                             "description": "",
+                            "image":"https://5.imimg.com/data5/NM/XV/UM/GLADMIN-63038776/gggggggggggggggggggggg-500x500.png",
                             "content":[
                                 {
                                     "type": "Artigo",
@@ -814,6 +849,7 @@
                         {
                             "name":"Log4j",
                             "description":"",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTSleEmreR3N2fEM41cBymyWkVET3uU4wwEDIZdANi8-GEJP8_i",
                             "content":[
                                 {
                                     "type": "Artigo",
@@ -841,6 +877,7 @@
                         {
                             "name":"cron-utils",
                             "description":"",
+                            "image":"https://assets.ximble.com/wp-content/uploads/2017/11/2017-08-20-4-Advantages-of-Using-Work-Scheduling-Software.png",
                             "content":[
                                 {
                                     "type":"Artigo",
@@ -861,6 +898,7 @@
                         {
                             "name":"JSP",
                             "description":"",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRxgr2rU8vzLZMs8ha7DECWYmqnTXTwEldOFxBAsituLHpxPCkR",
                             "content":[
                                 {
                                     "type":"Artigo",
@@ -888,6 +926,7 @@
                         {
                             "name":"Atmosphere",
                             "description":"",
+                            "image":"https://blog-content.sfo2.cdn.digitaloceanspaces.com/media/2018/09/Main-Image.png",
                             "content":[
                                 {
                                     "type":"Artigo",
@@ -914,7 +953,7 @@
             "language": "CNET",
             "logo": "",
             "color": "#76C3E3",
-            "description": "",
+            "description": "É uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. A sua sintaxe orientada a objetos foi baseada no C++ mas inclui muitas influências de outras linguagens de programação, como Object Pascal e, principalmente, Java. ",
             "topics": []
         },
         {
@@ -922,7 +961,7 @@
             "language": "Python",
             "logo": "",
             "color": "#76C3E3",
-            "description": "",
+            "description": "É uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991. ",
             "topics": []
         }
     ]    
