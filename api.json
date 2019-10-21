@@ -6,6 +6,14 @@
             "logo": "",
             "color": "#7DBB76",
             "description": "Lorem Ipsum",
+            "daily-reading": [
+                {
+                    "origin": "Medium",
+                    "title": "Iniciando com o Spring Boot",
+                    "author": "Mauricio Marques",
+                    "rating": 4.5
+                }
+            ],
             "topics": [
                 {
                     "id": 101,
@@ -486,7 +494,7 @@
         },
         {
             "id": 200,
-            "language": "JAVA",
+            "language": "Java",
             "logo": "",
             "color": "#D97373",
             "description": "",
@@ -903,7 +911,15 @@
         },
         {
             "id": 300,
-            "language": ".NET",
+            "language": "CNET",
+            "logo": "",
+            "color": "#76C3E3",
+            "description": "",
+            "topics": []
+        },
+        {
+            "id": 400,
+            "language": "Python",
             "logo": "",
             "color": "#76C3E3",
             "description": "",
