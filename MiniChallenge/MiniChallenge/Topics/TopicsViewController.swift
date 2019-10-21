@@ -27,7 +27,7 @@ class TopicsViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return (lang.topics?.count ?? 0) + 1
+        return (lang.topics?[topicIndex].tools?.count ?? 0) + 1
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
