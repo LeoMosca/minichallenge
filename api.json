@@ -787,7 +787,7 @@
                     "tools":[
                         {
                             "name":"okhttp",
-                            "description":"",
+                            "description":"HTTP é a forma de acesso de uma rede de aplicativos modernos. É assim que trocamos dados e mídia. Fazer HTTP com eficiência torna o seu material mais rápido e economiza largura de banda.",
                             "image": "https://blog.one.com/wp-content/uploads/2018/08/ssl-https-732x549.jpg",
                             "content":[
                                 {
@@ -801,7 +801,7 @@
                         },
                         {
                             "name":"graphql-java",
-                            "description": "",
+                            "description": "GraphQL é uma linguagem de consulta para recuperar dados de um servidor. É uma alternativa ao REST, SOAP ou gRPC de alguma forma.",
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTtn4q8-7JaUKQYYagFaWZK8WwegDFtKO1zOwxK7PTVJEuOlU0Z",
                             "content":[
                                 {
@@ -821,7 +821,7 @@
                     "tools":[
                         {
                             "name":"Caffeine",
-                            "description":"",
+                            "description":"Caffeine é uma biblioteca de armazenamento em cache quase ideal, baseada em Java 8. Fornece um cache na memória usando uma API inspirada no Google Guava. As melhorias se baseiam em nossa experiência ao projetar o cache do Guava e o ConcurrentLinkedHashMap.",
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQv_X0o4aWNNKg3hhG1ESNg30n9_eelbo_qCBCUpayg_3ejMuHR",
                             "content":[
                                 {
@@ -842,7 +842,7 @@
                         },
                         {
                             "name":"Java-Redis",
-                            "description": "",
+                            "description": "O Redis é um banco NOSQL de chave valor de arquitetura distribuída feito para memória. O objetivo desse artigo é falar sobre esse banco e mostrar como implementar Coleções no Java.",
                             "image":"https://5.imimg.com/data5/NM/XV/UM/GLADMIN-63038776/gggggggggggggggggggggg-500x500.png",
                             "content":[
                                 {
@@ -870,7 +870,7 @@
                     "tools":[
                         {
                             "name":"Log4j",
-                            "description":"",
+                            "description":"O Log4j é uma ferramenta utilizada em aplicativos escritos na linguagem de programação Java. O log4j é um software livre de código aberto desenvolvido pela Apache Software Foundation. Ele fornece uma API para que o desenvolvedor de software possa fazer log de dados na sua aplicação.",
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTSleEmreR3N2fEM41cBymyWkVET3uU4wwEDIZdANi8-GEJP8_i",
                             "content":[
                                 {
@@ -898,7 +898,7 @@
                     "tools":[
                         {
                             "name":"cron-utils",
-                            "description":"",
+                            "description":"Uma biblioteca Java para analisar, validar, migrar crons, além de obter descrições legíveis por eles. O projeto segue a Convenção de Versão Semântica, fornece metadados OSGi e usa a licença Apache 2.0.",
                             "image":"https://assets.ximble.com/wp-content/uploads/2017/11/2017-08-20-4-Advantages-of-Using-Work-Scheduling-Software.png",
                             "content":[
                                 {
@@ -919,7 +919,7 @@
                     "tools":[
                         {
                             "name":"JSP",
-                            "description":"",
+                            "description":"JSP é o acrônimo para Java Server Pages, uma linguagem criada pela SUN gratuita, JSP é uma linguagem de script com especificação aberta que tem como objetivo primário a geração de conteúdo dinâmico para páginas da Internet. Podemos ao invés de utilizar HTML para desenvolver páginas Web estáticas e sem funcionalidade, utilizar o JSP para criar dinamismo.",
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRxgr2rU8vzLZMs8ha7DECWYmqnTXTwEldOFxBAsituLHpxPCkR",
                             "content":[
                                 {
@@ -947,7 +947,7 @@
                     "tools":[
                         {
                             "name":"Atmosphere",
-                            "description":"",
+                            "description":"O Atmosphere contém componentes do lado do cliente e do servidor para a criação de aplicativos Web assíncronos. O Atmosphere oferece suporte transparente a WebSockets, SSE (Server Sent Events), Long Polling, HTTP Streaming (Forever frame) e JSONP.",
                             "image":"https://blog-content.sfo2.cdn.digitaloceanspaces.com/media/2018/09/Main-Image.png",
                             "content":[
                                 {
