@@ -473,6 +473,7 @@
                             "id": 181,
                             "name": "Node Mailer",
                             "description":"Esse pacote permite que sua aplicação envie e-mails de maneira bem fácil. O projeto foi iniciado em 2010, quando não havia opção para enviar mensagens de email, hoje é a solução para a qual a maioria dos usuários do Node.js. usa por padrão.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSGHqxmRVUEEpwmDE2ChbT-un0U3LjyOchR_5tkd89H6Dy4KAep",
                             "content": [
                                 {
                                     "id": 182,
