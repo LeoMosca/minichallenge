@@ -62,7 +62,7 @@
                 },
                 {
                     "id": 110,
-                    "name": "Web Framework",
+                    "name": "Web Frameworks",
                     "description": "Um framework tem como foco a reusabilidade de código, dessa maneira, o desenvolvedor pode dedicar seu tempo em soluções mais complexas ao invés de ficar reescrevendo algo que já foi feito.",
                     "tools": [
                         {
@@ -529,9 +529,9 @@
                     "description": "Um package manager é uma ferramenta para instalação, remoção e atualização de softwares, que são distribuídos em pacotes.",
                     "tools": [
                         {
-                            "name": "Grandle",
+                            "name": "Gradle",
                             "description": "",
-                            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRncVvZLgD1l_yxg389OYFhHhLMRAQsnZxyb2VC6E5HaHs9xYLB",
+                            "image": "https://dwglogo.com/wp-content/uploads/2017/12/Gradle_logo_01.png",
                             "content": [
                                 {
                                     "type": "Artigo",
@@ -574,7 +574,7 @@
                 },
                 {
                     "id": 220,
-                    "name":"Web Framework",
+                    "name":"Web Frameworks",
                     "description":"Um framework tem como foco a reusabilidade de código, dessa maneira, o desenvolvedor pode dedicar seu tempo em soluções mais complexas ao invés de ficar reescrevendo algo que já foi feito.",
                     "tools": [
                         {
@@ -668,7 +668,8 @@
                     "tools":[
                         {
                             "name":"Hibernate",
-                            "description":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ8yikS-F432t0NUYZW66HO3IfuMUE2ZUMaJQzoNCjOEHq2tDve",
+                            "description":"",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ8yikS-F432t0NUYZW66HO3IfuMUE2ZUMaJQzoNCjOEHq2tDve",
                             "content":[
                                 {
                                     "type": "Artigo",
@@ -727,7 +728,7 @@
                         {
                             "name":"Cucumber",
                             "description": "",
-                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcStnej7qOiczhtQw_BkpsPQSwJDu_agS-qlR2a-IXf_KWaDddBd",
+                            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcStnej7qOiczhtQw_BkpsPQSwJDu_agS-qlR2a-IXf_KWaDddBd",
                             "content":[
                                 {
                                     "type": "Artigo",
@@ -765,6 +766,7 @@
                         {
                             "name":"okhttp",
                             "description":"",
+                            "image": "https://blog.one.com/wp-content/uploads/2018/08/ssl-https-732x549.jpg",
                             "content":[
                                 {
                                     "type":"Documentação",
@@ -778,6 +780,7 @@
                         {
                             "name":"graphql-java",
                             "description": "",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTtn4q8-7JaUKQYYagFaWZK8WwegDFtKO1zOwxK7PTVJEuOlU0Z",
                             "content":[
                                 {
                                     "type":"Documentação",
@@ -797,6 +800,7 @@
                         {
                             "name":"Caffeine",
                             "description":"",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQv_X0o4aWNNKg3hhG1ESNg30n9_eelbo_qCBCUpayg_3ejMuHR",
                             "content":[
                                 {
                                     "type": "Artigo",
@@ -817,6 +821,7 @@
                         {
                             "name":"Java-Redis",
                             "description": "",
+                            "image":"https://5.imimg.com/data5/NM/XV/UM/GLADMIN-63038776/gggggggggggggggggggggg-500x500.png",
                             "content":[
                                 {
                                     "type": "Artigo",
@@ -844,6 +849,7 @@
                         {
                             "name":"Log4j",
                             "description":"",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTSleEmreR3N2fEM41cBymyWkVET3uU4wwEDIZdANi8-GEJP8_i",
                             "content":[
                                 {
                                     "type": "Artigo",
@@ -871,6 +877,7 @@
                         {
                             "name":"cron-utils",
                             "description":"",
+                            "image":"https://assets.ximble.com/wp-content/uploads/2017/11/2017-08-20-4-Advantages-of-Using-Work-Scheduling-Software.png",
                             "content":[
                                 {
                                     "type":"Artigo",
@@ -891,6 +898,7 @@
                         {
                             "name":"JSP",
                             "description":"",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLeRs7T3MQJmroHEQ6bCNqfEGn3vM4iUqTZvAC5P4_Z31IHVJN",
                             "content":[
                                 {
                                     "type":"Artigo",
