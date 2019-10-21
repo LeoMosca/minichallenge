@@ -9,7 +9,7 @@ import UIKit
 
 class RequestAPI {
     static func fetchLanguages(_ callback: @escaping ([Language]) -> ()){
-        let url = URL(string: "https://f9088de3.ngrok.io/challenge")
+        let url = URL(string: "https://e726869f.ngrok.io/challenge")
         URLSession.shared.dataTask(with: url!) {(data, response, error ) in
             guard error == nil else {
                 print("Erro ao consultar API")
