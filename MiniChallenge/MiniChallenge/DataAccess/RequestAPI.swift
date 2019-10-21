@@ -29,4 +29,17 @@ class RequestAPI {
             callback(resp)
         }.resume()
     }
+    
+    static func fetchImage(_ path: String?, _ imageview: UIImageView){
+        guard let url = URL(string: path ?? "") else { return }
+        let task = URLSession.shared.dataTask(with: url) { data, response, error in
+            if let data = data, error == nil {
+                DispatchQueue.main.async() {
+                    imageview.image = UIImage(data: data)
+                }
+            }
+        }
+        
+        task.resume()
+    }
 }

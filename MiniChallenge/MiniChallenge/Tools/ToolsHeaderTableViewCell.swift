@@ -17,6 +17,13 @@ class ToolsHeaderTableViewCell: UITableViewCell {
     @IBOutlet weak var toolName: UILabel!
     @IBOutlet weak var toolDescription: UITextView!
     
+    public func setHeader(_ name: String?, _ desc: String?, _ items: Int, _ image: String?) {
+        self.toolName.text = name?.uppercased();
+        self.toolDescription.text = desc;
+        self.numberOfItens.text = String(items) + " ite" + (items == 1 ? "m" : "ns");
+        
+        RequestAPI.fetchImage(image, toolImage)
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()

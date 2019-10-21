@@ -11,14 +11,21 @@ import UIKit
 class TopicsHeaderTableViewCell: UITableViewCell{
     
     @IBOutlet weak var languageImage: UIImageView!
-    
     @IBOutlet weak var languageName: UILabel!
-    
     @IBOutlet weak var topicName: UILabel!
-    
     @IBOutlet weak var aboutTopic: UITextView!
-    
     @IBOutlet weak var studyButton: UIView!
+    
+    public func setHeader(_ topic: String?, _ desc: String?, _ lang: String?){
+        self.topicName.text = topic?.uppercased();
+        self.aboutTopic.text = desc;
+        self.languageName.text = lang?.uppercased();
+        self.languageImage.image = UIImage(named: topic ?? "")
+        
+//        self.studyButton.layer.masksToBounds = false
+        self.studyButton.layer.cornerRadius = 10
+//        self.studyButton.clipsToBounds = true
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
