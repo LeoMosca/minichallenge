@@ -5,7 +5,23 @@
             "language": "Node JS",
             "logo": "",
             "color": "#7DBB76",
-            "description": "Lorem Ipsum",
+            "description": "Node.js é um interpretador de JavaScript assíncrono com código aberto orientado a eventos, criado por Ryan Dahl em 2009, focado em migrar a programação do Javascript do cliente (frontend) para os servidores.",
+            "dailyreading": [
+                {
+                    "origin": "DevMedia",
+                    "title": "Criando serviço de microblog com Node.js",
+                    "author": "Rafael Milléo",
+                    "url": "https://www.devmedia.com.br/criando-servico-de-microblog-com-node-js/31036",
+                    "rating": 4.2
+                },
+                {
+                    "origin":"Medium",
+                    "title": "Organizando seu projeto em Node.js",
+                    "author": "Felipe Batista",
+                    "url": "https://medium.com/@febatista107/organizando-seu-projeto-em-node-js-be465c14d19",
+                    "rating": 4.5
+                }
+            ],
             "topics": [
                 {
                     "id": 101,
@@ -16,6 +32,7 @@
                             "id" : 102,
                             "name": "NPM",
                             "description": "Gerenciador de Pacotes, nativo do Node JS. O NPM (Node Package Manager) funciona como um repositório online para publicações de projetos de código aberto.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcThbsbzgvHG_Ox1GuETGFSebo9muC2WKBi_NErHvMIjF8T82hJz",
                             "content": [
                                 {
                                     "id" : 103,
@@ -31,6 +48,7 @@
                             "id" : 104,
                             "name": "Yarn",
                             "description":"Gerenciador de Pacotes, desenvolvido pelo Facebook. O Yarn é open source, e nasceu com a elaboração das empresas Exponent, Google e Tilde.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzslDe6cjJVuwWw3xEkHwh6SlkCQmIaPFk09YzbIb5kwrFscEV",
                             "content": [
                                 {
                                     "id" : 105,
@@ -46,13 +64,14 @@
                 },
                 {
                     "id": 110,
-                    "name": "Web Framework",
+                    "name": "Web Frameworks",
                     "description": "Um framework tem como foco a reusabilidade de código, dessa maneira, o desenvolvedor pode dedicar seu tempo em soluções mais complexas ao invés de ficar reescrevendo algo que já foi feito.",
                     "tools": [
                         {
                             "id" : 111,
                             "name": "Express",
                             "description":"O Express, é uma estrutura de aplicativo da Web para o Node.js, lançada como software livre e de código aberto. Ele foi projetado para criar aplicativos da Web e APIs.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSUOpSMkwsY90ZOJB2LfxCzvZEoSUak0IePKyoCqX6-VStkrxYV",
                             "content": [
                                 {
                                     "id" : 112,
@@ -80,6 +99,7 @@
                             "id" : 114,
                             "name": "Restify",
                             "description":"Amplamente utilizado em empresas como Netflix, Pinterest e Napster, ele foi inicialmente criado como uma alternativa ao Express. Ele é uma estrutura para construir serviços Web Restful semanticamente corretos, otimizado para introspecção e desempenho. ",
+                            "image":"https://tsh.io/wp-content/uploads/2018/11/blog_nodejspodstawy-1024x683.jpg",
                             "content": [
                                 {
                                     "id" : 115,
@@ -98,6 +118,7 @@
                             "id" : 116,
                             "name": "Koa",
                             "description":"Criado pelo mesmo time do Express, ele foi desenvolvido com o intuito de ser mais leve, expressivo e robusto.",
+                            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnn9t5LT8jMp9K0_mUaVC954ehKhM6-xGS6Molyap2UZ5sMwbi",
                             "content": [
                                 {
                                     "id" : 117,
@@ -113,6 +134,7 @@
                             "id" : 118,
                             "name": "Nest",
                             "description": "Fornece uma arquitetura pronta para uso, permitindo a criação de aplicativos altamente testáveis, escalonáveis, fracamente acoplados e de fácil manutenção sem muito esforço.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ0Dm8Za1XrpuUd6LoUZJMrhs_ko3c8lIyUeg1QCoDxtjeORhT8",
                             "content": [
                                 {
                                     "id" : 119,
@@ -135,6 +157,7 @@
                             "id": 121,
                             "name": "Sequelize",
                             "description":"Tem como funcionalidade fazer o mapeamento de dados relacionais (tabelas, colunas e linhas) para objetos Javascript. Ele permite criar, buscar, alterar e remover dados do banco de dados utilizando métodos JS, além de permitir a modificação da estrutura das tabelas. ",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzyCZ54r2FIbp3QlHnWHP7iGkiBwR5TUofpmLqsQJ3HBBO3gTb",
                             "content": [
                                 {
                                     "id": 122,
@@ -158,6 +181,7 @@
                             "id": 124,
                             "name": "Knex",
                             "description":"É um construtor de consultas JavaScript para bancos de dados relacionais, incluindo PostgreSQL, MySQL, SQLite3 e Oracle. Pode ser usado com retornos de callbacks e promises.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSTcRk6QqWEd4fcUFovtxu9JGPd0pakuoiiHUMlA11KJ_QYfNhU",
                             "content": [
                                 {
                                     "id": 125,
@@ -181,6 +205,7 @@
                             "id": 127,
                             "name": "Mongoose",
                             "description":"Proporciona uma solução baseada em esquemas para modelar os dados da sua aplicação. Possui também um sistema de conversão de tipos, validação e criação de consultas.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQVFduy8oqPuy9eYkHZKPoaUE0Pyh1-JzlQ7rqid4MO6y1l8Xa6",
                             "content": [
                                 {
                                     "id": 128,
@@ -222,6 +247,7 @@
                             "id": 131,
                             "name": "Jest",
                             "description":"É uma estrutura de teste de JavaScript com foco na simplicidade. Ele trabalha com projetos usando: Babel, TypeScript, Node.js, React, Angular e Vue.js. O objetivo é trabalhar fora da caixa e configurar gratuitamente.",
+                            "image":"https://static.imasters.com.br/wp-content/uploads/2019/03/25142439/JEESTT.jpg",
                             "content": [
                                 {
                                     "id": 132,
@@ -245,6 +271,7 @@
                             "id": 134,
                             "name": "Mocha",
                             "description":"É uma estrutura de teste JavaScript, com suporte ao navegador, testes assíncronos, relatórios de cobertura de testes e uso de qualquer biblioteca de asserções.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS8j9utaKolU__zjF38Iizlq2UmpRD6ot2zmQSbnjjgnZcfinH-",
                             "content": [
                                 {
                                     "id": 135,
@@ -260,6 +287,7 @@
                             "id": 136,
                             "name": "Jasmine",
                             "description":"É uma estrutura de teste de código aberto para JavaScript. Seu objetivo é executar em qualquer plataforma habilitada para JavaScript, não se intrometer no aplicativo nem no IDE e ter uma sintaxe de fácil leitura.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR6yUuUgkN-mdcIxUk0LD8KIAIZ0Ofxv5dDSRiLOJoUAYD3YsKs",
                             "content":[
                                 {
                                     "id": 137,
@@ -282,6 +310,7 @@
                             "id": 141,
                             "name": "Axios",
                             "description":"É um cliente HTTP para o navegador e o Node.js. O Axios facilita o envio de solicitações HTTP assíncronas para terminais REST e a execução de operações CRUD. Pode ser usado em JavaScript ou com uma biblioteca como Vue ou React.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT9K87lks7JSqzWEFnHeOV_qjHw6ELWwWpMttklD2U6J_si0A2X",
                             "content": [
                                 {
                                     "id": 142,
@@ -297,6 +326,7 @@
                             "id": 143,
                             "name": "GraphQL",
                             "description":"É uma linguagem de consulta criada pelo Facebook em 2012 e lançada publicamente em 2015. É considerada uma alternativa para arquiteturas REST, além de oferecer um serviço runtime para rodar comandos e consumir uma API.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSA3mtZWOKL1jnvENhiIkoa1qskeSdbat_Rq7lh9AbtbbsKB8ts",
                             "content":[
                                 {
                                     "id": 144,
@@ -327,6 +357,7 @@
                             "id": 151,
                             "name": "Winston JS",
                             "description":"É uma biblioteca de registro JavaScript que simplifica muito o registro em vários locais de armazenamento persistentes, como bancos de dados ou arquivos.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRwk4728NojyP-fZlvYuJHbgfkYvkJ1BBVDHPd6c_5vubL-1zR-",
                             "content": [
                                 {
                                     "id": 152,
@@ -357,6 +388,7 @@
                             "id": 161,
                             "name": "Agenda JS",
                             "description":"Permite agendar tarefas facilmente. Utiliza um banco de dados MongoDB para manter as tarefas agendadas, para que, mesmo que o servidor seja desativado, as tarefas ainda serão executadas no tempo ou intervalos especificados.",
+                            "image":"https://cdn.dribbble.com/users/1519999/screenshots/6834299/shot_adson-04_2x.png",
                             "content": [
                                 {
                                     "id": 162,
@@ -372,6 +404,7 @@
                             "id": 163,
                             "name": "Node Schedule",
                             "description":"É um agendador de tarefas flexível, para Node.js. Permite agendar trabalhos (funções arbitrárias) para execução em datas específicas, com regras de recorrência opcionais.",
+                            "image":"https://kit8.net/images/thumbnails/580/386/detailed/4/Computer@2x.png",
                             "content": [
                                 {
                                     "type": "Documentação",
@@ -393,6 +426,7 @@
                             "id": 171,
                             "name": "PUG",
                             "description":"Gratuito, aberto, de alto desempenho, rico em recursos e fácil de usar são palavras que resumem essa Template Engine. ",
+                            "image":"https://res.cloudinary.com/practicaldev/image/fetch/s--Rr7K5gOm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dbalas.gallerycdn.vsassets.io/extensions/dbalas/vscode-html2pug/0.0.2/1532242577062/Microsoft.VisualStudio.Services.Icons.Default",
                             "content": [
                                 {
                                     "id": 172,
@@ -416,6 +450,7 @@
                             "id": 174,
                             "name": "EJS",
                             "description":"Permite transportar os dados do Back-End para o Front-End de maneira fácil e simples.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSZVNUmxBuwyDzKU-9PYJdqtquIzgMwCtvNl6FCO6OKlHNAUC-A",
                             "content": [
                                 {
                                     "id": 175,
@@ -438,6 +473,7 @@
                             "id": 181,
                             "name": "Node Mailer",
                             "description":"Esse pacote permite que sua aplicação envie e-mails de maneira bem fácil. O projeto foi iniciado em 2010, quando não havia opção para enviar mensagens de email, hoje é a solução para a qual a maioria dos usuários do Node.js. usa por padrão.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSGHqxmRVUEEpwmDE2ChbT-un0U3LjyOchR_5tkd89H6Dy4KAep",
                             "content": [
                                 {
                                     "id": 182,
@@ -460,6 +496,7 @@
                             "id": 191,
                             "name": "Socket.IO",
                             "description":"É uma biblioteca que permite a comunicação bidirecional em tempo real entre cliente e servidor (chats).",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSpcJAyftXR0KmbBOOngG8zOg24pQ-USo4E38WUaUP3h-JWIKvi",
                             "content": [
                                 {
                                     "id": 192,
@@ -486,10 +523,26 @@
         },
         {
             "id": 200,
-            "language": "JAVA",
+            "language": "Java",
             "logo": "",
             "color": "#D97373",
-            "description": "",
+            "description": "É uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems. Em 2008 o Java foi adquirido pela empresa Oracle Corporation.",
+            "dailyreading":[
+                {
+                    "origin": "Medium",
+                    "title": "Tem um tempinho para conversarmos sobre boas práticas de programação com Java?",
+                    "author": "Mariana Azevedo",
+                    "url": "https://medium.com/@mari_azevedo/tem-um-tempinho-para-conversarmos-sobre-boas-práticas-de-programação-com-java-51c5bcc220ea",
+                    "rating": 4.8
+                },
+                {
+                    "origin": "DevMedia",
+                    "title": "Como tratar exceções na linguagem Java",
+                    "author": "Jose Fernandes",
+                    "url": "https://www.devmedia.com.br/como-tratar-excecoes-na-linguagem-java/39163",
+                    "rating": 4.1
+                }
+            ],
             "topics": [
                 {
                     "id": 210,
@@ -497,42 +550,44 @@
                     "description": "Um package manager é uma ferramenta para instalação, remoção e atualização de softwares, que são distribuídos em pacotes.",
                     "tools": [
                         {
-                            "name": "Grandle",
-                            "description": "",
+                            "name": "Gradle",
+                            "description": "Gradle é um sistema de automação de compilação open source que se baseia nos conceitos de Apache Ant e Apache Maven e introduz uma linguagem de domínio específico baseada em Groovy em vez do XML usado pelo Apache Maven para declarar a configuração do projeto.",
+                            "image": "https://dwglogo.com/wp-content/uploads/2017/12/Gradle_logo_01.png",
                             "content": [
                                 {
                                     "type": "Artigo",
-                                    "title": "",
-                                    "subtitle": "",
+                                    "title": "Começando com o Gradle",
+                                    "subtitle": "Neste artigo vou falar um pouco sobre como o Gradle funciona e como podemos usá-lo no nosso dia a dia. Bora começar?",
                                     "image": "",
-                                    "url": ""
+                                    "url": "https://medium.com/collabcode/começando-com-o-gradle-4e96fd12d933"
                                 },
                                 {
                                     "type":"Documentação",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "title":"Gradle",
+                                    "subtitle":"Gradle is an open-source build automation tool focused on flexibility and performance. Gradle build scripts are written using a Groovy or Kotlin DSL.",
                                     "image":"",
-                                    "url":""
+                                    "url":"https://docs.gradle.org/current/userguide/building_java_projects.html"
                                 }
                             ]
                         },
                         {
                             "name":"Maven",
-                            "description": "",
+                            "description": "Maven, é uma ferramenta de automação de compilação utilizada primariamente em projetos Java. Ela é similar à ferramenta Ant, mas é baseada em conceitos e trabalhos diferentes em um modo diferente.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR3WjYSiV7VCaIJutYh811HbvXVgPhaSxQR0qkefI9CDqU6blbs",
                             "content":[
                                 {
                                     "type": "Artigo",
-                                    "title": "",
-                                    "subtitle": "",
+                                    "title": "Introdução ao Maven",
+                                    "subtitle": "Este artigo fornece uma breve introdução à ferramenta de automação e gerenciamento de projetos, o Apache Maven, demonstrando o uso de seus principais comandos e compartilhando dicas de uso.",
                                     "image": "",
-                                    "url": ""
+                                    "url": "https://www.devmedia.com.br/introducao-ao-maven/25128"
                                 },
                                 {
                                     "type":"Documentação",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "title":"Maven",
+                                    "subtitle":"Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.",
                                     "image":"",
-                                    "url":""
+                                    "url":"https://maven.apache.org/guides/"
                                 }
                             ]
                         }
@@ -540,63 +595,65 @@
                 },
                 {
                     "id": 220,
-                    "name":"Web Framework",
+                    "name":"Web Frameworks",
                     "description":"Um framework tem como foco a reusabilidade de código, dessa maneira, o desenvolvedor pode dedicar seu tempo em soluções mais complexas ao invés de ficar reescrevendo algo que já foi feito.",
                     "tools": [
                         {
                             "name":"Spring",
-                            "description": "",
+                            "description": "O Spring é um framework open source para a plataforma Java criado por Rod Johnson e descrito em seu livro 'Expert One-on-One: JEE Design e Development'. Trata-se de um framework não intrusivo, baseado nos padrões de projeto inversão de controle e injeção de dependência.",
+                            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRQ8fqaQpvFKhZbZ25RXl0AL_C8zu5kdAcfukfIupAmtiwgtd-g",
                             "content": [
                                 {
                                     "type": "Artigo",
-                                    "title": "",
-                                    "subtitle": "",
+                                    "title": "Java Spring MVC: Criando Aplicações Web em Java",
+                                    "subtitle": "Este artigo apresenta o framework Spring MVC para a criação de aplicações Web seguindo o padrão MVC. O Spring é um dos frameworks Java mais conhecidos, e sua implementação para o padrão MVC é bastante utilizada no mercado.",
                                     "image": "",
-                                    "url": ""
+                                    "url": "https://www.devmedia.com.br/java-spring-mvc-criando-aplicacoes-web-em-java/31521"
                                 },
                                 {
                                     "type":"Documentação",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "title":"Learn Spring",
+                                    "subtitle":"Here you'll find all the documentation and tutorials written by the Spring team.",
                                     "image":"",
-                                    "url":""
+                                    "url":"https://spring.io/docs"
                                 },
                                 {
                                     "type":"Curso",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "title":"Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB",
+                                    "subtitle":"Projeto full stack completo! Java Spring Boot no back end e Ionic no front end. Do design UML ao Heroku e Play Store!",
                                     "image":"",
-                                    "url":"",
-                                    "rating":"",
-                                    "author":"",
-                                    "duration":""
+                                    "url":"https://www.udemy.com/course/spring-boot-ionic/",
+                                    "rating":4.7,
+                                    "author":"Nelio Alves",
+                                    "duration":"31 horas"
                                 }
                             ]
                         },
                         {
                             "name":"Jersey",
-                            "description": "",
+                            "description": "ersey é uma estrutura de código-fonte aberto para o desenvolvimento de RESTful Web Services em Java. Ele fornece suporte para APIs JAX-RS e serve como uma Implementação de Referência JAX-RS.",
+                            "image": "https://www.hostgator.com.br/blog/wp-content/uploads/2018/07/programador-front-end-blog-v01.png",
                             "content": [
                                 {
                                     "type": "Artigo",
-                                    "title": "",
-                                    "subtitle": "",
+                                    "title": "Desenvolver um serviço da web RESTful usando o Jersey e o Apache Tomcat",
+                                    "subtitle": "Introdução ao serviço da web RESTful",
                                     "image": "",
-                                    "url": ""
+                                    "url": "https://www.ibm.com/developerworks/br/library/wa-aj-tomcat/index.html"
                                 },
                                 {
                                     "type":"Documentação",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "title":"Jersey 2.29.1 User Guide",
+                                    "subtitle":"Jersey is a REST framework that provides a JAX-RS (JSR-370) implementation and more",
                                     "image":"",
-                                    "url":""
+                                    "url":"https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/index.html"
                                 },
                                 {
                                     "type":"Curso",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "title":"Jersey Java",
+                                    "subtitle":"Jersey é uma forma fácil de criar webservices RESTFull com pouco esforço. Neste curso você aprendera como utilizar o Jersey para desenvolvedor API RESTFull utilizando as tecnologias mais recentes do Java como JAX-RS.",
                                     "image":"",
-                                    "url":"",
+                                    "url":"https://www.schoolofnet.com/curso/java/frameworks-java/jersey-java/",
                                     "rating":"",
                                     "author":"",
                                     "duration":""
@@ -605,21 +662,22 @@
                         },
                         {
                             "name":"Play Framework",
-                            "description": "",
+                            "description":"Play Framework é um framework de aplicativos da web de código aberto que segue o padrão de arquitetura model-view-controller. É escrito em Scala e utilizável a partir de outras linguagens de programação que são compiladas no JVM Bytecode, por exemplo Java.",
+                            "image": "https://i.udemycdn.com/course/750x422/298880_8785_2.jpg",
                             "content": [
                                 {
                                     "type": "Artigo",
-                                    "title": "",
-                                    "subtitle": "",
-                                    "image": "",
-                                    "url": ""
+                                    "title": "RESTful APIs with Play Framework — Part 1",
+                                    "subtitle": "We will start talking about the main Play Framework characteristics, how develop RESTful services and finally how add a security level using JWT.",
+                                    "image": "https://miro.medium.com/max/4308/1*N0AUKlttflxzr8Ij-DfC7Q.png",
+                                    "url": "https://medium.com/@itrjwyss/restful-apis-with-play-framework-part-1-f154b562cdd0"
                                 },
                                 {
                                     "type":"Documentação",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "title":"Play 2.7.x documentation",
+                                    "subtitle":"Play is a high-productivity Java and Scala web application framework that integrates the components and APIs you need for modern web application development.",
                                     "image":"",
-                                    "url":""
+                                    "url":"https://www.playframework.com/documentation/2.7.x/Home"
                                 }
                             ]
                         }
@@ -632,7 +690,8 @@
                     "tools":[
                         {
                             "name":"Hibernate",
-                            "description":"",
+                            "description":"O Hibernate é um framework para o mapeamento objeto-relacional escrito na linguagem Java, mas também é disponível em .Net com o nome NHibernate.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ8yikS-F432t0NUYZW66HO3IfuMUE2ZUMaJQzoNCjOEHq2tDve",
                             "content":[
                                 {
                                     "type": "Artigo",
@@ -643,20 +702,20 @@
                                 },
                                 {
                                     "type":"Documentação",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "title":"Hibernate ORM",
+                                    "subtitle":"MORE THAN AN ORM, DISCOVER THE HIBERNATE GALAXY.",
                                     "image":"",
-                                    "url":""
+                                    "url":"https://hibernate.org/orm/documentation/5.4/"
                                 },
                                 {
                                     "type":"Curso",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "title":"Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB",
+                                    "subtitle":"Projeto full stack completo! Java Spring Boot no back end e Ionic no front end. Do design UML ao Heroku e Play Store!",
                                     "image":"",
-                                    "url":"",
-                                    "rating":"",
-                                    "author":"",
-                                    "duration":""
+                                    "url":"https://www.udemy.com/course/spring-boot-ionic/",
+                                    "rating":4.7,
+                                    "author":"Nelio Alves",
+                                    "duration":"31 horas"
                                 }
                             ]
                         }
@@ -669,7 +728,8 @@
                     "tools":[
                         {
                             "name":"JUnit",
-                            "description":"",
+                            "description":"O JUnit é um framework open-source, que se assemelha ao raio de testes software java, criado por Erich Gamma e Kent Beck, com suporte à criação de testes automatizados na linguagem de programação Java.",
+                            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQt-hTkJZYRzhm6l0nmu7xHudsqVPH9hnZqO1jM6vFRXzaSc1-X",
                             "content":[
                                 {
                                     "type": "Artigo",
@@ -689,7 +749,8 @@
                         },
                         {
                             "name":"Cucumber",
-                            "description": "",
+                            "description": "Cucumber ou Pepino é uma ferramenta de software usada por programadores de computador que suporta o desenvolvimento orientado a comportamento. O ponto central da abordagem do BDD do pepino é o analisador de linguagem simples chamado Gherkin.",
+                            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcStnej7qOiczhtQw_BkpsPQSwJDu_agS-qlR2a-IXf_KWaDddBd",
                             "content":[
                                 {
                                     "type": "Artigo",
@@ -726,7 +787,8 @@
                     "tools":[
                         {
                             "name":"okhttp",
-                            "description":"",
+                            "description":"HTTP é a forma de acesso de uma rede de aplicativos modernos. É assim que trocamos dados e mídia. Fazer HTTP com eficiência torna o seu material mais rápido e economiza largura de banda.",
+                            "image": "https://blog.one.com/wp-content/uploads/2018/08/ssl-https-732x549.jpg",
                             "content":[
                                 {
                                     "type":"Documentação",
@@ -739,7 +801,8 @@
                         },
                         {
                             "name":"graphql-java",
-                            "description": "",
+                            "description": "GraphQL é uma linguagem de consulta para recuperar dados de um servidor. É uma alternativa ao REST, SOAP ou gRPC de alguma forma.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTtn4q8-7JaUKQYYagFaWZK8WwegDFtKO1zOwxK7PTVJEuOlU0Z",
                             "content":[
                                 {
                                     "type":"Documentação",
@@ -758,7 +821,8 @@
                     "tools":[
                         {
                             "name":"Caffeine",
-                            "description":"",
+                            "description":"Caffeine é uma biblioteca de armazenamento em cache quase ideal, baseada em Java 8. Fornece um cache na memória usando uma API inspirada no Google Guava. As melhorias se baseiam em nossa experiência ao projetar o cache do Guava e o ConcurrentLinkedHashMap.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQv_X0o4aWNNKg3hhG1ESNg30n9_eelbo_qCBCUpayg_3ejMuHR",
                             "content":[
                                 {
                                     "type": "Artigo",
@@ -778,7 +842,8 @@
                         },
                         {
                             "name":"Java-Redis",
-                            "description": "",
+                            "description": "O Redis é um banco NOSQL de chave valor de arquitetura distribuída feito para memória. O objetivo desse artigo é falar sobre esse banco e mostrar como implementar Coleções no Java.",
+                            "image":"https://5.imimg.com/data5/NM/XV/UM/GLADMIN-63038776/gggggggggggggggggggggg-500x500.png",
                             "content":[
                                 {
                                     "type": "Artigo",
@@ -805,7 +870,8 @@
                     "tools":[
                         {
                             "name":"Log4j",
-                            "description":"",
+                            "description":"O Log4j é uma ferramenta utilizada em aplicativos escritos na linguagem de programação Java. O log4j é um software livre de código aberto desenvolvido pela Apache Software Foundation. Ele fornece uma API para que o desenvolvedor de software possa fazer log de dados na sua aplicação.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTSleEmreR3N2fEM41cBymyWkVET3uU4wwEDIZdANi8-GEJP8_i",
                             "content":[
                                 {
                                     "type": "Artigo",
@@ -832,7 +898,8 @@
                     "tools":[
                         {
                             "name":"cron-utils",
-                            "description":"",
+                            "description":"Uma biblioteca Java para analisar, validar, migrar crons, além de obter descrições legíveis por eles. O projeto segue a Convenção de Versão Semântica, fornece metadados OSGi e usa a licença Apache 2.0.",
+                            "image":"https://assets.ximble.com/wp-content/uploads/2017/11/2017-08-20-4-Advantages-of-Using-Work-Scheduling-Software.png",
                             "content":[
                                 {
                                     "type":"Artigo",
@@ -852,7 +919,8 @@
                     "tools":[
                         {
                             "name":"JSP",
-                            "description":"",
+                            "description":"JSP é o acrônimo para Java Server Pages, uma linguagem criada pela SUN gratuita, JSP é uma linguagem de script com especificação aberta que tem como objetivo primário a geração de conteúdo dinâmico para páginas da Internet. Podemos ao invés de utilizar HTML para desenvolver páginas Web estáticas e sem funcionalidade, utilizar o JSP para criar dinamismo.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRxgr2rU8vzLZMs8ha7DECWYmqnTXTwEldOFxBAsituLHpxPCkR",
                             "content":[
                                 {
                                     "type":"Artigo",
@@ -879,7 +947,8 @@
                     "tools":[
                         {
                             "name":"Atmosphere",
-                            "description":"",
+                            "description":"O Atmosphere contém componentes do lado do cliente e do servidor para a criação de aplicativos Web assíncronos. O Atmosphere oferece suporte transparente a WebSockets, SSE (Server Sent Events), Long Polling, HTTP Streaming (Forever frame) e JSONP.",
+                            "image":"https://blog-content.sfo2.cdn.digitaloceanspaces.com/media/2018/09/Main-Image.png",
                             "content":[
                                 {
                                     "type":"Artigo",
@@ -903,10 +972,18 @@
         },
         {
             "id": 300,
-            "language": ".NET",
+            "language": "CNET",
             "logo": "",
             "color": "#76C3E3",
-            "description": "",
+            "description": "É uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. A sua sintaxe orientada a objetos foi baseada no C++ mas inclui muitas influências de outras linguagens de programação, como Object Pascal e, principalmente, Java. ",
+            "topics": []
+        },
+        {
+            "id": 400,
+            "language": "Python",
+            "logo": "",
+            "color": "#76C3E3",
+            "description": "É uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991. ",
             "topics": []
         }
     ]    

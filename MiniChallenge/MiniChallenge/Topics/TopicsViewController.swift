@@ -20,6 +20,7 @@ class TopicsViewController: UIViewController, UITableViewDataSource, UITableView
         tableView.delegate = self
         tableView.dataSource = self
         
+        self.title = lang.topics?[topicIndex].name
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -27,7 +28,7 @@ class TopicsViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return (lang.topics?.count ?? 0) + 1
+        return (lang.topics?[topicIndex].tools?.count ?? 0) + 1
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -35,49 +36,39 @@ class TopicsViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        
-        
-        
         if(indexPath.row == 0){
             if let cell = tableView.dequeueReusableCell(withIdentifier: "TopicCellHeader", for: indexPath) as? TopicsHeaderTableViewCell{
+                let topic = lang.topics?[topicIndex].name
+                let description = lang.topics?[topicIndex].description
+                let language = lang.language
                 
-                cell.topicName.text = lang.topics?[topicIndex].name
-                cell.aboutTopic.text = lang.topics?[topicIndex].description
-                cell.languageName.text = lang.language
-                
-                
-                //Borda das imagens
-                cell.studyButton.layer.borderWidth = 1
-                cell.studyButton.layer.masksToBounds = false
-                cell.studyButton.layer.borderColor = UIColor.black.cgColor
-                cell.studyButton.layer.cornerRadius = cell.studyButton.frame.height/3
-                cell.studyButton.clipsToBounds = true
-                
+                cell.setHeader(topic, description, language)
                 return cell
             }
             
         } else {
             if let cell = tableView.dequeueReusableCell(withIdentifier: "TopicCellItem", for: indexPath) as? TopicsItemTableViewCell{
+                let toolname = lang.topics?[topicIndex].tools?[indexPath.row - 1 ].name;
+                let toolamount = lang.topics?[topicIndex].tools?[indexPath.row - 1].content?.count ?? 0;
+                let description = lang.topics?[topicIndex].tools?[indexPath.row - 1 ].description;
+                let toolimage = lang.topics?[topicIndex].tools?[indexPath.row - 1].image;
                 
-                cell.topicName.text = lang.topics?[topicIndex].tools?[indexPath.row - 1 ].name
-                
-                cell.topicDescription.text = lang.topics?[topicIndex].tools?[indexPath.row - 1 ].description
-                
-                cell.howManyTools.text = String(lang.topics![topicIndex].tools!.count)
-                
-                
-                
+                cell.setItem(toolname, description, toolamount, toolimage);
                 return cell
-                
             }
-            
-            
         }
+        
         return UITableViewCell()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let dest = segue.destination as? ToolsViewController {
+            dest.lang = self.lang
+            dest.topicIndex = topicIndex
+            if let indexPath = tableView.indexPathForSelectedRow {
+                dest.toolIndex = indexPath.row - 1
+            }
+        }
     }
 
 }

@@ -15,9 +15,18 @@ class ToolsWatchTableViewCell: UITableViewCell {
     @IBOutlet weak var docSubheading: UITextView!
     @IBOutlet weak var docSource: UITextView!
     
+    
+    public func setDoc(_ image: String?, _ title: String?, _ subheading: String?, _ source: String?){
+        self.docTitle.text = title
+        self.docSubheading.text = subheading
+        self.docSource.text = source
+        
+        RequestAPI.fetchImage(image, docImage)
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        docImage.layer.cornerRadius = docImage.frame.height / 2;
+        docImage.layer.cornerRadius = 10;
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

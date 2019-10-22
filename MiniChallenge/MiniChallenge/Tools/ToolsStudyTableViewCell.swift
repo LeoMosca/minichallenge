@@ -18,9 +18,20 @@ class ToolsStudyTableViewCell: UITableViewCell {
     @IBOutlet weak var courseRating: UILabel!
     
     
+    public func setCourse(_ image: String?, _ title: String?, _ subheading: String?, _ author: String?, _ lenght: String?, _ rating: String?){
+        
+        self.courseTitle.text = title
+        self.courseSubheading.text = subheading
+        self.courseAuthor.text = author
+        self.courseLength.text = lenght
+        self.courseRating.text = rating
+        
+        RequestAPI.fetchImage(image, courseImage)
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        courseImage.layer.cornerRadius = courseImage.frame.height / 2;
+        courseImage.layer.cornerRadius = 10;
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
