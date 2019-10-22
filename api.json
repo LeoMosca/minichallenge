@@ -532,14 +532,14 @@
                     "title": "Tem um tempinho para conversarmos sobre boas práticas de programação com Java?",
                     "author": "Mariana Azevedo",
                     "url": "https://medium.com/@mari_azevedo/tem-um-tempinho-para-conversarmos-sobre-boas-práticas-de-programação-com-java-51c5bcc220ea",
-                    "rating": "4.8"
+                    "rating": 4.8
                 },
                 {
                     "origin": "DevMedia",
                     "title": "Como tratar exceções na linguagem Java",
                     "author": "Jose Fernandes",
                     "url": "https://www.devmedia.com.br/como-tratar-excecoes-na-linguagem-java/39163",
-                    "rating": "4.1"
+                    "rating": 4.1
                 }
             ],
             "topics": [
