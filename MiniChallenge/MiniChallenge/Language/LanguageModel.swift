@@ -12,4 +12,13 @@ class Language:Codable {
     var color: String?;
     var description: String?;
     var topics: [Topic]?;
+    var dailyreading: [DailyReading]?;
+}
+
+class DailyReading: Codable {
+    var origin: String?
+    var title: String?
+    var author: String?
+    var rating: Double?
+    var url: String?
 }

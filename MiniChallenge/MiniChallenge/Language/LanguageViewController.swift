@@ -33,7 +33,7 @@ class LanguageViewController: UIViewController, UITableViewDelegate, UITableView
         if(indexPath.row == 0){
             if let cell = tableView.dequeueReusableCell(withIdentifier: "languageHeader", for: indexPath) as? LanguageHeaderTableViewCell {
                 cell.setHeader(lang.language!, lang.topics!.count, nil, 30, lang.description!)
-                
+                cell.articles = lang.dailyreading ?? [];
                 return cell;
             }
         } else {
