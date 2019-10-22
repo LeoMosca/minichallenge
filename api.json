@@ -477,6 +477,7 @@
                             "image":"https://kit8.net/images/thumbnails/580/386/detailed/4/Computer@2x.png",
                             "content": [
                                 {
+                                    "id": 164,
                                     "type": "Documentação",
                                     "title":"Node Schedule",
                                     "subtitle":"Node Schedule is a flexible cron-like and not-cron-like job scheduler for Node.js.",
@@ -529,6 +530,7 @@
             "description": "É uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems. Em 2008 o Java foi adquirido pela empresa Oracle Corporation.",
             "dailyreading":[
                 {
+                    "id": 201,
                     "origin": "Medium",
                     "title": "Tem um tempinho para conversarmos sobre boas práticas de programação com Java?",
                     "author": "Mariana Azevedo",
@@ -536,6 +538,7 @@
                     "rating": 4.8
                 },
                 {
+                    "id": 202,
                     "origin": "DevMedia",
                     "title": "Como tratar exceções na linguagem Java",
                     "author": "Jose Fernandes",
@@ -550,11 +553,13 @@
                     "description": "Um package manager é uma ferramenta para instalação, remoção e atualização de softwares, que são distribuídos em pacotes.",
                     "tools": [
                         {
+                            "id": 211,
                             "name": "Gradle",
                             "description": "Gradle é um sistema de automação de compilação open source que se baseia nos conceitos de Apache Ant e Apache Maven e introduz uma linguagem de domínio específico baseada em Groovy em vez do XML usado pelo Apache Maven para declarar a configuração do projeto.",
                             "image": "https://cdn.buttercms.com/npcWmjoRyi7CBLQ6g0fQ",
                             "content": [
                                 {
+                                    "id": 212,
                                     "type": "Artigo",
                                     "title": "Começando com o Gradle",
                                     "subtitle": "Neste artigo vou falar um pouco sobre como o Gradle funciona e como podemos usá-lo no nosso dia a dia. Bora começar?",
@@ -562,6 +567,7 @@
                                     "url": "https://medium.com/collabcode/começando-com-o-gradle-4e96fd12d933"
                                 },
                                 {
+                                    "id": 213,
                                     "type":"Documentação",
                                     "title":"Gradle",
                                     "subtitle":"Gradle is an open-source build automation tool focused on flexibility and performance. Gradle build scripts are written using a Groovy or Kotlin DSL.",
@@ -571,11 +577,13 @@
                             ]
                         },
                         {
+                            "id": 214,
                             "name":"Maven",
                             "description": "Maven, é uma ferramenta de automação de compilação utilizada primariamente em projetos Java. Ela é similar à ferramenta Ant, mas é baseada em conceitos e trabalhos diferentes em um modo diferente.",
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR3WjYSiV7VCaIJutYh811HbvXVgPhaSxQR0qkefI9CDqU6blbs",
                             "content":[
                                 {
+                                    "id": 215,
                                     "type": "Artigo",
                                     "title": "Introdução ao Maven",
                                     "subtitle": "Este artigo fornece uma breve introdução à ferramenta de automação e gerenciamento de projetos, o Apache Maven, demonstrando o uso de seus principais comandos e compartilhando dicas de uso.",
@@ -583,6 +591,7 @@
                                     "url": "https://www.devmedia.com.br/introducao-ao-maven/25128"
                                 },
                                 {
+                                    "id": 216,
                                     "type":"Documentação",
                                     "title":"Maven",
                                     "subtitle":"Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.",
@@ -599,11 +608,13 @@
                     "description":"Um framework tem como foco a reusabilidade de código, dessa maneira, o desenvolvedor pode dedicar seu tempo em soluções mais complexas ao invés de ficar reescrevendo algo que já foi feito.",
                     "tools": [
                         {
+                            "id": 221,
                             "name":"Spring",
                             "description": "O Spring é um framework open source para a plataforma Java criado por Rod Johnson e descrito em seu livro 'Expert One-on-One: JEE Design e Development'. Trata-se de um framework não intrusivo, baseado nos padrões de projeto inversão de controle e injeção de dependência.",
                             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRQ8fqaQpvFKhZbZ25RXl0AL_C8zu5kdAcfukfIupAmtiwgtd-g",
                             "content": [
                                 {
+                                    "id": 222,
                                     "type": "Artigo",
                                     "title": "Java Spring MVC: Criando Aplicações Web em Java",
                                     "subtitle": "Este artigo apresenta o framework Spring MVC para a criação de aplicações Web seguindo o padrão MVC. O Spring é um dos frameworks Java mais conhecidos, e sua implementação para o padrão MVC é bastante utilizada no mercado.",
@@ -611,6 +622,7 @@
                                     "url": "https://www.devmedia.com.br/java-spring-mvc-criando-aplicacoes-web-em-java/31521"
                                 },
                                 {
+                                    "id": 223,
                                     "type":"Documentação",
                                     "title":"Learn Spring",
                                     "subtitle":"Here you'll find all the documentation and tutorials written by the Spring team.",
@@ -618,6 +630,7 @@
                                     "url":"https://spring.io/docs"
                                 },
                                 {
+                                    "id": 224,
                                     "type":"Curso",
                                     "title":"Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB",
                                     "subtitle":"Projeto full stack completo! Java Spring Boot no back end e Ionic no front end. Do design UML ao Heroku e Play Store!",
@@ -630,11 +643,13 @@
                             ]
                         },
                         {
+                            "id": 225,
                             "name":"Jersey",
                             "description": "ersey é uma estrutura de código-fonte aberto para o desenvolvimento de RESTful Web Services em Java. Ele fornece suporte para APIs JAX-RS e serve como uma Implementação de Referência JAX-RS.",
                             "image": "https://www.hostgator.com.br/blog/wp-content/uploads/2018/07/programador-front-end-blog-v01.png",
                             "content": [
                                 {
+                                    "id": 226,
                                     "type": "Artigo",
                                     "title": "Desenvolver um serviço da web RESTful usando o Jersey e o Apache Tomcat",
                                     "subtitle": "Introdução ao serviço da web RESTful",
@@ -642,6 +657,7 @@
                                     "url": "https://www.ibm.com/developerworks/br/library/wa-aj-tomcat/index.html"
                                 },
                                 {
+                                    "id": 227,
                                     "type":"Documentação",
                                     "title":"Jersey 2.29.1 User Guide",
                                     "subtitle":"Jersey is a REST framework that provides a JAX-RS (JSR-370) implementation and more",
@@ -649,6 +665,7 @@
                                     "url":"https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/index.html"
                                 },
                                 {
+                                    "id": 228,
                                     "type":"Curso",
                                     "title":"Jersey Java",
                                     "subtitle":"Jersey é uma forma fácil de criar webservices RESTFull com pouco esforço. Neste curso você aprendera como utilizar o Jersey para desenvolvedor API RESTFull utilizando as tecnologias mais recentes do Java como JAX-RS.",
@@ -661,11 +678,13 @@
                             ]
                         },
                         {
+                            "id": 229,
                             "name":"Play Framework",
                             "description":"Play Framework é um framework de aplicativos da web de código aberto que segue o padrão de arquitetura model-view-controller. É escrito em Scala e utilizável a partir de outras linguagens de programação que são compiladas no JVM Bytecode, por exemplo Java.",
                             "image": "https://i.udemycdn.com/course/750x422/298880_8785_2.jpg",
                             "content": [
                                 {
+                                    "id": 2291,
                                     "type": "Artigo",
                                     "title": "RESTful APIs with Play Framework — Part 1",
                                     "subtitle": "We will start talking about the main Play Framework characteristics, how develop RESTful services and finally how add a security level using JWT.",
@@ -673,6 +692,7 @@
                                     "url": "https://medium.com/@itrjwyss/restful-apis-with-play-framework-part-1-f154b562cdd0"
                                 },
                                 {
+                                    "id": 2292,
                                     "type":"Documentação",
                                     "title":"Play 2.7.x documentation",
                                     "subtitle":"Play is a high-productivity Java and Scala web application framework that integrates the components and APIs you need for modern web application development.",
@@ -689,11 +709,13 @@
                     "description":"Realiza a comunicação entre usúario e banco de dados, permitindo que os dados de uma aplicação sejam consistentes.",
                     "tools":[
                         {
+                            "id": 231,
                             "name":"Hibernate",
                             "description":"O Hibernate é um framework para o mapeamento objeto-relacional escrito na linguagem Java, mas também é disponível em .Net com o nome NHibernate.",
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ8yikS-F432t0NUYZW66HO3IfuMUE2ZUMaJQzoNCjOEHq2tDve",
                             "content":[
                                 {
+                                    "id": 232,
                                     "type": "Artigo",
                                     "title": "Hibernate Basics",
                                     "subtitle": "Hibernate is an ORM tool which does mapping between Objects and Relational data.Enterprise level applications typically need to interact with databases.",
@@ -701,6 +723,7 @@
                                     "url": "https://medium.com/@cinish/hibernate-basics-9142a2d90363"
                                 },
                                 {
+                                    "id": 233,
                                     "type":"Documentação",
                                     "title":"Hibernate ORM",
                                     "subtitle":"MORE THAN AN ORM, DISCOVER THE HIBERNATE GALAXY.",
@@ -708,6 +731,7 @@
                                     "url":"https://hibernate.org/orm/documentation/5.4/"
                                 },
                                 {
+                                    "id": 234,
                                     "type":"Curso",
                                     "title":"Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB",
                                     "subtitle":"Projeto full stack completo! Java Spring Boot no back end e Ionic no front end. Do design UML ao Heroku e Play Store!",
@@ -727,11 +751,13 @@
                     "description":"Essas ferramentas facilitam o trabalho do desenvolvedor ao realizar testes em suas soluções de maneira eficiente e com menos configurações.",
                     "tools":[
                         {
+                            "id": 241,
                             "name":"JUnit",
                             "description":"O JUnit é um framework open-source, que se assemelha ao raio de testes software java, criado por Erich Gamma e Kent Beck, com suporte à criação de testes automatizados na linguagem de programação Java.",
                             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQt-hTkJZYRzhm6l0nmu7xHudsqVPH9hnZqO1jM6vFRXzaSc1-X",
                             "content":[
                                 {
+                                    "id": 242,
                                     "type": "Artigo",
                                     "title": "JUnit Tutorial",
                                     "subtitle": "Neste artigo veremos como trabalhar com o JUnit e implementar testes unitários em Java.",
@@ -739,6 +765,7 @@
                                     "url": "https://www.devmedia.com.br/junit-tutorial/1432"
                                 },
                                 {
+                                    "id": 243,
                                     "type":"Documentação",
                                     "title":"JUnit 5.5.2 API",
                                     "subtitle":"The new major version of the programmer-friendly testing framework for Java",
@@ -748,11 +775,13 @@
                             ]
                         },
                         {
+                            "id": 244,
                             "name":"Cucumber",
                             "description": "Cucumber ou Pepino é uma ferramenta de software usada por programadores de computador que suporta o desenvolvimento orientado a comportamento. O ponto central da abordagem do BDD do pepino é o analisador de linguagem simples chamado Gherkin.",
                             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcStnej7qOiczhtQw_BkpsPQSwJDu_agS-qlR2a-IXf_KWaDddBd",
                             "content":[
                                 {
+                                    "id": 245,
                                     "type": "Artigo",
                                     "title": "Cucumber: Dicas e truques",
                                     "subtitle": "Existem diversas ferramentas para automação de testes, mas uma muito conhecida é o Cucumber, que possui por objetivo, tornar mais clara e coesa a especificação por exemplo, e desta forma facilitar o entendimento de todos.",
@@ -760,6 +789,7 @@
                                     "url": "https://medium.com/@diogo___miranda/cucumber-dicas-e-truques-b8601e4ed68c"
                                 },
                                 {
+                                    "id": 246,
                                     "type":"Documentação",
                                     "title":"Cucumber Guides",
                                     "subtitle":"Tools & techniques that elevate teams to greatness",
@@ -767,6 +797,7 @@
                                     "url":"https://cucumber.io/docs/guides/"
                                 },
                                 {
+                                    "id": 247,
                                     "type":"Curso",
                                     "title":"Aprenda BDD com Cucumber em JAVA",
                                     "subtitle":"Automatize critérios de aceitação tanto a nível unitário quanto em testes funcionais de aplicações Web, com Selenium",
@@ -786,11 +817,13 @@
                     "description":"Biblioteca que gerencia os logs da saída de um terminal por exemplo.",
                     "tools":[
                         {
+                            "id": 261,
                             "name":"Log4j",
                             "description":"O Log4j é uma ferramenta utilizada em aplicativos escritos na linguagem de programação Java. O log4j é um software livre de código aberto desenvolvido pela Apache Software Foundation. Ele fornece uma API para que o desenvolvedor de software possa fazer log de dados na sua aplicação.",
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTSleEmreR3N2fEM41cBymyWkVET3uU4wwEDIZdANi8-GEJP8_i",
                             "content":[
                                 {
+                                    "id": 262,
                                     "type": "Artigo",
                                     "title": "Logging With Log4j in Java",
                                     "subtitle": "Here's an introduction to logging with Log4j.",
@@ -798,6 +831,7 @@
                                     "url": "https://dzone.com/articles/logging-with-log4j-in-java"
                                 },
                                 {
+                                    "id": 263,
                                     "type":"Documentação",
                                     "title":"Log4j 2 Javadoc API Documentation",
                                     "subtitle":"A versatile logging framework",
@@ -814,11 +848,13 @@
                     "description":"Ferramenta para integrar sistemas, possibilitando benefícios como a segurança dos dados, facilidade no intercâmbio entre informações com diferentes linguagens de programação.",
                     "tools":[
                         {
+                            "id": 251,
                             "name":"okhttp",
                             "description":"HTTP é a forma de acesso de uma rede de aplicativos modernos. É assim que trocamos dados e mídia. Fazer HTTP com eficiência torna o seu material mais rápido e economiza largura de banda.",
                             "image": "https://blog.one.com/wp-content/uploads/2018/08/ssl-https-732x549.jpg",
                             "content":[
                                 {
+                                    "id": 252,
                                     "type":"Documentação",
                                     "title":"OkHttp",
                                     "subtitle":"Using OkHttp is easy. Its request/response API is designed with fluent builders and immutability. It supports both synchronous blocking calls and async calls with callbacks.",
@@ -828,11 +864,13 @@
                             ]
                         },
                         {
+                            "id": 253,
                             "name":"graphql-java",
                             "description": "GraphQL é uma linguagem de consulta para recuperar dados de um servidor. É uma alternativa ao REST, SOAP ou gRPC de alguma forma.",
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTtn4q8-7JaUKQYYagFaWZK8WwegDFtKO1zOwxK7PTVJEuOlU0Z",
                             "content":[
                                 {
+                                    "id": 254,
                                     "type":"Documentação",
                                     "title": "GraphQL Java",
                                     "subtitle": "This is the GraphQL Java Documentation.",
@@ -844,15 +882,18 @@
                     ]
                 },
                 {
+                    "id": 290,
                     "name":"Caching",
                     "description":"",
                     "tools":[
                         {
+                            "id": 291,
                             "name":"Caffeine",
                             "description":"Caffeine é uma biblioteca de armazenamento em cache quase ideal, baseada em Java 8. Fornece um cache na memória usando uma API inspirada no Google Guava. As melhorias se baseiam em nossa experiência ao projetar o cache do Guava e o ConcurrentLinkedHashMap.",
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQv_X0o4aWNNKg3hhG1ESNg30n9_eelbo_qCBCUpayg_3ejMuHR",
                             "content":[
                                 {
+                                    "id": 292,
                                     "type": "Artigo",
                                     "title": "Spring Boot + Caching",
                                     "subtitle": "This topic will give you understanding of usage Spring Boot with Caching to increase your app performance significantly.",
@@ -860,6 +901,7 @@
                                     "url": "https://medium.com/@ihorkosandiak/spring-boot-caching-d74591abe117"
                                 },
                                 {
+                                    "id": 293,
                                     "type":"Documentação",
                                     "title":"Caffeine Documentation",
                                     "subtitle":"Caffeine is a high performance, near optimal caching library based on Java 8.",
@@ -869,11 +911,13 @@
                             ]
                         },
                         {
+                            "id": 294,
                             "name":"Java-Redis",
                             "description": "O Redis é um banco NOSQL de chave valor de arquitetura distribuída feito para memória. O objetivo desse artigo é falar sobre esse banco e mostrar como implementar Coleções no Java.",
                             "image":"https://5.imimg.com/data5/NM/XV/UM/GLADMIN-63038776/gggggggggggggggggggggg-500x500.png",
                             "content":[
                                 {
+                                    "id": 295,
                                     "type": "Artigo",
                                     "title": "Java Redis: Utilizando o Redis com coleções Java",
                                     "subtitle": "O Redis é um banco NOSQL de chave valor de arquitetura distribuída feito para memória. O objetivo desse artigo é falar sobre esse banco e mostrar como implementar Coleções no Java.",
@@ -881,6 +925,7 @@
                                     "url": "https://www.devmedia.com.br/java-redis-utilizando-o-redis-com-colecoes-java/31124"
                                 },
                                 {
+                                    "id": 296,
                                     "type":"Documentação",
                                     "title":"Redis Documentation",
                                     "subtitle":"Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker.",
@@ -897,11 +942,13 @@
                     "description":"O uso de template engines no desenvolvimento de aplicações permite manipular e organizar conteúdo de forma dinâmica.",
                     "tools":[
                         {
+                            "id": 281,
                             "name":"JSP",
                             "description":"JSP é o acrônimo para Java Server Pages, uma linguagem criada pela SUN gratuita, JSP é uma linguagem de script com especificação aberta que tem como objetivo primário a geração de conteúdo dinâmico para páginas da Internet. Podemos ao invés de utilizar HTML para desenvolver páginas Web estáticas e sem funcionalidade, utilizar o JSP para criar dinamismo.",
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRxgr2rU8vzLZMs8ha7DECWYmqnTXTwEldOFxBAsituLHpxPCkR",
                             "content":[
                                 {
+                                    "id": 282,
                                     "type":"Artigo",
                                     "title":"What is JSP? Introduction to JavaServer Pages",
                                     "subtitle":"One of the original Java web technologies, JavaServer Pages is still widely used to build dynamic web pages that connect to the Java backend",
@@ -909,6 +956,7 @@
                                     "url":"https://www.javaworld.com/article/3336161/what-is-jsp-introduction-to-javaserver-pages.html"
                                 },
                                 {
+                                    "id": 283,
                                     "type":"Documentação",
                                     "title":"JavaServer Pages Documents",
                                     "subtitle":"A JSP document is a JSP page written in XML syntax",
@@ -925,11 +973,13 @@
                     "description":"Essas ferramentas permitem que você agende alguma função para rodar em um horário pré-determinado.",
                     "tools":[
                         {
+                            "id": 271,
                             "name":"cron-utils",
                             "description":"Uma biblioteca Java para analisar, validar, migrar crons, além de obter descrições legíveis por eles. O projeto segue a Convenção de Versão Semântica, fornece metadados OSGi e usa a licença Apache 2.0.",
                             "image":"https://cdn.dribbble.com/users/2745343/screenshots/6810669/booking_schedule_isometric_illustration-05_2x.jpg",
                             "content":[
                                 {
+                                    "id": 272,
                                     "type":"Documentação",
                                     "title":"cron-utils documentation",
                                     "subtitle":"A Java library to parse, validate, migrate crons as well as get human readable descriptions for them.",
@@ -941,16 +991,18 @@
                     ]
                 },              
                 {
-                    "id": 290,
+                    "id": 275,
                     "name":"Real Time Communication",
                     "description":"Utilizados com intuito de agilizar a construção de aplicações real-time bidirecionais. Como por exemplo webchats.",
                     "tools":[
                         {
+                            "id": 276,
                             "name":"Atmosphere",
                             "description":"O Atmosphere contém componentes do lado do cliente e do servidor para a criação de aplicativos Web assíncronos. O Atmosphere oferece suporte transparente a WebSockets, SSE (Server Sent Events), Long Polling, HTTP Streaming (Forever frame) e JSONP.",
                             "image":"https://blog-content.sfo2.cdn.digitaloceanspaces.com/media/2018/09/Main-Image.png",
                             "content":[
                                 {
+                                    "id": 277,
                                     "type":"Artigo",
                                     "title":"Understanding the Atmosphere Framework!",
                                     "subtitle":"Let's build a Cloud Enabled Chat Application",
@@ -958,6 +1010,7 @@
                                     "url":"http://async-io.org/tutorial.html"
                                 },
                                 {
+                                    "id": 278,
                                     "type":"Documentação",
                                     "title":"Atmosphere Documentation",
                                     "subtitle":"The Atmosphere Framework is designed to make it easier to build Asynchronous Web applications that include a mix of WebSocket, Comet and RESTful behavior.",
