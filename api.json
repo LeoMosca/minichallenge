@@ -695,10 +695,10 @@
                             "content":[
                                 {
                                     "type": "Artigo",
-                                    "title": "",
-                                    "subtitle": "",
+                                    "title": "Hibernate Basics",
+                                    "subtitle": "Hibernate is an ORM tool which does mapping between Objects and Relational data.Enterprise level applications typically need to interact with databases.",
                                     "image": "",
-                                    "url": ""
+                                    "url": "https://medium.com/@cinish/hibernate-basics-9142a2d90363"
                                 },
                                 {
                                     "type":"Documentação",
@@ -874,11 +874,14 @@
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTSleEmreR3N2fEM41cBymyWkVET3uU4wwEDIZdANi8-GEJP8_i",
                             "content":[
                                 {
-                                    "type": "Artigo",
-                                    "title": "",
-                                    "subtitle": "",
-                                    "image": "",
-                                    "url": ""
+                                    "type":"Curso",
+                                    "title":"Jersey Java",
+                                    "subtitle":"Jersey é uma forma fácil de criar webservices RESTFull com pouco esforço. Neste curso você aprendera como utilizar o Jersey para desenvolvedor API RESTFull utilizando as tecnologias mais recentes do Java como JAX-RS.",
+                                    "image":"",
+                                    "url":"https://www.schoolofnet.com/curso/java/frameworks-java/jersey-java/",
+                                    "rating":"101 minutos",
+                                    "author":"Leonan Luppi",
+                                    "duration":"6 horas"
                                 },
                                 {
                                     "type":"Documentação",
@@ -924,17 +927,17 @@
                             "content":[
                                 {
                                     "type":"Artigo",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "title":"What is JSP? Introduction to JavaServer Pages",
+                                    "subtitle":"One of the original Java web technologies, JavaServer Pages is still widely used to build dynamic web pages that connect to the Java backend",
                                     "image":"",
-                                    "url":""
+                                    "url":"https://www.javaworld.com/article/3336161/what-is-jsp-introduction-to-javaserver-pages.html"
                                 },
                                 {
                                     "type":"Documentação",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "title":"JavaServer Pages Documents",
+                                    "subtitle":"A JSP document is a JSP page written in XML syntax",
                                     "image":"",
-                                    "url":""
+                                    "url":"https://docs.oracle.com/javaee/5/tutorial/doc/bnajo.html"
                                 }
                             ]
                         }
@@ -952,10 +955,10 @@
                             "content":[
                                 {
                                     "type":"Artigo",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "title":"Understanding the Atmosphere Framework!",
+                                    "subtitle":"Let's build a Cloud Enabled Chat Application",
                                     "image":"",
-                                    "url":""
+                                    "url":"http://async-io.org/tutorial.html"
                                 },
                                 {
                                     "type":"Documentação",
