@@ -791,14 +791,11 @@
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTSleEmreR3N2fEM41cBymyWkVET3uU4wwEDIZdANi8-GEJP8_i",
                             "content":[
                                 {
-                                    "type":"Curso",
-                                    "title":"Jersey Java",
-                                    "subtitle":"Jersey é uma forma fácil de criar webservices RESTFull com pouco esforço. Neste curso você aprendera como utilizar o Jersey para desenvolvedor API RESTFull utilizando as tecnologias mais recentes do Java como JAX-RS.",
-                                    "image":"",
-                                    "url":"https://www.schoolofnet.com/curso/java/frameworks-java/jersey-java/",
-                                    "rating":"101 minutos",
-                                    "author":"Leonan Luppi",
-                                    "duration":"6 horas"
+                                    "type": "Artigo",
+                                    "title": "Logging With Log4j in Java",
+                                    "subtitle": "Here's an introduction to logging with Log4j.",
+                                    "image": "",
+                                    "url": "https://dzone.com/articles/logging-with-log4j-in-java"
                                 },
                                 {
                                     "type":"Documentação",
