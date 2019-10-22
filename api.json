@@ -733,17 +733,17 @@
                             "content":[
                                 {
                                     "type": "Artigo",
-                                    "title": "",
-                                    "subtitle": "",
+                                    "title": "JUnit Tutorial",
+                                    "subtitle": "Neste artigo veremos como trabalhar com o JUnit e implementar testes unitários em Java.",
                                     "image": "",
-                                    "url": ""
+                                    "url": "https://www.devmedia.com.br/junit-tutorial/1432"
                                 },
                                 {
                                     "type":"Documentação",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "title":"JUnit 5.5.2 API",
+                                    "subtitle":"The new major version of the programmer-friendly testing framework for Java",
                                     "image":"",
-                                    "url":""
+                                    "url":"https://junit.org/junit5/docs/current/api/"
                                 }
                             ]
                         },
@@ -754,27 +754,27 @@
                             "content":[
                                 {
                                     "type": "Artigo",
-                                    "title": "",
-                                    "subtitle": "",
+                                    "title": "Cucumber: Dicas e truques",
+                                    "subtitle": "Existem diversas ferramentas para automação de testes, mas uma muito conhecida é o Cucumber, que possui por objetivo, tornar mais clara e coesa a especificação por exemplo, e desta forma facilitar o entendimento de todos.",
                                     "image": "",
-                                    "url": ""
+                                    "url": "https://medium.com/@diogo___miranda/cucumber-dicas-e-truques-b8601e4ed68c"
                                 },
                                 {
                                     "type":"Documentação",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "title":"Cucumber Guides",
+                                    "subtitle":"Tools & techniques that elevate teams to greatness",
                                     "image":"",
-                                    "url":""
+                                    "url":"https://cucumber.io/docs/guides/"
                                 },
                                 {
                                     "type":"Curso",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "title":"Aprenda BDD com Cucumber em JAVA",
+                                    "subtitle":"Automatize critérios de aceitação tanto a nível unitário quanto em testes funcionais de aplicações Web, com Selenium",
                                     "image":"",
-                                    "url":"",
-                                    "rating":"",
-                                    "author":"",
-                                    "duration":""
+                                    "url":"https://www.udemy.com/course/cucumber-java/",
+                                    "rating":4.4,
+                                    "author":"Francisco Wagner Costa Aquino",
+                                    "duration":"6 horas"
                                 }
                             ]
                         }
@@ -792,10 +792,10 @@
                             "content":[
                                 {
                                     "type":"Documentação",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "title":"OkHttp",
+                                    "subtitle":"Using OkHttp is easy. Its request/response API is designed with fluent builders and immutability. It supports both synchronous blocking calls and async calls with callbacks.",
                                     "image":"",
-                                    "url":""
+                                    "url":"https://square.github.io/okhttp/"
                                 }
                             ]
                         },
@@ -806,10 +806,10 @@
                             "content":[
                                 {
                                     "type":"Documentação",
-                                    "title": "",
-                                    "subtitle": "",
+                                    "title": "GraphQL Java",
+                                    "subtitle": "This is the GraphQL Java Documentation.",
                                     "image": "",
-                                    "url": ""
+                                    "url": "https://www.graphql-java.com/documentation/v13/"
                                 }
                             ]
                         }
@@ -826,17 +826,17 @@
                             "content":[
                                 {
                                     "type": "Artigo",
-                                    "title": "",
-                                    "subtitle": "",
+                                    "title": "Spring Boot + Caching",
+                                    "subtitle": "This topic will give you understanding of usage Spring Boot with Caching to increase your app performance significantly.",
                                     "image": "",
-                                    "url": ""
+                                    "url": "https://medium.com/@ihorkosandiak/spring-boot-caching-d74591abe117"
                                 },
                                 {
                                     "type":"Documentação",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "title":"Caffeine Documentation",
+                                    "subtitle":"Caffeine is a high performance, near optimal caching library based on Java 8.",
                                     "image":"",
-                                    "url":""
+                                    "url":"https://github.com/ben-manes/caffeine"
                                 }
                             ]
                         },
@@ -847,17 +847,17 @@
                             "content":[
                                 {
                                     "type": "Artigo",
-                                    "title": "",
-                                    "subtitle": "",
+                                    "title": "Java Redis: Utilizando o Redis com coleções Java",
+                                    "subtitle": "O Redis é um banco NOSQL de chave valor de arquitetura distribuída feito para memória. O objetivo desse artigo é falar sobre esse banco e mostrar como implementar Coleções no Java.",
                                     "image": "",
-                                    "url": ""
+                                    "url": "https://www.devmedia.com.br/java-redis-utilizando-o-redis-com-colecoes-java/31124"
                                 },
                                 {
                                     "type":"Documentação",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "title":"Redis Documentation",
+                                    "subtitle":"Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker.",
                                     "image":"",
-                                    "url":""
+                                    "url":"https://redis.io/documentation"
                                 }
                             ]
                         }
@@ -882,10 +882,10 @@
                                 },
                                 {
                                     "type":"Documentação",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "title":"Log4j 2 Javadoc API Documentation",
+                                    "subtitle":"A versatile logging framework",
                                     "image":"",
-                                    "url":""
+                                    "url":"https://logging.apache.org/log4j/2.x/javadoc.html"
                                 }
                             ]
                         }
@@ -902,11 +902,11 @@
                             "image":"https://assets.ximble.com/wp-content/uploads/2017/11/2017-08-20-4-Advantages-of-Using-Work-Scheduling-Software.png",
                             "content":[
                                 {
-                                    "type":"Artigo",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "type":"Documentação",
+                                    "title":"cron-utils documentation",
+                                    "subtitle":"A Java library to parse, validate, migrate crons as well as get human readable descriptions for them.",
                                     "image":"",
-                                    "url":""
+                                    "url":"https://github.com/jmrozanec/cron-utils"
                                 }
                             ]
                         }
@@ -959,10 +959,10 @@
                                 },
                                 {
                                     "type":"Documentação",
-                                    "title":"",
-                                    "subtitle":"",
+                                    "title":"Atmosphere Documentation",
+                                    "subtitle":"The Atmosphere Framework is designed to make it easier to build Asynchronous Web applications that include a mix of WebSocket, Comet and RESTful behavior.",
                                     "image":"",
-                                    "url":""
+                                    "url":"https://github.com/Atmosphere/atmosphere/wiki"
                                 }
                             ]
                         }
