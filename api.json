@@ -552,7 +552,7 @@
                         {
                             "name": "Gradle",
                             "description": "Gradle é um sistema de automação de compilação open source que se baseia nos conceitos de Apache Ant e Apache Maven e introduz uma linguagem de domínio específico baseada em Groovy em vez do XML usado pelo Apache Maven para declarar a configuração do projeto.",
-                            "image": "https://dwglogo.com/wp-content/uploads/2017/12/Gradle_logo_01.png",
+                            "image": "https://cdn.buttercms.com/npcWmjoRyi7CBLQ6g0fQ",
                             "content": [
                                 {
                                     "type": "Artigo",
@@ -902,7 +902,7 @@
                         {
                             "name":"cron-utils",
                             "description":"Uma biblioteca Java para analisar, validar, migrar crons, além de obter descrições legíveis por eles. O projeto segue a Convenção de Versão Semântica, fornece metadados OSGi e usa a licença Apache 2.0.",
-                            "image":"https://assets.ximble.com/wp-content/uploads/2017/11/2017-08-20-4-Advantages-of-Using-Work-Scheduling-Software.png",
+                            "image":"https://cdn.dribbble.com/users/2745343/screenshots/6810669/booking_schedule_isometric_illustration-05_2x.jpg",
                             "content":[
                                 {
                                     "type":"Documentação",
