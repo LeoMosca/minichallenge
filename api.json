@@ -557,14 +557,14 @@
                                     "type": "Artigo",
                                     "title": "Começando com o Gradle",
                                     "subtitle": "Neste artigo vou falar um pouco sobre como o Gradle funciona e como podemos usá-lo no nosso dia a dia. Bora começar?",
-                                    "image": "",
+                                    "image": "https://www.maistecnologia.com/wp-content/uploads/2017/01/medium.png",
                                     "url": "https://medium.com/collabcode/começando-com-o-gradle-4e96fd12d933"
                                 },
                                 {
                                     "type":"Documentação",
                                     "title":"Gradle",
                                     "subtitle":"Gradle is an open-source build automation tool focused on flexibility and performance. Gradle build scripts are written using a Groovy or Kotlin DSL.",
-                                    "image":"",
+                                    "image":"https://jaxenter.com/wp-content/uploads/2016/06/Screen-Shot-2016-06-06-at-2.56.13-PM.png",
                                     "url":"https://docs.gradle.org/current/userguide/building_java_projects.html"
                                 }
                             ]
@@ -578,14 +578,14 @@
                                     "type": "Artigo",
                                     "title": "Introdução ao Maven",
                                     "subtitle": "Este artigo fornece uma breve introdução à ferramenta de automação e gerenciamento de projetos, o Apache Maven, demonstrando o uso de seus principais comandos e compartilhando dicas de uso.",
-                                    "image": "",
+                                    "image": "https://i.ytimg.com/vi/ZynxeakqGqs/maxresdefault.jpg",
                                     "url": "https://www.devmedia.com.br/introducao-ao-maven/25128"
                                 },
                                 {
                                     "type":"Documentação",
                                     "title":"Maven",
                                     "subtitle":"Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.",
-                                    "image":"",
+                                    "image":"https://arquivo.devmedia.com.br/marketing/img/artigo-introducao-ao-maven-25128.png",
                                     "url":"https://maven.apache.org/guides/"
                                 }
                             ]
@@ -606,21 +606,21 @@
                                     "type": "Artigo",
                                     "title": "Java Spring MVC: Criando Aplicações Web em Java",
                                     "subtitle": "Este artigo apresenta o framework Spring MVC para a criação de aplicações Web seguindo o padrão MVC. O Spring é um dos frameworks Java mais conhecidos, e sua implementação para o padrão MVC é bastante utilizada no mercado.",
-                                    "image": "",
+                                    "image": "https://i.ytimg.com/vi/t4m7UjEJw1Q/maxresdefault.jpg",
                                     "url": "https://www.devmedia.com.br/java-spring-mvc-criando-aplicacoes-web-em-java/31521"
                                 },
                                 {
                                     "type":"Documentação",
                                     "title":"Learn Spring",
                                     "subtitle":"Here you'll find all the documentation and tutorials written by the Spring team.",
-                                    "image":"",
+                                    "image":"https://arquivo.devmedia.com.br/noticias/artigos/artigo_spring-mvc-construa-aplicacoes-responsivas-com-bootstrap_32178.png",
                                     "url":"https://spring.io/docs"
                                 },
                                 {
                                     "type":"Curso",
                                     "title":"Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB",
                                     "subtitle":"Projeto full stack completo! Java Spring Boot no back end e Ionic no front end. Do design UML ao Heroku e Play Store!",
-                                    "image":"",
+                                    "image":"https://i.udemycdn.com/course/750x422/684824_3626_2.jpg",
                                     "url":"https://www.udemy.com/course/spring-boot-ionic/",
                                     "rating":"4.7",
                                     "author":"Nelio Alves",
@@ -637,21 +637,21 @@
                                     "type": "Artigo",
                                     "title": "Desenvolver um serviço da web RESTful usando o Jersey e o Apache Tomcat",
                                     "subtitle": "Introdução ao serviço da web RESTful",
-                                    "image": "",
+                                    "image": "https://i.ytimg.com/vi/cl0Yc6UhYy4/maxresdefault.jpg",
                                     "url": "https://www.ibm.com/developerworks/br/library/wa-aj-tomcat/index.html"
                                 },
                                 {
                                     "type":"Documentação",
                                     "title":"Jersey 2.29.1 User Guide",
                                     "subtitle":"Jersey is a REST framework that provides a JAX-RS (JSR-370) implementation and more",
-                                    "image":"",
+                                    "image":"https://arquivo.devmedia.com.br/cursos/imagem/curso_web-services-restful-crud-1-n-com-jersey-e-hibernate_2113.png",
                                     "url":"https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/index.html"
                                 },
                                 {
                                     "type":"Curso",
                                     "title":"Jersey Java",
                                     "subtitle":"Jersey é uma forma fácil de criar webservices RESTFull com pouco esforço. Neste curso você aprendera como utilizar o Jersey para desenvolvedor API RESTFull utilizando as tecnologias mais recentes do Java como JAX-RS.",
-                                    "image":"",
+                                    "image":"https://i.ytimg.com/vi/VdlrmWvDW1Q/maxresdefault.jpg",
                                     "url":"https://www.schoolofnet.com/curso/java/frameworks-java/jersey-java/",
                                     "rating":"",
                                     "author":"",
@@ -668,14 +668,14 @@
                                     "type": "Artigo",
                                     "title": "RESTful APIs with Play Framework — Part 1",
                                     "subtitle": "We will start talking about the main Play Framework characteristics, how develop RESTful services and finally how add a security level using JWT.",
-                                    "image": "https://miro.medium.com/max/4308/1*N0AUKlttflxzr8Ij-DfC7Q.png",
+                                    "image": "https://arquivo.devmedia.com.br/marketing/img/artigo-conhecendo-o-play-framework-para-java-26655.png",
                                     "url": "https://medium.com/@itrjwyss/restful-apis-with-play-framework-part-1-f154b562cdd0"
                                 },
                                 {
                                     "type":"Documentação",
                                     "title":"Play 2.7.x documentation",
                                     "subtitle":"Play is a high-productivity Java and Scala web application framework that integrates the components and APIs you need for modern web application development.",
-                                    "image":"",
+                                    "image":"https://logz.io/wp-content/uploads/2015/01/play-framework.jpg",
                                     "url":"https://www.playframework.com/documentation/2.7.x/Home"
                                 }
                             ]
@@ -703,14 +703,14 @@
                                     "type":"Documentação",
                                     "title":"Hibernate ORM",
                                     "subtitle":"MORE THAN AN ORM, DISCOVER THE HIBERNATE GALAXY.",
-                                    "image":"",
+                                    "image":"https://arquivo.devmedia.com.br/marketing/img/guia-hibernate-38312.png",
                                     "url":"https://hibernate.org/orm/documentation/5.4/"
                                 },
                                 {
                                     "type":"Curso",
                                     "title":"Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB",
                                     "subtitle":"Projeto full stack completo! Java Spring Boot no back end e Ionic no front end. Do design UML ao Heroku e Play Store!",
-                                    "image":"",
+                                    "image":"https://cdn-statics.engenhariae.com.br/wp-content/uploads/2019/07/udemy.png",
                                     "url":"https://www.udemy.com/course/spring-boot-ionic/",
                                     "rating":"4.7",
                                     "author":"Nelio Alves",
@@ -734,14 +734,14 @@
                                     "type": "Artigo",
                                     "title": "JUnit Tutorial",
                                     "subtitle": "Neste artigo veremos como trabalhar com o JUnit e implementar testes unitários em Java.",
-                                    "image": "",
+                                    "image": "https://bs-uploads.toptal.io/blackfish-uploads/blog/article/content/cover_image_file/cover_image/39691/0826-GuideToJUnitTests-Luke_Newsletter-7cd0cebb64023659ae63d9c98786e09a.png",
                                     "url": "https://www.devmedia.com.br/junit-tutorial/1432"
                                 },
                                 {
                                     "type":"Documentação",
                                     "title":"JUnit 5.5.2 API",
                                     "subtitle":"The new major version of the programmer-friendly testing framework for Java",
-                                    "image":"",
+                                    "image":"https://arquivo.devmedia.com.br/cursos/imagem/curso_o-que-e-junit_2075.png",
                                     "url":"https://junit.org/junit5/docs/current/api/"
                                 }
                             ]
@@ -755,21 +755,21 @@
                                     "type": "Artigo",
                                     "title": "Cucumber: Dicas e truques",
                                     "subtitle": "Existem diversas ferramentas para automação de testes, mas uma muito conhecida é o Cucumber, que possui por objetivo, tornar mais clara e coesa a especificação por exemplo, e desta forma facilitar o entendimento de todos.",
-                                    "image": "",
+                                    "image": "https://miro.medium.com/max/3200/1*CcRxjFZuH_ZCGoFou_SpUg.jpeg",
                                     "url": "https://medium.com/@diogo___miranda/cucumber-dicas-e-truques-b8601e4ed68c"
                                 },
                                 {
                                     "type":"Documentação",
                                     "title":"Cucumber Guides",
                                     "subtitle":"Tools & techniques that elevate teams to greatness",
-                                    "image":"",
+                                    "image":"https://i.udemycdn.com/course/750x422/1667758_9a41.jpg",
                                     "url":"https://cucumber.io/docs/guides/"
                                 },
                                 {
                                     "type":"Curso",
                                     "title":"Aprenda BDD com Cucumber em JAVA",
                                     "subtitle":"Automatize critérios de aceitação tanto a nível unitário quanto em testes funcionais de aplicações Web, com Selenium",
-                                    "image":"",
+                                    "image":"https://img.ibxk.com.br/2015/11/30/30104022806094.jpg?w=1120&h=420&mode=crop&scale=both",
                                     "url":"https://www.udemy.com/course/cucumber-java/",
                                     "rating":"4.4",
                                     "author":"Francisco Wagner Costa Aquino",
@@ -793,7 +793,7 @@
                                     "type":"Documentação",
                                     "title":"OkHttp",
                                     "subtitle":"Using OkHttp is easy. Its request/response API is designed with fluent builders and immutability. It supports both synchronous blocking calls and async calls with callbacks.",
-                                    "image":"",
+                                    "image":"https://kinsta.com/pt/wp-content/uploads/sites/3/2019/06/que-e-o-github.png",
                                     "url":"https://square.github.io/okhttp/"
                                 }
                             ]
@@ -807,7 +807,7 @@
                                     "type":"Documentação",
                                     "title": "GraphQL Java",
                                     "subtitle": "This is the GraphQL Java Documentation.",
-                                    "image": "",
+                                    "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--Mhn2aEAO--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/4m1d5u8bc0phszru265p.png",
                                     "url": "https://www.graphql-java.com/documentation/v13/"
                                 }
                             ]
@@ -827,14 +827,14 @@
                                     "type": "Artigo",
                                     "title": "Spring Boot + Caching",
                                     "subtitle": "This topic will give you understanding of usage Spring Boot with Caching to increase your app performance significantly.",
-                                    "image": "",
+                                    "image": "http://www.fao.org/fileadmin/templates/cfs/images/multimedia/Medium.png",
                                     "url": "https://medium.com/@ihorkosandiak/spring-boot-caching-d74591abe117"
                                 },
                                 {
                                     "type":"Documentação",
                                     "title":"Caffeine Documentation",
                                     "subtitle":"Caffeine is a high performance, near optimal caching library based on Java 8.",
-                                    "image":"",
+                                    "image":"https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2019/06/machine_learning_github.jpg",
                                     "url":"https://github.com/ben-manes/caffeine"
                                 }
                             ]
@@ -848,14 +848,14 @@
                                     "type": "Artigo",
                                     "title": "Java Redis: Utilizando o Redis com coleções Java",
                                     "subtitle": "O Redis é um banco NOSQL de chave valor de arquitetura distribuída feito para memória. O objetivo desse artigo é falar sobre esse banco e mostrar como implementar Coleções no Java.",
-                                    "image": "",
+                                    "image": "https://arquivo.devmedia.com.br/midiasocial/home-devmedia-facebook.jpg",
                                     "url": "https://www.devmedia.com.br/java-redis-utilizando-o-redis-com-colecoes-java/31124"
                                 },
                                 {
                                     "type":"Documentação",
                                     "title":"Redis Documentation",
                                     "subtitle":"Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker.",
-                                    "image":"",
+                                    "image":"https://i.ytimg.com/vi/BlRBy-wtAm8/maxresdefault.jpg",
                                     "url":"https://redis.io/documentation"
                                 }
                             ]
@@ -883,7 +883,7 @@
                                     "type":"Documentação",
                                     "title":"Log4j 2 Javadoc API Documentation",
                                     "subtitle":"A versatile logging framework",
-                                    "image":"",
+                                    "image":"https://blogeduonix-2f3a.kxcdn.com/wp-content/uploads/2017/07/configuration.jpg",
                                     "url":"https://logging.apache.org/log4j/2.x/javadoc.html"
                                 }
                             ]
@@ -904,7 +904,7 @@
                                     "type":"Documentação",
                                     "title":"cron-utils documentation",
                                     "subtitle":"A Java library to parse, validate, migrate crons as well as get human readable descriptions for them.",
-                                    "image":"",
+                                    "image":"https://www.bleepstatic.com/content/hl-images/2017/03/29/GitHub.jpg",
                                     "url":"https://github.com/jmrozanec/cron-utils"
                                 }
                             ]
@@ -960,7 +960,7 @@
                                     "type":"Documentação",
                                     "title":"Atmosphere Documentation",
                                     "subtitle":"The Atmosphere Framework is designed to make it easier to build Asynchronous Web applications that include a mix of WebSocket, Comet and RESTful behavior.",
-                                    "image":"",
+                                    "image":"https://pbs.twimg.com/media/DwVDXriXgAMiyIn.jpg:large",
                                     "url":"https://github.com/Atmosphere/atmosphere/wiki"
                                 }
                             ]
