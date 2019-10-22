@@ -12,15 +12,14 @@
                     "title": "Criando serviço de microblog com Node.js",
                     "author": "Rafael Milléo",
                     "url": "https://www.devmedia.com.br/criando-servico-de-microblog-com-node-js/31036",
-                    "rating": 4.2
+                    "rating": "4.2"
                 },
                 {
                     "origin":"Medium",
                     "title": "Organizando seu projeto em Node.js",
                     "author": "Felipe Batista",
                     "url": "https://medium.com/@febatista107/organizando-seu-projeto-em-node-js-be465c14d19",
-                    "rating": 4.5
-                }
+                    "rating": "4.5"                }
             ],
             "topics": [
                 {
@@ -533,14 +532,14 @@
                     "title": "Tem um tempinho para conversarmos sobre boas práticas de programação com Java?",
                     "author": "Mariana Azevedo",
                     "url": "https://medium.com/@mari_azevedo/tem-um-tempinho-para-conversarmos-sobre-boas-práticas-de-programação-com-java-51c5bcc220ea",
-                    "rating": 4.8
+                    "rating": "4.8"
                 },
                 {
                     "origin": "DevMedia",
                     "title": "Como tratar exceções na linguagem Java",
                     "author": "Jose Fernandes",
                     "url": "https://www.devmedia.com.br/como-tratar-excecoes-na-linguagem-java/39163",
-                    "rating": 4.1
+                    "rating": "4.1"
                 }
             ],
             "topics": [
@@ -623,7 +622,7 @@
                                     "subtitle":"Projeto full stack completo! Java Spring Boot no back end e Ionic no front end. Do design UML ao Heroku e Play Store!",
                                     "image":"",
                                     "url":"https://www.udemy.com/course/spring-boot-ionic/",
-                                    "rating":4.7,
+                                    "rating":"4.7",
                                     "author":"Nelio Alves",
                                     "duration":"31 horas"
                                 }
@@ -713,7 +712,7 @@
                                     "subtitle":"Projeto full stack completo! Java Spring Boot no back end e Ionic no front end. Do design UML ao Heroku e Play Store!",
                                     "image":"",
                                     "url":"https://www.udemy.com/course/spring-boot-ionic/",
-                                    "rating":4.7,
+                                    "rating":"4.7",
                                     "author":"Nelio Alves",
                                     "duration":"31 horas"
                                 }
@@ -772,7 +771,7 @@
                                     "subtitle":"Automatize critérios de aceitação tanto a nível unitário quanto em testes funcionais de aplicações Web, com Selenium",
                                     "image":"",
                                     "url":"https://www.udemy.com/course/cucumber-java/",
-                                    "rating":4.4,
+                                    "rating":"4.4",
                                     "author":"Francisco Wagner Costa Aquino",
                                     "duration":"6 horas"
                                 }
