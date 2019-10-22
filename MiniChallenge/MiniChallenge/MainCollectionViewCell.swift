@@ -18,7 +18,7 @@ class MainCollectionViewCell: UICollectionViewCell {
         self.language.text = language;
         self.topics.text = String(topics) + " tópico" + (topics != 1 ? "s" : "")
         self.icon_wrapper.layer.borderColor = UIColor(hex: color).cgColor
-        self.languageicon.image = UIImage(named: language)
+        self.languageicon.image = UIImage(named: language + "Icon")!.withRenderingMode(.alwaysTemplate)
         self.languageicon.tintColor = UIColor(hex: color)
     }
     

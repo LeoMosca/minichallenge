@@ -33,13 +33,14 @@ class LanguageViewController: UIViewController, UITableViewDelegate, UITableView
         if(indexPath.row == 0){
             if let cell = tableView.dequeueReusableCell(withIdentifier: "languageHeader", for: indexPath) as? LanguageHeaderTableViewCell {
                 cell.setHeader(lang.language!, lang.topics!.count, nil, 30, lang.description!)
+                cell.setFavoriteColor(lang.color)
                 cell.articles = lang.dailyreading ?? [];
                 return cell;
             }
         } else {
             if let cell = tableView.dequeueReusableCell(withIdentifier: "languageCell", for: indexPath) as? LanguageItemTableViewCell {
                 let topic = lang.topics![indexPath.row - 1]
-                cell.setItem(topic.name!, topic.tools!.count, "estrela")
+                cell.setItem(topic.name!, topic.tools!.count)
                 
                 return cell;
             }

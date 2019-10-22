@@ -13,10 +13,10 @@ class LanguageItemTableViewCell: UITableViewCell {
     @IBOutlet weak var item: UILabel!
     @IBOutlet weak var icon: UIImageView!
     
-    public func setItem(_ name: String, _ items: Int, _ icon: String){
+    public func setItem(_ name: String, _ items: Int){
         self.name.text = name;
         self.item.text = String(items) + " itens";
-        self.icon.image = UIImage(named: icon);
+        self.icon.image = UIImage(named: "[Ico] " + name);
     }
     
     override func awakeFromNib() {

@@ -9,7 +9,6 @@
 import UIKit
 
 class LanguageHeaderTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionViewDataSource {
-    
     var articles:[DailyReading] = []
     
     @IBOutlet weak var name: UILabel!
@@ -17,6 +16,7 @@ class LanguageHeaderTableViewCell: UITableViewCell, UICollectionViewDelegate, UI
     @IBOutlet weak var items: UILabel!
     @IBOutlet weak var desc: UITextView!
     @IBOutlet weak var background: UIImageView!
+    @IBOutlet weak var favorite: UIImageView!
     
     @IBOutlet weak var favbutton: UIView!
     @IBOutlet weak var dailyreading: UICollectionView!
@@ -27,6 +27,11 @@ class LanguageHeaderTableViewCell: UITableViewCell, UICollectionViewDelegate, UI
         self.items.text = String(items) + " materials";
         self.desc.text = String(desc);
         self.background.image = UIImage(named: (name + "BG") )
+    }
+    
+    public func setFavoriteColor(_ hex: String?){
+        self.favorite.image = self.favorite.image!.withRenderingMode(.alwaysTemplate)
+        self.favorite.tintColor = UIColor(hex: hex ?? "#000000");
     }
 
     override func awakeFromNib() {

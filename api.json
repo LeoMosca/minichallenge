@@ -302,6 +302,37 @@
                     ]
                 },
                 {
+                    "id": 150,
+                    "name": "Logger",
+                    "description":"Biblioteca que gerencia os logs da saída de um terminal por exemplo.",
+                    "tools": [
+                        {
+                            "id": 151,
+                            "name": "Winston JS",
+                            "description":"É uma biblioteca de registro JavaScript que simplifica muito o registro em vários locais de armazenamento persistentes, como bancos de dados ou arquivos.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRwk4728NojyP-fZlvYuJHbgfkYvkJ1BBVDHPd6c_5vubL-1zR-",
+                            "content": [
+                                {
+                                    "id": 152,
+                                    "type": "Artigo",
+                                    "title":"Wiston: A Better Way To Log - Medium",
+                                    "subtitle":"It is often used during the development process to help know what value certain variables have during an application’s execution.",
+                                    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0iQO15rKejZ_bVjA8BZvBWrIiKxNdsvLegTh0TQ7mYjHWXDLH",
+                                    "url":"https://medium.com/@davidmcintosh/winston-a-better-way-to-log-793ac19044c5"
+                                },
+                                {
+                                    "id": 153,
+                                    "type": "Documentação",
+                                    "title":"WinstonJS: A Logger for just avout everything",
+                                    "subtitle":"Winston is designed to be a simple and universal logging library with support for multiple transports. A transport is essentially a storage device for your logs.",
+                                    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYZdiDCDtZoAlX3WHxYmE98YT7tXLHvb2KJFsxBKoCh9p2g_e4",
+                                    "url":"https://github.com/winstonjs/winston"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "id": 140,
                     "name": "API Clients",
                     "description":"Ferramenta para integrar sistemas, possibilitando benefícios como a segurança dos dados, facilidade no intercâmbio entre informações com diferentes linguagens de programação.",
@@ -343,75 +374,6 @@
                                     "subtitle":"GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data.",
                                     "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVtflSQYNUEtpj-sjyCMb5XHkdQmhPkoLdQULl9Bsuc5tRHsQ9",
                                     "url":"https://graphql.org"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": 150,
-                    "name": "Logger",
-                    "description":"Biblioteca que gerencia os logs da saída de um terminal por exemplo.",
-                    "tools": [
-                        {
-                            "id": 151,
-                            "name": "Winston JS",
-                            "description":"É uma biblioteca de registro JavaScript que simplifica muito o registro em vários locais de armazenamento persistentes, como bancos de dados ou arquivos.",
-                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRwk4728NojyP-fZlvYuJHbgfkYvkJ1BBVDHPd6c_5vubL-1zR-",
-                            "content": [
-                                {
-                                    "id": 152,
-                                    "type": "Artigo",
-                                    "title":"Wiston: A Better Way To Log - Medium",
-                                    "subtitle":"It is often used during the development process to help know what value certain variables have during an application’s execution.",
-                                    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0iQO15rKejZ_bVjA8BZvBWrIiKxNdsvLegTh0TQ7mYjHWXDLH",
-                                    "url":"https://medium.com/@davidmcintosh/winston-a-better-way-to-log-793ac19044c5"
-                                },
-                                {
-                                    "id": 153,
-                                    "type": "Documentação",
-                                    "title":"WinstonJS: A Logger for just avout everything",
-                                    "subtitle":"Winston is designed to be a simple and universal logging library with support for multiple transports. A transport is essentially a storage device for your logs.",
-                                    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYZdiDCDtZoAlX3WHxYmE98YT7tXLHvb2KJFsxBKoCh9p2g_e4",
-                                    "url":"https://github.com/winstonjs/winston"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": 160,
-                    "name": "Task Schedule",
-                    "description":"Essas ferramentas permitem que você agende alguma função para rodar em um horário pré-determinado.",
-                    "tools": [
-                        {
-                            "id": 161,
-                            "name": "Agenda JS",
-                            "description":"Permite agendar tarefas facilmente. Utiliza um banco de dados MongoDB para manter as tarefas agendadas, para que, mesmo que o servidor seja desativado, as tarefas ainda serão executadas no tempo ou intervalos especificados.",
-                            "image":"https://cdn.dribbble.com/users/1519999/screenshots/6834299/shot_adson-04_2x.png",
-                            "content": [
-                                {
-                                    "id": 162,
-                                    "type": "Documentação",
-                                    "title":"AgendaJS",
-                                    "subtitle":"A light-weight job scheduling library for Node.js",
-                                    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRdCYbZENGQjZn-RWnWYtmEHrx10SkYG19PYh56GXtKm8xFy7Np",
-                                    "url":"https://github.com/agenda/agenda"
-                                }
-                            ]
-                        },
-                        {
-                            "id": 163,
-                            "name": "Node Schedule",
-                            "description":"É um agendador de tarefas flexível, para Node.js. Permite agendar trabalhos (funções arbitrárias) para execução em datas específicas, com regras de recorrência opcionais.",
-                            "image":"https://kit8.net/images/thumbnails/580/386/detailed/4/Computer@2x.png",
-                            "content": [
-                                {
-                                    "type": "Documentação",
-                                    "title":"Node Schedule",
-                                    "subtitle":"Node Schedule is a flexible cron-like and not-cron-like job scheduler for Node.js.",
-                                    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTUo8TuCbGodZdLhXUov1i-f9lKaJr0-Q9JeZEOUkPz0mGtJcrD",
-                                    "url":"https://github.com/node-schedule/node-schedule"
                                 }
                             ]
                         }
@@ -488,6 +450,44 @@
                     ]
                 },
                 {
+                    "id": 160,
+                    "name": "Task Schedule",
+                    "description":"Essas ferramentas permitem que você agende alguma função para rodar em um horário pré-determinado.",
+                    "tools": [
+                        {
+                            "id": 161,
+                            "name": "Agenda JS",
+                            "description":"Permite agendar tarefas facilmente. Utiliza um banco de dados MongoDB para manter as tarefas agendadas, para que, mesmo que o servidor seja desativado, as tarefas ainda serão executadas no tempo ou intervalos especificados.",
+                            "image":"https://cdn.dribbble.com/users/1519999/screenshots/6834299/shot_adson-04_2x.png",
+                            "content": [
+                                {
+                                    "id": 162,
+                                    "type": "Documentação",
+                                    "title":"AgendaJS",
+                                    "subtitle":"A light-weight job scheduling library for Node.js",
+                                    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRdCYbZENGQjZn-RWnWYtmEHrx10SkYG19PYh56GXtKm8xFy7Np",
+                                    "url":"https://github.com/agenda/agenda"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 163,
+                            "name": "Node Schedule",
+                            "description":"É um agendador de tarefas flexível, para Node.js. Permite agendar trabalhos (funções arbitrárias) para execução em datas específicas, com regras de recorrência opcionais.",
+                            "image":"https://kit8.net/images/thumbnails/580/386/detailed/4/Computer@2x.png",
+                            "content": [
+                                {
+                                    "type": "Documentação",
+                                    "title":"Node Schedule",
+                                    "subtitle":"Node Schedule is a flexible cron-like and not-cron-like job scheduler for Node.js.",
+                                    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTUo8TuCbGodZdLhXUov1i-f9lKaJr0-Q9JeZEOUkPz0mGtJcrD",
+                                    "url":"https://github.com/node-schedule/node-schedule"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "id": 190,
                     "name": "Real Time Communication",
                     "description":"Utilizados com intuito de agilizar a construção de aplicações real-time bidirecionais. Como por exemplo webchats.",
@@ -552,7 +552,7 @@
                         {
                             "name": "Gradle",
                             "description": "Gradle é um sistema de automação de compilação open source que se baseia nos conceitos de Apache Ant e Apache Maven e introduz uma linguagem de domínio específico baseada em Groovy em vez do XML usado pelo Apache Maven para declarar a configuração do projeto.",
-                            "image": "https://dwglogo.com/wp-content/uploads/2017/12/Gradle_logo_01.png",
+                            "image": "https://cdn.buttercms.com/npcWmjoRyi7CBLQ6g0fQ",
                             "content": [
                                 {
                                     "type": "Artigo",
@@ -781,6 +781,37 @@
                     ]
                 },
                 {
+                    "id": 260,
+                    "name":"Logger",
+                    "description":"Biblioteca que gerencia os logs da saída de um terminal por exemplo.",
+                    "tools":[
+                        {
+                            "name":"Log4j",
+                            "description":"O Log4j é uma ferramenta utilizada em aplicativos escritos na linguagem de programação Java. O log4j é um software livre de código aberto desenvolvido pela Apache Software Foundation. Ele fornece uma API para que o desenvolvedor de software possa fazer log de dados na sua aplicação.",
+                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTSleEmreR3N2fEM41cBymyWkVET3uU4wwEDIZdANi8-GEJP8_i",
+                            "content":[
+                                {
+                                    "type":"Curso",
+                                    "title":"Jersey Java",
+                                    "subtitle":"Jersey é uma forma fácil de criar webservices RESTFull com pouco esforço. Neste curso você aprendera como utilizar o Jersey para desenvolvedor API RESTFull utilizando as tecnologias mais recentes do Java como JAX-RS.",
+                                    "image":"",
+                                    "url":"https://www.schoolofnet.com/curso/java/frameworks-java/jersey-java/",
+                                    "rating":"101 minutos",
+                                    "author":"Leonan Luppi",
+                                    "duration":"6 horas"
+                                },
+                                {
+                                    "type":"Documentação",
+                                    "title":"Log4j 2 Javadoc API Documentation",
+                                    "subtitle":"A versatile logging framework",
+                                    "image":"https://blogeduonix-2f3a.kxcdn.com/wp-content/uploads/2017/07/configuration.jpg",
+                                    "url":"https://logging.apache.org/log4j/2.x/javadoc.html"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "id": 250,
                     "name":"API Clients",
                     "description":"Ferramenta para integrar sistemas, possibilitando benefícios como a segurança dos dados, facilidade no intercâmbio entre informações com diferentes linguagens de programação.",
@@ -864,58 +895,6 @@
                     ]
                 },
                 {
-                    "id": 260,
-                    "name":"Logger",
-                    "description":"Biblioteca que gerencia os logs da saída de um terminal por exemplo.",
-                    "tools":[
-                        {
-                            "name":"Log4j",
-                            "description":"O Log4j é uma ferramenta utilizada em aplicativos escritos na linguagem de programação Java. O log4j é um software livre de código aberto desenvolvido pela Apache Software Foundation. Ele fornece uma API para que o desenvolvedor de software possa fazer log de dados na sua aplicação.",
-                            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTSleEmreR3N2fEM41cBymyWkVET3uU4wwEDIZdANi8-GEJP8_i",
-                            "content":[
-                                {
-                                    "type":"Curso",
-                                    "title":"Jersey Java",
-                                    "subtitle":"Jersey é uma forma fácil de criar webservices RESTFull com pouco esforço. Neste curso você aprendera como utilizar o Jersey para desenvolvedor API RESTFull utilizando as tecnologias mais recentes do Java como JAX-RS.",
-                                    "image":"",
-                                    "url":"https://www.schoolofnet.com/curso/java/frameworks-java/jersey-java/",
-                                    "rating":"101 minutos",
-                                    "author":"Leonan Luppi",
-                                    "duration":"6 horas"
-                                },
-                                {
-                                    "type":"Documentação",
-                                    "title":"Log4j 2 Javadoc API Documentation",
-                                    "subtitle":"A versatile logging framework",
-                                    "image":"https://blogeduonix-2f3a.kxcdn.com/wp-content/uploads/2017/07/configuration.jpg",
-                                    "url":"https://logging.apache.org/log4j/2.x/javadoc.html"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": 270,
-                    "name":"Task Schedule",
-                    "description":"Essas ferramentas permitem que você agende alguma função para rodar em um horário pré-determinado.",
-                    "tools":[
-                        {
-                            "name":"cron-utils",
-                            "description":"Uma biblioteca Java para analisar, validar, migrar crons, além de obter descrições legíveis por eles. O projeto segue a Convenção de Versão Semântica, fornece metadados OSGi e usa a licença Apache 2.0.",
-                            "image":"https://assets.ximble.com/wp-content/uploads/2017/11/2017-08-20-4-Advantages-of-Using-Work-Scheduling-Software.png",
-                            "content":[
-                                {
-                                    "type":"Documentação",
-                                    "title":"cron-utils documentation",
-                                    "subtitle":"A Java library to parse, validate, migrate crons as well as get human readable descriptions for them.",
-                                    "image":"https://www.bleepstatic.com/content/hl-images/2017/03/29/GitHub.jpg",
-                                    "url":"https://github.com/jmrozanec/cron-utils"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
                     "id": 280,
                     "name":"Template Engines",
                     "description":"O uso de template engines no desenvolvimento de aplicações permite manipular e organizar conteúdo de forma dinâmica.",
@@ -943,6 +922,27 @@
                         }
                     ]
                 },
+                {
+                    "id": 270,
+                    "name":"Task Schedule",
+                    "description":"Essas ferramentas permitem que você agende alguma função para rodar em um horário pré-determinado.",
+                    "tools":[
+                        {
+                            "name":"cron-utils",
+                            "description":"Uma biblioteca Java para analisar, validar, migrar crons, além de obter descrições legíveis por eles. O projeto segue a Convenção de Versão Semântica, fornece metadados OSGi e usa a licença Apache 2.0.",
+                            "image":"https://cdn.dribbble.com/users/2745343/screenshots/6810669/booking_schedule_isometric_illustration-05_2x.jpg",
+                            "content":[
+                                {
+                                    "type":"Documentação",
+                                    "title":"cron-utils documentation",
+                                    "subtitle":"A Java library to parse, validate, migrate crons as well as get human readable descriptions for them.",
+                                    "image":"https://www.bleepstatic.com/content/hl-images/2017/03/29/GitHub.jpg",
+                                    "url":"https://github.com/jmrozanec/cron-utils"
+                                }
+                            ]
+                        }
+                    ]
+                },              
                 {
                     "id": 290,
                     "name":"Real Time Communication",
