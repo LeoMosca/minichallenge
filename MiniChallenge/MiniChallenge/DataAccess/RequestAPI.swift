@@ -21,6 +21,12 @@ class RequestAPI {
                 return
             }
                 
+            do {
+                try JSONDecoder().decode([Language].self, from: content)
+            } catch {
+                print(error)
+            }
+            
             guard let resp = (try? JSONDecoder().decode([Language].self, from: content)) else {
                 print("Not containing JSON")
                 return
