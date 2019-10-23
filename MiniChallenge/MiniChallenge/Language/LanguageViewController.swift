@@ -44,6 +44,7 @@ class LanguageViewController: UIViewController, UITableViewDelegate, UITableView
                 cell.setItem(topic.name!, topic.tools!.count)
                 
                 return cell;
+                
             }
         }
         

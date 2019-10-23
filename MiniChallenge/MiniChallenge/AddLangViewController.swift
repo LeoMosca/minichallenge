@@ -11,11 +11,13 @@ import UIKit
 class AddLangViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var languages:[Language] = []
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var activ: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self;
         tableView.dataSource = self;
+        tableView.backgroundView = activ
 
     }
     
@@ -23,6 +25,7 @@ class AddLangViewController: UIViewController, UITableViewDelegate, UITableViewD
         RequestAPI.fetchLanguages { (resp) in
             self.languages = resp
             DispatchQueue.main.async {
+                self.activ.stopAnimating()
                 self.tableView.reloadData()
             }
         }

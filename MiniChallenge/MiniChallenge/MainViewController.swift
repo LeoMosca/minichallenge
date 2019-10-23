@@ -12,6 +12,7 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
     var languages:[Language] = [];
     @IBOutlet weak var lastViewed: UIView!
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var activ: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +28,7 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
             
             self.languages = resp.filter({ langID.contains(Int16($0.id ?? 0))})
             DispatchQueue.main.async {
+                self.activ.stopAnimating()
                 self.collectionView.reloadData()
             }
         }
