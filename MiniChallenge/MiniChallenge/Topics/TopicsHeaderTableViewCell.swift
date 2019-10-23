@@ -9,12 +9,14 @@
 import UIKit
 
 class TopicsHeaderTableViewCell: UITableViewCell{
+    var language:Language?
+    var topic:Int?
     
     @IBOutlet weak var languageImage: UIImageView!
     @IBOutlet weak var languageName: UILabel!
     @IBOutlet weak var topicName: UILabel!
     @IBOutlet weak var aboutTopic: UITextView!
-    @IBOutlet weak var studyButton: UIView!
+    @IBOutlet weak var studyButton: UIButton!
     
     public func setHeader(_ topic: String?, _ desc: String?, _ lang: String?){
         self.topicName.text = topic?.uppercased();
@@ -23,7 +25,7 @@ class TopicsHeaderTableViewCell: UITableViewCell{
         self.languageImage.image = UIImage(named: topic ?? "")
         
 //        self.studyButton.layer.masksToBounds = false
-        self.studyButton.layer.cornerRadius = 10
+        self.studyButton.layer.cornerRadius = 7
 //        self.studyButton.clipsToBounds = true
     }
     
@@ -34,5 +36,14 @@ class TopicsHeaderTableViewCell: UITableViewCell{
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
-
+    
+    @IBAction func addTopic(_ sender: Any) {
+        guard let language = self.language else { return }
+        guard let topic = self.topic else { return }
+        
+        if language.topics?[topic] != nil {
+            CoreDataManager.sharedInstance
+        }
+    }
+    
 }
