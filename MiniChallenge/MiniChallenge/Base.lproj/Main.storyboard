@@ -522,7 +522,7 @@
                                                     <color key="backgroundColor" red="1" green="1" blue="0.37407769097222221" alpha="1" colorSpace="calibratedRGB"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="JAVA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ZH-8l-wVU">
-                                                    <rect key="frame" x="41" y="41" width="32" height="15"/>
+                                                    <rect key="frame" x="41" y="41" width="100" height="15"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -953,7 +953,7 @@
         <scene sceneID="6HT-Tm-RFD">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yCH-lt-3Vh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="gvi-WW-qtv"/>
+                    <tabBarItem key="tabBarItem" title="Item" selectedImage="book" id="gvi-WW-qtv"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DZQ-1D-8Oc">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -993,6 +993,7 @@
         <image name="Star" width="100" height="100"/>
         <image name="Web Frameworks" width="426.66665649414062" height="266.66665649414062"/>
         <image name="star" width="16" height="16"/>
+        <image name="book" width="64" height="64"/>
         <image name="success" width="21.333333969116211" height="21.333333969116211"/>
     </resources>
 </document>

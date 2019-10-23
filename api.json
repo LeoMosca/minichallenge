@@ -719,7 +719,7 @@
                                     "type": "Artigo",
                                     "title": "Hibernate Basics",
                                     "subtitle": "Hibernate is an ORM tool which does mapping between Objects and Relational data.Enterprise level applications typically need to interact with databases.",
-                                    "image": "",
+                                    "image": "https://lh3.googleusercontent.com/uJZXmDFCRyOy5pmJ0W8vYF6eJzOa6-wVogH1ACxIy5g4nY9JZzZj3d1EKQG8ARsa_TI",
                                     "url": "https://medium.com/@cinish/hibernate-basics-9142a2d90363"
                                 },
                                 {
@@ -827,7 +827,7 @@
                                     "type": "Artigo",
                                     "title": "Logging With Log4j in Java",
                                     "subtitle": "Here's an introduction to logging with Log4j.",
-                                    "image": "",
+                                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlCGm3-8lRR21WeDh0sgylvMrlZZu3rquTeRHSWN_zc7PKKHOU",
                                     "url": "https://dzone.com/articles/logging-with-log4j-in-java"
                                 },
                                 {
@@ -952,7 +952,7 @@
                                     "type":"Artigo",
                                     "title":"What is JSP? Introduction to JavaServer Pages",
                                     "subtitle":"One of the original Java web technologies, JavaServer Pages is still widely used to build dynamic web pages that connect to the Java backend",
-                                    "image":"",
+                                    "image":"https://cdn.educba.com/academy/wp-content/uploads/2018/09/JSP-Interview-Questions.jpg",
                                     "url":"https://www.javaworld.com/article/3336161/what-is-jsp-introduction-to-javaserver-pages.html"
                                 },
                                 {
@@ -960,7 +960,7 @@
                                     "type":"Documentação",
                                     "title":"JavaServer Pages Documents",
                                     "subtitle":"A JSP document is a JSP page written in XML syntax",
-                                    "image":"",
+                                    "image":"https://chamaileon.io/wp-content/uploads/2019/03/Drag-and-Drop-Email-Builders-1280x640.png",
                                     "url":"https://docs.oracle.com/javaee/5/tutorial/doc/bnajo.html"
                                 }
                             ]
@@ -1006,7 +1006,7 @@
                                     "type":"Artigo",
                                     "title":"Understanding the Atmosphere Framework!",
                                     "subtitle":"Let's build a Cloud Enabled Chat Application",
-                                    "image":"",
+                                    "image":"https://images.ctfassets.net/taysl255dolk/1gBTo1ETFG8KgckwECsGcm/89f3eb0c7dd90dd38306294a0ebf74ee/WhyIsTheInternetBadforRTC_Feature.png",
                                     "url":"http://async-io.org/tutorial.html"
                                 },
                                 {
