@@ -12,7 +12,7 @@ class LanguageViewController: UIViewController, UITableViewDelegate, UITableView
     var lang:Language = Language()
     
     @IBOutlet weak var tableView: UITableView!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self;
@@ -34,7 +34,8 @@ class LanguageViewController: UIViewController, UITableViewDelegate, UITableView
             if let cell = tableView.dequeueReusableCell(withIdentifier: "languageHeader", for: indexPath) as? LanguageHeaderTableViewCell {
                 cell.setHeader(lang.language!, lang.topics!.count, nil, 30, lang.description!)
                 cell.setFavoriteColor(lang.color)
-                cell.articles = lang.dailyreading ?? [];
+                cell.lang = lang;
+                cell.currentView = self;
                 return cell;
             }
         } else {
@@ -56,5 +57,10 @@ class LanguageViewController: UIViewController, UITableViewDelegate, UITableView
                 dest.topicIndex = indexPath.row - 1
             }
         }
+    }
+    
+    public func showAlert(_ alert: UIAlertController){
+        print(alert);
+        self.present(alert, animated: true, completion: {})
     }
 }

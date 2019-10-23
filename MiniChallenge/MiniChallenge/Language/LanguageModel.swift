@@ -7,8 +7,8 @@
 //
 
 class Language:Codable {
+    var id: Int?;
     var language: String?;
-    var logo: String?;
     var color: String?;
     var description: String?;
     var topics: [Topic]?;
