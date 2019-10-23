@@ -884,7 +884,7 @@
                 {
                     "id": 290,
                     "name":"Caching",
-                    "description":"",
+                    "description":"Cache é um dispositivo de acesso rápido, interno a um sistema, que serve de intermediário entre um operador de um processo e o dispositivo de armazenamento ao qual esse operador acede.",
                     "tools":[
                         {
                             "id": 291,
@@ -1029,7 +1029,72 @@
             "logo": "",
             "color": "#76C3E3",
             "description": "É uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. A sua sintaxe orientada a objetos foi baseada no C++ mas inclui muitas influências de outras linguagens de programação, como Object Pascal e, principalmente, Java. ",
-            "topics": []
+            "dailyreading":[
+                {
+                    "id": 301,
+                    "origin": "",
+                    "title": "",
+                    "author": "",
+                    "url": "",
+                    "rating": 4.8
+                }
+            ],
+            "topics": [
+                {
+                    "id": 310,
+                    "name": "Package Manager",
+                    "description": "Um package manager é uma ferramenta para instalação, remoção e atualização de softwares, que são distribuídos em pacotes.",
+                    "tools": []
+                },
+                {
+                    "id": 320,
+                    "name": "Web Frameworks",
+                    "description": "Um framework tem como foco a reusabilidade de código, dessa maneira, o desenvolvedor pode dedicar seu tempo em soluções mais complexas ao invés de ficar reescrevendo algo que já foi feito.",
+                    "tools": []
+                },
+                {
+                    "id": 330,
+                    "name":"Database Connection",
+                    "description":"Realiza a comunicação entre usúario e banco de dados, permitindo que os dados de uma aplicação sejam consistentes.",
+                    "tools":[]
+                },
+                {
+                    "id": 340,
+                    "name":"Testing",
+                    "description":"Essas ferramentas facilitam o trabalho do desenvolvedor ao realizar testes em suas soluções de maneira eficiente e com menos configurações.",
+                    "tools":[]
+                },
+                {
+                    "id": 350,
+                    "name":"API Clients",
+                    "description":"Ferramenta para integrar sistemas, possibilitando benefícios como a segurança dos dados, facilidade no intercâmbio entre informações com diferentes linguagens de programação.",
+                    "tools":[]
+                },
+                {
+                    "id": 360,
+                    "name":"Caching",
+                    "description":"Cache é um dispositivo de acesso rápido, interno a um sistema, que serve de intermediário entre um operador de um processo e o dispositivo de armazenamento ao qual esse operador acede.",
+                    "tools":[]
+                },
+                {
+                    "id": 370,
+                    "name":"Logger",
+                    "description":"Biblioteca que gerencia os logs da saída de um terminal por exemplo.",
+                    "tools":[]
+                },
+                {
+                    "id": 380,
+                    "name":"Object Mapping",
+                    "description":"É uma técnica de desenvolvimento utilizada para reduzir a impedância da programação orientada aos objetos utilizando bancos de dados relacionais.",
+                    "tools":[]
+                },
+                {
+                    "id": 390,
+                    "name":"Template Engines",
+                    "description":"O uso de template engines no desenvolvimento de aplicações permite manipular e organizar conteúdo de forma dinâmica.",
+                    "tools":[]
+                }
+            ]
         },
         {
             "id": 400,
@@ -1037,7 +1102,50 @@
             "logo": "",
             "color": "#76C3E3",
             "description": "É uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991. ",
-            "topics": []
+            "topics": [
+                {
+                    "id": 410,
+                    "name": "Package Manager",
+                    "description": "Um package manager é uma ferramenta para instalação, remoção e atualização de softwares, que são distribuídos em pacotes.",
+                    "tools": []
+                },
+                {
+                    "id": 420,
+                    "name": "Web Frameworks",
+                    "description": "Um framework tem como foco a reusabilidade de código, dessa maneira, o desenvolvedor pode dedicar seu tempo em soluções mais complexas ao invés de ficar reescrevendo algo que já foi feito.",
+                    "tools": []
+                },
+                {
+                    "id": 430,
+                    "name":"Database Connection",
+                    "description":"Realiza a comunicação entre usúario e banco de dados, permitindo que os dados de uma aplicação sejam consistentes.",
+                    "tools":[]
+                },
+                {
+                    "id": 440,
+                    "name":"Testing",
+                    "description":"Essas ferramentas facilitam o trabalho do desenvolvedor ao realizar testes em suas soluções de maneira eficiente e com menos configurações.",
+                    "tools":[]
+                },
+                {
+                    "id": 450,
+                    "name":"API Clients",
+                    "description":"Ferramenta para integrar sistemas, possibilitando benefícios como a segurança dos dados, facilidade no intercâmbio entre informações com diferentes linguagens de programação.",
+                    "tools":[]
+                },
+                {
+                    "id": 460,
+                    "name":"Caching",
+                    "description":"Cache é um dispositivo de acesso rápido, interno a um sistema, que serve de intermediário entre um operador de um processo e o dispositivo de armazenamento ao qual esse operador acede.",
+                    "tools":[]
+                },
+                {
+                    "id": 470,
+                    "name":"Template Engines",
+                    "description":"O uso de template engines no desenvolvimento de aplicações permite manipular e organizar conteúdo de forma dinâmica.",
+                    "tools":[]
+                }
+            ]
         }
     ]    
 }

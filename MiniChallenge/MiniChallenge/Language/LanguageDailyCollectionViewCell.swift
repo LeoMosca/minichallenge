@@ -27,4 +27,5 @@ class LanguageDailyCollectionViewCell: UICollectionViewCell {
     private func setURL(_ path: String) {
         self.url = URL(string: path);
     }
+    
 }

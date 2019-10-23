@@ -103,6 +103,23 @@ class ToolsViewController: UIViewController, UITableViewDelegate, UITableViewDat
         return UITableViewCell()
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("Clicou no" + (lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].url ?? "nenhum"))
+        
+        if (lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].url != nil){
+            guard let url = URL(string: lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].url ?? "") else {
+                return
+            }
+            
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            }
+        }
+            }
+        
+        
+    
+    
     
     
     

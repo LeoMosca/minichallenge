@@ -10,6 +10,7 @@ import UIKit
 
 class LanguageHeaderTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionViewDataSource {
     var lang:Language = Language()
+    var currentView:LanguageViewController?
     
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var topics: UILabel!
@@ -17,7 +18,6 @@ class LanguageHeaderTableViewCell: UITableViewCell, UICollectionViewDelegate, UI
     @IBOutlet weak var desc: UITextView!
     @IBOutlet weak var background: UIImageView!
     @IBOutlet weak var favorite: UIImageView!
-    
 
     @IBOutlet weak var favbutton: UIButton!
     @IBOutlet weak var dailyreading: UICollectionView!
@@ -65,10 +65,32 @@ class LanguageHeaderTableViewCell: UITableViewCell, UICollectionViewDelegate, UI
         
         return UICollectionViewCell()
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let row = indexPath.row
+        let url = lang.dailyreading?[row].url
+        print("selecionou o " + (url ?? "nada") )
+        
+        if (url != nil){
+            guard let url = URL(string: url ?? "") else {
+                return
+            }
+            
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            }
+        }
+        
+    }
 
     @IBAction func addLanguage(_ sender: Any) {
         CoreDataManager.sharedInstance.insertLanguage(lang.id ?? 0, false, topics: [])
-//        let alert = UIAlertController(title: "Sucesso!", message: "A linguagem \(lang.language) foi adicionada. Você já pode começar a estudar.", preferredStyle: .alert)
-//        navigationController?.popViewController(animated: true)
+        let alert = UIAlertController(title: "Sucesso!", message: "A linguagem \(lang.language ?? "") foi adicionada. Você já pode começar a estudar.", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Ok, entendi", style: .default, handler: { (_) in
+            self.currentView?.navigationController?.popToRootViewController(animated: true)
+        }))
+        
+        currentView?.showAlert(alert)
+        
     }
 }
