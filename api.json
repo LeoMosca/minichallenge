@@ -124,7 +124,7 @@
                                     "type": "Artigo",
                                     "title":"Criando um CRUD simples com Koa",
                                     "subtitle":"Vamos direto ao ponto de como fazer um CRUD utilizando o Koajs que é feito e mantido pelo mesmo time do Express tendo as mesmas funcionalidades e suporte as funções geradoras do ECMASCRIPT6.",
-                                    "image":"https://miro.medium.com/max/2732/1*f1OA1XQaP3ilPS_jJrmMoA.png",
+                                    "image":"http://blemediasolutions.com/blog/wp-content/uploads/2018/07/koa-js.jpg",
                                     "url":"https://medium.com/@fabianomonte/criando-um-crud-simples-com-koa-67d9b99a71b4"
                                 }
                             ]
@@ -187,7 +187,7 @@
                                     "type": "Artigo",
                                     "title":"A brief introduction to Knex.js",
                                     "subtitle":"Knex.js is a SQL query builder that allows for easier interfacing with a DBMS during Node.js application development.",
-                                    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSDAh6Q1AuGs3W2qQNheuEawddKpGZ2cMlUGKoH6h_E7ad7SOBU",
+                                    "image":"http://blogs.biomedcentral.com/on-physicalsciences/wp-content/uploads/sites/14/2019/02/data-1-620x342.jpg",
                                     "url":"https://medium.com/ascherj/a-brief-introduction-to-knex-js-16b5648d7e1"
                                 },
                                 {
@@ -261,7 +261,7 @@
                                     "type": "Documentação",
                                     "title":"Jest - Testando JavaScript do jeito agradável",
                                     "subtitle":"Jest é um poderoso Framework de Testes em JavaScript com um foco na simplicidade. Funciona com projetos usando: Babel, TypeScript, Node, React, Angular, Vue e muito mais!",
-                                    "image":"jestlogo.png",
+                                    "image":"https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/10/1475698586jest2-01.png",
                                     "url":"https://jestjs.io/docs/pt-BR/getting-started.html"
                                 }
                             ]
@@ -293,7 +293,7 @@
                                     "type": "Artigo",
                                     "title":"Testando Javascript com o Jasmine",
                                     "subtitle":"Aprenda a testar de maneira simples seu código Javascript utilizando Jasmine.",
-                                    "image":"https://pbs.twimg.com/media/B-iWUjeIgAAiXn7.png",
+                                    "image":"https://www.jitendrazaa.com/blog/wp-content/uploads/2018/03/Jasmine-Testing-Frameowrk-Behavior-Drive-Development.png?w=640",
                                     "url":"https://medium.com/jaguaribetech/testando-seu-c%C3%B3digo-javascript-com-jasmine-232e28e86071"
                                 }
                             ]
@@ -402,7 +402,7 @@
                                     "type": "Documentação",
                                     "title":"Getting Started – Pug",
                                     "subtitle":"Pug is a high performance template engine heavily influenced by Haml and implemented with JavaScript for Node.js and browsers.",
-                                    "image":"https://miro.medium.com/max/2560/1*CO3fAi5OwGbOEU6k1eueJA.jpeg",
+                                    "image":"https://catalin.red/dist/uploads/2019/01/pug-include-svg.png",
                                     "url":"https://pugjs.org/api/getting-started.html"
                                 }
                             ]
@@ -503,7 +503,7 @@
                                     "type": "Artigo",
                                     "title":"Conectando no Socket.IO – o básico",
                                     "subtitle":"O Socket.IO pretende tornar possíveis os aplicativos em tempo real em todos os navegadores e dispositivos móveis, minimizando as diferenças entre os mecanismos de transporte diferentes. ",
-                                    "image":"https://miro.medium.com/fit/c/1838/551/1*tOitxCwTNcS3ESstLylmtg.png",
+                                    "image":"https://cdn-media-1.freecodecamp.org/images/6IER5uX5Cu6uhvo1F0yD9qp9o5djS6Kp6GMN",
                                     "url":"https://imasters.com.br/devsecops/conectando-no-socket-io-o-basico"
                                 },
                                 {
@@ -525,7 +525,7 @@
             "id": 200,
             "language": "Java",
             "color": "#D97373",
-            "description": "É uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems. Em 2008 o Java foi adquirido pela empresa Oracle Corporation.",
+            "description": "Diferente das linguagens de programação modernas, que são compiladas para código nativo, a linguagem Java é compilada para um bytecode que é interpretado por uma máquina virtual (JVM).",
             "dailyreading":[
                 {
                     "id": 201,
@@ -895,7 +895,7 @@
                                     "type": "Artigo",
                                     "title": "Spring Boot + Caching",
                                     "subtitle": "This topic will give you understanding of usage Spring Boot with Caching to increase your app performance significantly.",
-                                    "image": "http://www.fao.org/fileadmin/templates/cfs/images/multimedia/Medium.png",
+                                    "image": "http://www.fao.org/fileadmin/templates/cfs/images/multimedia/medium.png",
                                     "url": "https://medium.com/@ihorkosandiak/spring-boot-caching-d74591abe117"
                                 },
                                 {
