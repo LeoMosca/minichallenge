@@ -64,5 +64,21 @@ class LanguageHeaderTableViewCell: UITableViewCell, UICollectionViewDelegate, UI
         
         return UICollectionViewCell()
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let row = indexPath.row
+        print("selecionou o " + (articles[row].url ?? "nada") )
+        
+        if (articles[row].url != nil){
+            guard let url = URL(string: articles[row].url ?? "") else {
+                return
+            }
+            
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            }
+        }
+        
+    }
 
 }
