@@ -9,7 +9,7 @@
 import UIKit
 
 class LanguageHeaderTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionViewDataSource {
-    var articles:[DailyReading] = []
+    var lang:Language = Language()
     
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var topics: UILabel!
@@ -18,7 +18,8 @@ class LanguageHeaderTableViewCell: UITableViewCell, UICollectionViewDelegate, UI
     @IBOutlet weak var background: UIImageView!
     @IBOutlet weak var favorite: UIImageView!
     
-    @IBOutlet weak var favbutton: UIView!
+
+    @IBOutlet weak var favbutton: UIButton!
     @IBOutlet weak var dailyreading: UICollectionView!
     
     public func setHeader(_ name: String, _ topics: Int, _ saw: Int?, _ items: Int, _ desc: String){
@@ -50,13 +51,13 @@ class LanguageHeaderTableViewCell: UITableViewCell, UICollectionViewDelegate, UI
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return articles.count
+        return lang.dailyreading?.count ?? 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "dailycell", for: indexPath) as? LanguageDailyCollectionViewCell {
             let row = indexPath.row;
-            let read = articles[row];
+            let read = lang.dailyreading?[row] ?? DailyReading();
             cell.setCell(read.origin, read.title, read.author, read.rating, read.url)
             
             return cell;
@@ -65,4 +66,9 @@ class LanguageHeaderTableViewCell: UITableViewCell, UICollectionViewDelegate, UI
         return UICollectionViewCell()
     }
 
+    @IBAction func addLanguage(_ sender: Any) {
+        CoreDataManager.sharedInstance.insertLanguage(lang.id ?? 0, false, topics: [])
+//        let alert = UIAlertController(title: "Sucesso!", message: "A linguagem \(lang.language) foi adicionada. Você já pode começar a estudar.", preferredStyle: .alert)
+//        navigationController?.popViewController(animated: true)
+    }
 }

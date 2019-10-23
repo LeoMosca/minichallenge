@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14903" systemVersion="18G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Entity" representedClassName="Entity" syncable="YES"/>
+    <entity name="ContentSeen" representedClassName="ContentSeen" syncable="YES">
+        <attribute name="lastSeen" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="LanguageAdded" representedClassName="LanguageAdded" syncable="YES">
+        <attribute name="id_lang" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isDone" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <relationship name="topics" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TopicDone"/>
+    </entity>
+    <entity name="TopicDone" representedClassName="TopicDone" syncable="YES">
+        <attribute name="id_topic" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
     <elements>
-        <element name="Entity" positionX="-63" positionY="-18" width="128" height="43"/>
+        <element name="ContentSeen" positionX="-63" positionY="-18" width="128" height="58"/>
+        <element name="LanguageAdded" positionX="-63" positionY="-9" width="128" height="88"/>
+        <element name="TopicDone" positionX="-45" positionY="18" width="128" height="58"/>
     </elements>
 </model>
