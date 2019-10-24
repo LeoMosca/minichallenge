@@ -84,13 +84,22 @@ class LanguageHeaderTableViewCell: UITableViewCell, UICollectionViewDelegate, UI
     }
 
     @IBAction func addLanguage(_ sender: Any) {
-        CoreDataManager.sharedInstance.insertLanguage(lang.id ?? 0, false, topics: [])
-        let alert = UIAlertController(title: "Sucesso!", message: "A linguagem \(lang.language ?? "") foi adicionada. Você já pode começar a estudar.", preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Ok, entendi", style: .default, handler: { (_) in
-            self.currentView?.navigationController?.popToRootViewController(animated: true)
-        }))
+        let addedLangs = CoreDataManager.sharedInstance.getLanguages()
+        var alert:UIAlertController?
         
-        currentView?.showAlert(alert)
+        if !addedLangs.map({ Int($0.id_lang) }).contains(lang.id ?? 0) {
+            CoreDataManager.sharedInstance.insertLanguage(lang.id ?? 0, false, topics: [])
+            alert = UIAlertController(title: "Sucesso!", message: "A linguagem \(lang.language ?? "") foi adicionada. Você já pode começar a estudar.", preferredStyle: .alert)
+            alert?.addAction(UIAlertAction(title: "Ok, entendi", style: .default, handler: { (_) in
+                self.currentView?.navigationController?.popToRootViewController(animated: true)
+            }))
+        } else {
+            alert = UIAlertController(title: "Ops...", message: "Aparenta que essa linguagem já foi adicionada", preferredStyle: .alert)
+            alert?.addAction(UIAlertAction(title: "Ok, entendi", style: .default, handler: nil))
+        }
         
+        if let alert = alert {
+            currentView?.showAlert(alert)
+        }
     }
 }
