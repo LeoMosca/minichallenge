@@ -10,6 +10,7 @@ import UIKit
 
 class MainViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     var languages:[Language] = [];
+    var coreLangs:[LanguageAdded] = [];
     
     @IBOutlet weak var lastViewed: UIView!
     @IBOutlet weak var collectionView: UICollectionView!
@@ -30,11 +31,10 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
     
     override func viewDidAppear(_ animated: Bool) {
         RequestAPI.fetchLanguages { (resp) in
-            let langID = CoreDataManager.sharedInstance.getLanguages()
-                .filter({ !$0.isDone })
-                .map({ $0.id_lang })
-            
-            self.languages = resp.filter({ langID.contains(Int16($0.id ?? 0))})
+            self.coreLangs = CoreDataManager.sharedInstance.getLanguages().filter({ !$0.isDone })
+            self.languages = self.coreLangs.map({ core in
+                return resp.filter({ Int16($0.id ?? 0) == core.id_lang })[0]
+            })
             DispatchQueue.main.async {
                 self.activ.stopAnimating()
                 self.collectionView.reloadData()
@@ -95,6 +95,7 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
         if let dest = segue.destination as? LanguageViewController {
             let item = collectionView.indexPathsForSelectedItems
             dest.lang = languages[item![0].row];
+            dest.corelang = coreLangs[item![0].row];
         }
     }
 }

@@ -10,6 +10,7 @@ import UIKit
 
 class LanguageViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var lang:Language = Language()
+    var corelang:LanguageAdded?
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -52,8 +53,9 @@ class LanguageViewController: UIViewController, UITableViewDelegate, UITableView
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let dest = segue.destination as? TopicsViewController {
-            dest.lang = self.lang
             if let indexPath = tableView.indexPathForSelectedRow {
+                dest.lang = self.lang
+                dest.corelang = self.corelang
                 dest.topicIndex = indexPath.row - 1
             }
         }

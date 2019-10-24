@@ -94,18 +94,11 @@ class CoreDataManager {
         return []
     }
     
-    func insertTopic(_ id:Int, _ done:Bool, topics: [TopicDone]) {
-        guard let newPackage = NSEntityDescription.insertNewObject(forEntityName: "LanguageAdded", into: persistentContainer.viewContext) as? LanguageAdded else { return }
-        let topicsToAdd:NSSet = NSSet()
-        
-        for t in topics {
-            topicsToAdd.adding(t)
-        }
-        
-        newPackage.id_lang = Int16(id)
-        newPackage.isDone = done
-        newPackage.topics = topicsToAdd
+    func insertTopic(_ id:Int) -> TopicDone? {
+        guard let topic = NSEntityDescription.insertNewObject(forEntityName: "TopicDone", into: persistentContainer.viewContext) as? TopicDone else { return nil }
+        topic.id_topic = Int16(id);
         saveContext()
+        return topic;
     }
     
     func deleteTopic(object:NSManagedObject) {

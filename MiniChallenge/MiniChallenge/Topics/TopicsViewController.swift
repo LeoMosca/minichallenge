@@ -12,6 +12,7 @@ class TopicsViewController: UIViewController, UITableViewDataSource, UITableView
 
     @IBOutlet weak var tableView: UITableView!
     
+    var corelang: LanguageAdded?
     var lang: Language = Language()
     var topicIndex = 0
     
@@ -71,4 +72,30 @@ class TopicsViewController: UIViewController, UITableViewDataSource, UITableView
         }
     }
 
+    @IBAction func markAsStudied(_ sender: Any) {
+        if let topicId = lang.topics?[topicIndex].id {
+            let topic = CoreDataManager.sharedInstance.insertTopic(topicId)!
+            corelang?.addToTopics(topic)
+            CoreDataManager.sharedInstance.saveContext()
+            
+            print(corelang?.topics?.count)
+            print(lang.topics?.count)
+            
+            if corelang?.topics?.count ?? 0 >= lang.topics?.count ?? -1 {
+                corelang?.isDone = true
+                CoreDataManager.sharedInstance.saveContext()
+            } else {
+                print("Faltam " + String(lang.topics?.count ?? -1 - (corelang?.topics?.count ?? 0)))
+            }
+            
+            
+            
+        } else {
+            let alert = UIAlertController(title: "Ops...", message: "Não foi possível registrar seu progresso nesse tópico. Por favor, tente novamente.", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Ok, entendi", style: .default, handler: nil))
+        }
+        
+        
+        
+    }
 }
