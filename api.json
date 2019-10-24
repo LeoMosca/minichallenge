@@ -1315,7 +1315,7 @@
                     "tools":[
                         {
                             "id": 451,
-                            "name": "",
+                            "name": "Graphene",
                             "description": "",
                             "image": "",
                             "content": []
@@ -1326,13 +1326,29 @@
                     "id": 460,
                     "name":"Caching",
                     "description":"Cache é um dispositivo de acesso rápido, interno a um sistema, que serve de intermediário entre um operador de um processo e o dispositivo de armazenamento ao qual esse operador acede.",
-                    "tools":[]
+                    "tools":[
+                        {
+                            "id": 461,
+                            "name": "Beaker",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        }
+                    ]
                 },
                 {
                     "id": 470,
                     "name":"Template Engines",
                     "description":"O uso de template engines no desenvolvimento de aplicações permite manipular e organizar conteúdo de forma dinâmica.",
-                    "tools":[]
+                    "tools":[
+                        {
+                            "id": 471,
+                            "name": "Jinja",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        }
+                    ]
                 }
             ]
         }
