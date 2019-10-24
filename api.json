@@ -19,6 +19,13 @@
                     "author": "Felipe Batista",
                     "url": "https://medium.com/@febatista107/organizando-seu-projeto-em-node-js-be465c14d19",
                     "rating": 4.5                
+                },
+                {
+                    "origin":"Brazil JS",
+                    "title": "5 Dicas para criar melhores aplicações",
+                    "author": "Ademilson Tonato",
+                    "url": "https://braziljs.org/artigos/5-dicas-para-criar-melhores-aplicacoes-usando-node-js/",
+                    "rating": 4.1     
                 }
             ],
             "topics": [
@@ -1097,7 +1104,7 @@
             "id": 400,
             "language": "Python",
             "color": "#76C3E3",
-            "description": "É uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.",
+            "description": "É uma linguagem de programação de alto nível, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.",
             "dailyreading":[
                 {
                     "id": 401,
