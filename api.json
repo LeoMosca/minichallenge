@@ -194,7 +194,7 @@
                                     "type": "Artigo",
                                     "title":"A brief introduction to Knex.js",
                                     "subtitle":"Knex.js is a SQL query builder that allows for easier interfacing with a DBMS during Node.js application development.",
-                                    "image":"http://blogs.biomedcentral.com/on-physicalsciences/wp-content/uploads/sites/14/2019/02/data-1-620x342.jpg",
+                                    "image":"https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/Wyvern-programming-languages-in-one.jpg",
                                     "url":"https://medium.com/ascherj/a-brief-introduction-to-knex-js-16b5648d7e1"
                                 },
                                 {
@@ -282,10 +282,10 @@
                                 {
                                     "id": 135,
                                     "type": "Artigo",
-                                    "title":"Desenvolvendo TDD em Node.js com Mocha & Chai",
-                                    "subtitle":"Toda linguagem possui seus determinados frameworks para realizar testes em suas aplicações, e no Node.Js não seria diferente. Com isso, a maioria dos desenvolvedores Node.js usam o Mocha.js.",
+                                    "title":"Testando JavaScript com o Mocha",
+                                    "subtitle":"Aprenda neste artigo como testar JavaScript com o Mocha",
                                     "image":"https://i.ytimg.com/vi/oJWOmT5UZYw/maxresdefault.jpg",
-                                    "url":"https://imasters.com.br/back-end/desenvolvendo-tdd-em-node-js-com-mocha-chaimocha "
+                                    "url":"http://www.devfuria.com.br/node.js/testando-javascript-com-o-mocha/"
                                 }
                             ]
                         },
@@ -569,7 +569,7 @@
                                     "title": "Começando com o Gradle",
                                     "subtitle": "Neste artigo vou falar um pouco sobre como o Gradle funciona e como podemos usá-lo no nosso dia a dia. Bora começar?",
                                     "image": "https://www.maistecnologia.com/wp-content/uploads/2017/01/medium.png",
-                                    "url": "https://medium.com/collabcode/começando-com-o-gradle-4e96fd12d933"
+                                    "url": "https://medium.com/collabcode/comecando-com-o-gradle-4e96fd12d933"
                                 },
                                 {
                                     "id": 213,
