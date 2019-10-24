@@ -4,7 +4,7 @@
             "id": 100,
             "language": "Node JS",
             "color": "#7DBB76",
-            "description": "Node.js é um interpretador de JavaScript assíncrono com código aberto orientado a eventos, focado em migrar a programação do Javascript do cliente para os servidores.",
+            "description": "É um interpretador de JS com código aberto orientado a eventos, focado em migrar a programação do JS do cliente para os servidores.",
             "dailyreading": [
                 {
                     "origin": "DevMedia",
@@ -525,7 +525,7 @@
             "id": 200,
             "language": "Java",
             "color": "#D97373",
-            "description": "Diferente das linguagens de programação modernas, que são compiladas para código nativo, a linguagem Java é compilada para um bytecode que é interpretado por uma máquina virtual (JVM).",
+            "description": "Java diferente das outras linguagens, é compilada para um bytecode que é interpretado por uma máquina virtual (JVM).",
             "dailyreading":[
                 {
                     "id": 201,
@@ -1025,7 +1025,7 @@
             "id": 300,
             "language": "CNET",
             "color": "#76C3E3",
-            "description": "É uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. A sua sintaxe orientada a objetos foi baseada no C++ mas inclui muitas influências de outras linguagens de programação, como Object Pascal e, principalmente, Java. ",
+            "description": "É uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET.",
             "dailyreading":[
                 {
                     "id": 301,
@@ -1097,7 +1097,7 @@
             "id": 400,
             "language": "Python",
             "color": "#76C3E3",
-            "description": "É uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991. ",
+            "description": "É uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.",
             "dailyreading":[
                 {
                     "id": 401,

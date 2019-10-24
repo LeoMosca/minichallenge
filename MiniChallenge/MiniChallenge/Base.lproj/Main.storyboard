@@ -441,11 +441,17 @@
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
                                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                                                            </userDefinedRuntimeAttributes>
                                                         </textView>
                                                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gq1-jA-SRn">
                                                             <rect key="frame" x="303" y="120" width="65" height="63"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="32"/>
+                                                            </userDefinedRuntimeAttributes>
                                                         </view>
                                                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" directionalLockEnabled="YES" alwaysBounceHorizontal="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="D4T-C5-uXH">
                                                             <rect key="frame" x="37" y="234" width="377" height="105"/>
@@ -515,6 +521,9 @@
                                                                             <constraint firstAttribute="bottom" secondItem="uHR-p2-Ldd" secondAttribute="bottom" constant="10" id="a89-fS-cMo"/>
                                                                             <constraint firstItem="uHR-p2-Ldd" firstAttribute="leading" secondItem="VD6-yz-DBA" secondAttribute="leading" constant="15" id="qYV-fu-yOl"/>
                                                                         </constraints>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                                                                        </userDefinedRuntimeAttributes>
                                                                     </collectionViewCellContentView>
                                                                     <size key="customSize" width="241" height="104"/>
                                                                     <connections>
@@ -530,6 +539,9 @@
                                                             <rect key="frame" x="303" y="120" width="65" height="63"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="32"/>
+                                                            </userDefinedRuntimeAttributes>
                                                             <connections>
                                                                 <action selector="addLanguage:" destination="Edc-Ht-4Jn" eventType="touchUpInside" id="YXc-sj-DW6"/>
                                                             </connections>

@@ -69,7 +69,7 @@ class CoreDataManager {
     func getTopics() -> [TopicDone] {
         do{
             let topics:[TopicDone] = try persistentContainer.viewContext.fetch(TopicDone.fetchRequest())
-            return topic
+            return topics
         } catch {
             print("CoreData error")
         }

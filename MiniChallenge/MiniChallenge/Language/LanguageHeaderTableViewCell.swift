@@ -40,7 +40,7 @@ class LanguageHeaderTableViewCell: UITableViewCell, UICollectionViewDelegate, UI
         dailyreading.delegate = self;
         dailyreading.dataSource = self;
         
-        favbutton.layer.cornerRadius = favbutton.frame.width / 2
+        desc.textContainer.lineFragmentPadding = 15
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
