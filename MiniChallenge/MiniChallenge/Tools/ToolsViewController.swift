@@ -105,6 +105,13 @@ class ToolsViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("Clicou no" + (lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].url ?? "nenhum"))
+        let articleIndex = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].id
+        if (articleIndex != nil){
+            CoreDataManager.sharedInstance.getLastSeen()[0].lastSeen = Int16(articleIndex!)
+            CoreDataManager.sharedInstance.saveContext()
+        }
+        
+        
         
         if (lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].url != nil){
             guard let url = URL(string: lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].url ?? "") else {
@@ -113,6 +120,7 @@ class ToolsViewController: UIViewController, UITableViewDelegate, UITableViewDat
             
             if UIApplication.shared.canOpenURL(url) {
                 UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                
             }
         }
             }
