@@ -75,24 +75,39 @@ class TopicsViewController: UIViewController, UITableViewDataSource, UITableView
     @IBAction func markAsStudied(_ sender: Any) {
         if let topicId = lang.topics?[topicIndex].id {
             let topic = CoreDataManager.sharedInstance.insertTopic(topicId)!
-            corelang?.addToTopics(topic)
-            CoreDataManager.sharedInstance.saveContext()
             
-            print(corelang?.topics?.count)
-            print(lang.topics?.count)
-            
-            if corelang?.topics?.count ?? 0 >= lang.topics?.count ?? -1 {
-                corelang?.isDone = true
-                CoreDataManager.sharedInstance.saveContext()
-            } else {
-                print("Faltam " + String(lang.topics?.count ?? -1 - (corelang?.topics?.count ?? 0)))
+            if let coretopics = corelang?.topics?.allObjects as? [TopicDone] {
+                if let addedtopic = coretopics.first(where: { $0.id_topic == topicId }) {
+                    let alert = UIAlertController(title: "Então...", message: "Aparenta que você já informou que concluiu esse tópico. Quer remover a marcação?", preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "Não, obrigado", style: .default, handler: nil))
+                    alert.addAction(UIAlertAction(title: "Deletar", style: .destructive) { alert in
+                        self.corelang?.removeFromTopics(addedtopic)
+                        CoreDataManager.sharedInstance.saveContext()
+                    })
+                    self.present(alert, animated: true, completion: nil)
+                } else {
+                    corelang?.addToTopics(topic)
+                    CoreDataManager.sharedInstance.saveContext()
+                    let alert = UIAlertController(title: "Perfeito!", message: "Obrigado por informar! Seu progresso foi registrado com sucesso", preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "Entendi!", style: .default){ alert in
+                        print(self.corelang?.topics?.count)
+                        print(self.lang.topics?.count)
+                        
+                        if self.corelang?.topics?.count ?? 0 >= self.lang.topics?.count ?? -1 {
+                            self.corelang?.isDone = true
+                            CoreDataManager.sharedInstance.saveContext()
+                            let alert = UIAlertController(title: "Incrível!!", message: "Você acaba de completar a linguagem \(self.lang.language ?? ""), parabéns!! Quando desejar consultar seu material, acesse a aba \"Concluídos\" no menu abaixo.", preferredStyle: .alert)
+                            alert.addAction(UIAlertAction(title: "Ok, entendi", style: .default, handler: nil))
+                            self.present(alert, animated: true, completion: nil)
+                        }
+                    })
+                    self.present(alert, animated: true, completion: nil)
+                }
             }
-            
-            
-            
         } else {
             let alert = UIAlertController(title: "Ops...", message: "Não foi possível registrar seu progresso nesse tópico. Por favor, tente novamente.", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Ok, entendi", style: .default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
         }
         
         

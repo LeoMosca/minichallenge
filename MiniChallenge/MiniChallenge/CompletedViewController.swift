@@ -24,7 +24,7 @@ class CompletedViewController: UIViewController, UICollectionViewDelegate, UICol
     override func viewDidAppear(_ animated: Bool) {
         RequestAPI.fetchLanguages { (resp) in
             let langID = CoreDataManager.sharedInstance.getLanguages()
-                .filter({ !$0.isDone })
+                .filter({ $0.isDone })
                 .map({ $0.id_lang })
             
             self.languages = resp.filter({ langID.contains(Int16($0.id ?? 0))})
