@@ -24,7 +24,7 @@ class CompletedViewController: UIViewController, UICollectionViewDelegate, UICol
     override func viewDidAppear(_ animated: Bool) {
         RequestAPI.fetchLanguages { (resp) in
             let langID = CoreDataManager.sharedInstance.getLanguages()
-                .filter({ $0.isDone })
+                .filter({ !$0.isDone })
                 .map({ $0.id_lang })
             
             self.languages = resp.filter({ langID.contains(Int16($0.id ?? 0))})
@@ -58,19 +58,12 @@ class CompletedViewController: UIViewController, UICollectionViewDelegate, UICol
             return MainCollectionViewCell()
         }
     }
-    
 
-    
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if let dest = segue.destination as? LanguageViewController {
+            let item = collectionView.indexPathsForSelectedItems
+            dest.lang = languages[item![0].row];
+        }
     }
-    */
 
 }

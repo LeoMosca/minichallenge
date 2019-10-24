@@ -1048,55 +1048,176 @@
                     "id": 310,
                     "name": "Package Manager",
                     "description": "Um package manager é uma ferramenta para instalação, remoção e atualização de softwares, que são distribuídos em pacotes.",
-                    "tools": []
+                    "tools": [
+                        {
+                            "id": 311,
+                            "name": "NuGet",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        }
+                    ]
                 },
                 {
                     "id": 320,
                     "name": "Web Frameworks",
                     "description": "Um framework tem como foco a reusabilidade de código, dessa maneira, o desenvolvedor pode dedicar seu tempo em soluções mais complexas ao invés de ficar reescrevendo algo que já foi feito.",
-                    "tools": []
+                    "tools": [
+                        {
+                            "id": 321,
+                            "name": ".NET Framework",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        }
+                    ]
                 },
                 {
                     "id": 330,
                     "name":"Database Connection",
                     "description":"Realiza a comunicação entre usúario e banco de dados, permitindo que os dados de uma aplicação sejam consistentes.",
-                    "tools":[]
+                    "tools":[
+                        {
+                            "id": 331,
+                            "name": "Entity Framework",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        }
+                    ]
                 },
                 {
                     "id": 340,
                     "name":"Testing",
                     "description":"Essas ferramentas facilitam o trabalho do desenvolvedor ao realizar testes em suas soluções de maneira eficiente e com menos configurações.",
-                    "tools":[]
+                    "tools":[
+                        {
+                            "id": 341,
+                            "name": "NUnit",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        },
+                        {
+                            "id": 342,
+                            "name": "Moq",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        },
+                        {
+                            "id": 343,
+                            "name": "FluentAssertions",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        }
+                    ]
                 },
                 {
                     "id": 350,
                     "name":"API Clients",
                     "description":"Ferramenta para integrar sistemas, possibilitando benefícios como a segurança dos dados, facilidade no intercâmbio entre informações com diferentes linguagens de programação.",
-                    "tools":[]
+                    "tools":[
+                        {
+                            "id": 351,
+                            "name": "RestSharp",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        },
+                        {
+                            "id": 352,
+                            "name": "OData",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        },
+                        {
+                            "id": 353,
+                            "name": "GraphQL",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        }
+                    ]
                 },
                 {
                     "id": 360,
                     "name":"Caching",
                     "description":"Cache é um dispositivo de acesso rápido, interno a um sistema, que serve de intermediário entre um operador de um processo e o dispositivo de armazenamento ao qual esse operador acede.",
-                    "tools":[]
+                    "tools":[
+                        {
+                            "id": 361,
+                            "name": "HangFire",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        },
+                        {
+                            "id": 362,
+                            "name": "Redis",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        }
+                    ]
                 },
                 {
                     "id": 370,
                     "name":"Logger",
                     "description":"Biblioteca que gerencia os logs da saída de um terminal por exemplo.",
-                    "tools":[]
+                    "tools":[
+                        {
+                            "id": 371,
+                            "name": "Log4Net",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        },
+                        {
+                            "id": 372,
+                            "name": "Serilog",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        },
+                        {
+                            "id": 373,
+                            "name": "NLog",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        }
+                    ]
                 },
                 {
                     "id": 380,
                     "name":"Object Mapping",
                     "description":"É uma técnica de desenvolvimento utilizada para reduzir a impedância da programação orientada aos objetos utilizando bancos de dados relacionais.",
-                    "tools":[]
+                    "tools":[
+                        {
+                            "id": 381,
+                            "name": "AutoMapper",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        }
+                    ]
                 },
                 {
                     "id": 390,
                     "name":"Template Engines",
                     "description":"O uso de template engines no desenvolvimento de aplicações permite manipular e organizar conteúdo de forma dinâmica.",
-                    "tools":[]
+                    "tools":[
+                        {
+                            "id": 391,
+                            "name": "SignalR",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        }
+                    ]
                 }
             ]
         },
@@ -1128,43 +1249,106 @@
                     "id": 410,
                     "name": "Package Manager",
                     "description": "Um package manager é uma ferramenta para instalação, remoção e atualização de softwares, que são distribuídos em pacotes.",
-                    "tools": []
+                    "tools": [
+                        {
+                            "id": 411,
+                            "name": "Pip",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        }
+                    ]
                 },
                 {
                     "id": 420,
                     "name": "Web Frameworks",
                     "description": "Um framework tem como foco a reusabilidade de código, dessa maneira, o desenvolvedor pode dedicar seu tempo em soluções mais complexas ao invés de ficar reescrevendo algo que já foi feito.",
-                    "tools": []
+                    "tools": [
+                        {
+                            "id": 421,
+                            "name": "Django",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        },
+                        {
+                            "id": 422,
+                            "name": "Flask",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        }
+                    ]
                 },
                 {
                     "id": 430,
                     "name":"Database Connection",
                     "description":"Realiza a comunicação entre usúario e banco de dados, permitindo que os dados de uma aplicação sejam consistentes.",
-                    "tools":[]
+                    "tools":[
+                        {
+                            "id": 431,
+                            "name": "SQLAlchemy",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        }
+                    ]
                 },
                 {
                     "id": 440,
                     "name":"Testing",
                     "description":"Essas ferramentas facilitam o trabalho do desenvolvedor ao realizar testes em suas soluções de maneira eficiente e com menos configurações.",
-                    "tools":[]
+                    "tools":[
+                        {
+                            "id": 441,
+                            "name": "pyUnit",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        }
+                    ]
                 },
                 {
                     "id": 450,
                     "name":"API Clients",
                     "description":"Ferramenta para integrar sistemas, possibilitando benefícios como a segurança dos dados, facilidade no intercâmbio entre informações com diferentes linguagens de programação.",
-                    "tools":[]
+                    "tools":[
+                        {
+                            "id": 451,
+                            "name": "Graphene",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        }
+                    ]
                 },
                 {
                     "id": 460,
                     "name":"Caching",
                     "description":"Cache é um dispositivo de acesso rápido, interno a um sistema, que serve de intermediário entre um operador de um processo e o dispositivo de armazenamento ao qual esse operador acede.",
-                    "tools":[]
+                    "tools":[
+                        {
+                            "id": 461,
+                            "name": "Beaker",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        }
+                    ]
                 },
                 {
                     "id": 470,
                     "name":"Template Engines",
                     "description":"O uso de template engines no desenvolvimento de aplicações permite manipular e organizar conteúdo de forma dinâmica.",
-                    "tools":[]
+                    "tools":[
+                        {
+                            "id": 471,
+                            "name": "Jinja",
+                            "description": "",
+                            "image": "",
+                            "content": []
+                        }
+                    ]
                 }
             ]
         }

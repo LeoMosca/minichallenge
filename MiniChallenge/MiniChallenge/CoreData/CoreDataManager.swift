@@ -45,14 +45,19 @@ class CoreDataManager {
         return []
     }
     
-    func getLastSeen() -> [ContentSeen] {
+    func getLastSeen() -> [ContentSeen]? {
         do{
             let lastSeen:[ContentSeen] = try persistentContainer.viewContext.fetch(ContentSeen.fetchRequest())
-            return lastSeen
+            if lastSeen.count > 0 {
+                return lastSeen
+            } else {
+                return nil
+            }
+            
         } catch {
             print("CoreData error")
         }
-        return []
+        return nil
     }
     
     
