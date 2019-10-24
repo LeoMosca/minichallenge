@@ -25,7 +25,6 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
         super.viewDidLoad()
         collectionView.delegate = self;
         collectionView.dataSource = self;
-        CoreDataManager.sharedInstance.insertLastSeen(0)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -35,36 +34,46 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
                 .map({ $0.id_lang })
             
             self.languages = resp.filter({ langID.contains(Int16($0.id ?? 0))})
+            
             DispatchQueue.main.async {
                 self.activ.stopAnimating()
                 self.collectionView.reloadData()
-            }
-        }
-        
-        let lastViewedId: Int16 = CoreDataManager.sharedInstance.getLastSeen()[0].lastSeen
-        
-        for i in languages {
-            if (i.topics != nil){
-                for j in i.topics! {
-                    if (j.tools != nil){
-                        for l in j.tools!{
-                            if (l.content != nil){
-                                for m in l.content!{
-                                    if (m.id ?? 0 == lastViewedId){
-                                        lastViewedLanguage.text = i.language
-                                        lastViewedTitle.text = m.title
-                                        lastViewedTopic.text = j.name
-                                        lastViewedTool.text = l.name
-                                    }
-                                }
-                            }
-                        }
-                    }
+                
+                if let lastSeen = CoreDataManager.sharedInstance.getLastSeen() {
+                    self.getLastViewedContent(lastSeen)
+                } else {
+                    self.lastViewed.isHidden = true
                 }
             }
         }
     }
 
+    func getLastViewedContent(_ coreinfo: [ContentSeen] ){
+        if coreinfo.count < 1 { return }
+        
+        lastViewed.isHidden = false
+        let lastViewedId: Int16 = coreinfo[0].lastSeen
+        
+        for i in languages {
+            for j in i.topics ?? [] {
+                for l in j.tools ?? [] {
+                    for m in l.content ?? [] {
+                        if (m.id ?? 0 == lastViewedId){
+                            print("Founded")
+                            lastViewedLanguage.text = i.language
+                            lastViewedTitle.text = m.title
+                            lastViewedTopic.text = j.name
+                            lastViewedTool.text = l.name
+                            return
+                        }
+                    }
+                }
+            }
+        }
+        
+        print("Not Found")
+        
+    }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return languages.count

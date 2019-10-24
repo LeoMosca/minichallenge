@@ -106,11 +106,15 @@ class ToolsViewController: UIViewController, UITableViewDelegate, UITableViewDat
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("Clicou no" + (lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].url ?? "nenhum"))
         let articleIndex = lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].id
-        if (articleIndex != nil){
-            CoreDataManager.sharedInstance.getLastSeen()[0].lastSeen = Int16(articleIndex!)
-            CoreDataManager.sharedInstance.saveContext()
-        }
         
+        if let articleIndex = articleIndex {
+            if let coreseen = CoreDataManager.sharedInstance.getLastSeen() {
+                coreseen[0].lastSeen = Int16(articleIndex)
+                CoreDataManager.sharedInstance.saveContext();
+            } else {
+                CoreDataManager.sharedInstance.insertLastSeen(articleIndex)
+            }
+        }
         
         
         if (lang.topics?[topicIndex].tools?[toolIndex].content?[indexPath.row - 1].url != nil){
