@@ -10,14 +10,22 @@ import UIKit
 
 class MainViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     var languages:[Language] = [];
+    
     @IBOutlet weak var lastViewed: UIView!
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var activ: UIActivityIndicatorView!
+    @IBOutlet weak var lastViewedTitle: UILabel!
+    @IBOutlet weak var lastViewedLanguage: UILabel!
+    @IBOutlet weak var lastViewedTopic: UILabel!
+    @IBOutlet weak var lastViewedTool: UILabel!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.delegate = self;
         collectionView.dataSource = self;
+        CoreDataManager.sharedInstance.insertLastSeen(0)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -32,7 +40,31 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
                 self.collectionView.reloadData()
             }
         }
+        
+        let lastViewedId: Int16 = CoreDataManager.sharedInstance.getLastSeen()[0].lastSeen
+        
+        for i in languages {
+            if (i.topics != nil){
+                for j in i.topics! {
+                    if (j.tools != nil){
+                        for l in j.tools!{
+                            if (l.content != nil){
+                                for m in l.content!{
+                                    if (m.id ?? 0 == lastViewedId){
+                                        lastViewedLanguage.text = i.language
+                                        lastViewedTitle.text = m.title
+                                        lastViewedTopic.text = j.name
+                                        lastViewedTool.text = l.name
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
+
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return languages.count
@@ -57,7 +89,7 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
             print("i")
             return MainCollectionViewCell()
         }
-    }
+        }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let dest = segue.destination as? LanguageViewController {
@@ -66,3 +98,4 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
         }
     }
 }
+

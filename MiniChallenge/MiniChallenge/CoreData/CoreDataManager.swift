@@ -44,6 +44,18 @@ class CoreDataManager {
         return []
     }
     
+    func getLastSeen() -> [ContentSeen] {
+        do{
+            let lastSeen:[ContentSeen] = try persistentContainer.viewContext.fetch(ContentSeen.fetchRequest())
+            return lastSeen
+        } catch {
+            print("CoreData error")
+        }
+        return []
+    }
+    
+    
+    
     func insertLanguage(_ id:Int, _ done:Bool, topics: [TopicDone]) {
         guard let newPackage = NSEntityDescription.insertNewObject(forEntityName: "LanguageAdded", into: persistentContainer.viewContext) as? LanguageAdded else { return }
         let topicsToAdd:NSSet = NSSet()
@@ -55,6 +67,12 @@ class CoreDataManager {
         newPackage.id_lang = Int16(id)
         newPackage.isDone = done
         newPackage.topics = topicsToAdd
+        saveContext()
+    }
+    
+    func insertLastSeen(_ id:Int) {
+        guard let newPackage = NSEntityDescription.insertNewObject(forEntityName: "ContentSeen", into: persistentContainer.viewContext) as? ContentSeen else { return }
+        newPackage.lastSeen = Int16(id)
         saveContext()
     }
     

@@ -7,6 +7,7 @@
 //
 
 class Content: Codable {
+    var id: Int?
     var type: String?
     var title: String?
     var subtitle: String?
