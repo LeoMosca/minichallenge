@@ -17,7 +17,6 @@ class LanguageViewController: UIViewController, UITableViewDelegate, UITableView
         super.viewDidLoad()
         tableView.delegate = self;
         tableView.dataSource = self;
-        
         self.title = lang.language
     }
     
