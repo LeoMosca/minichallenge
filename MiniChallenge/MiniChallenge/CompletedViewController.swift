@@ -10,11 +10,15 @@ import UIKit
 
 class CompletedViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
+    @IBOutlet weak var emptyImage: UIImageView!
+    
+    @IBOutlet weak var emptyText: UITextView!
+    
     var languages:[Language] = []
     
     @IBOutlet weak var collectionView: UICollectionView!
-    @IBOutlet weak var activ: UIActivityIndicatorView!
     
+    @IBOutlet weak var activ: UIActivityIndicatorView!
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.delegate = self
@@ -22,6 +26,9 @@ class CompletedViewController: UIViewController, UICollectionViewDelegate, UICol
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        
+        self.emptyImage.isHidden = true
+        self.emptyText.isHidden = true
         RequestAPI.fetchLanguages { (resp) in
             let langID = CoreDataManager.sharedInstance.getLanguages()
                 .filter({ $0.isDone })
@@ -31,6 +38,12 @@ class CompletedViewController: UIViewController, UICollectionViewDelegate, UICol
             DispatchQueue.main.async {
                 self.activ.stopAnimating()
                 self.collectionView.reloadData()
+                
+                if langID == [] {
+                    self.emptyImage.isHidden = false
+                    self.emptyText.isHidden = false
+                }
+                
             }
         }
     }
