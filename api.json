@@ -104,7 +104,7 @@
                         {
                             "id" : 114,
                             "name": "Restify",
-                            "description":"Amplamente utilizado em empresas como Netflix, Pinterest e Napster, ele foi inicialmente criado como uma alternativa ao Express. Ele é uma estrutura para construir serviços Web Restful semanticamente corretos, otimizado para introspecção e desempenho. ",
+                            "description":"É uma estrutura para construir serviços Web Restful semanticamente corretos, otimizado para introspecção e desempenho. Amplamente utilizado em empresas como Netflix, Pinterest e Napster.",
                             "image":"https://tsh.io/wp-content/uploads/2018/11/blog_nodejspodstawy-1024x683.jpg",
                             "content": [
                                 {
@@ -162,7 +162,7 @@
                         {
                             "id": 121,
                             "name": "Sequelize",
-                            "description":"Tem como funcionalidade fazer o mapeamento de dados relacionais (tabelas, colunas e linhas) para objetos Javascript. Ele permite criar, buscar, alterar e remover dados do banco de dados utilizando métodos JS, além de permitir a modificação da estrutura das tabelas. ",
+                            "description":"Tem como funcionalidade fazer o mapeamento de dados relacionais (tabelas, colunas e linhas) para objetos Javascript. Ele permite criar, buscar, alterar e remover dados do banco de dados utilizando métodos JS. ",
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzyCZ54r2FIbp3QlHnWHP7iGkiBwR5TUofpmLqsQJ3HBBO3gTb",
                             "content": [
                                 {
@@ -252,7 +252,7 @@
                         {
                             "id": 131,
                             "name": "Jest",
-                            "description":"É uma estrutura de teste de JavaScript com foco na simplicidade. Ele trabalha com projetos usando: Babel, TypeScript, Node.js, React, Angular e Vue.js. O objetivo é trabalhar fora da caixa e configurar gratuitamente.",
+                            "description":"É uma estrutura de teste de JavaScript com foco na simplicidade. Ele trabalha com projetos usando: Babel, TypeScript, Node.js, React, Angular e Vue.js.",
                             "image":"https://static.imasters.com.br/wp-content/uploads/2019/03/25142439/JEESTT.jpg",
                             "content": [
                                 {
@@ -346,7 +346,7 @@
                         {
                             "id": 141,
                             "name": "Axios",
-                            "description":"É um cliente HTTP para o navegador e o Node.js. O Axios facilita o envio de solicitações HTTP assíncronas para terminais REST e a execução de operações CRUD. Pode ser usado em JavaScript ou com uma biblioteca como Vue ou React.",
+                            "description":"É um cliente HTTP para o navegador e o Node.js, facilita o envio de solicitações HTTP assíncronas para terminais REST e a execução de operações CRUD. Usado em JavaScript ou com uma biblioteca Vue ou React.",
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT9K87lks7JSqzWEFnHeOV_qjHw6ELWwWpMttklD2U6J_si0A2X",
                             "content": [
                                 {
@@ -362,7 +362,7 @@
                         {
                             "id": 143,
                             "name": "GraphQL",
-                            "description":"É uma linguagem de consulta criada pelo Facebook em 2012 e lançada publicamente em 2015. É considerada uma alternativa para arquiteturas REST, além de oferecer um serviço runtime para rodar comandos e consumir uma API.",
+                            "description":"É uma linguagem de consulta criada pelo Facebook. É considerada uma alternativa para arquiteturas REST, além de oferecer um serviço runtime para rodar comandos e consumir uma API.",
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSA3mtZWOKL1jnvENhiIkoa1qskeSdbat_Rq7lh9AbtbbsKB8ts",
                             "content":[
                                 {
@@ -440,7 +440,7 @@
                         {
                             "id": 181,
                             "name": "Node Mailer",
-                            "description":"Esse pacote permite que sua aplicação envie e-mails de maneira bem fácil. O projeto foi iniciado em 2010, quando não havia opção para enviar mensagens de email, hoje é a solução para a qual a maioria dos usuários do Node.js. usa por padrão.",
+                            "description":"Esse pacote permite que sua aplicação envie e-mails de maneira bem fácil. O projeto foi iniciado quando não havia opção para enviar mensagens de email, hoje é a solução para a qual a maioria dos usuários usam.",
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSGHqxmRVUEEpwmDE2ChbT-un0U3LjyOchR_5tkd89H6Dy4KAep",
                             "content": [
                                 {
@@ -463,7 +463,7 @@
                         {
                             "id": 161,
                             "name": "Agenda JS",
-                            "description":"Permite agendar tarefas facilmente. Utiliza um banco de dados MongoDB para manter as tarefas agendadas, para que, mesmo que o servidor seja desativado, as tarefas ainda serão executadas no tempo ou intervalos especificados.",
+                            "description":"Permite agendar tarefas facilmente. Utiliza um banco de dados MongoDB para manter as tarefas agendadas mesmo que o servidor seja desativado, as tarefas ainda serão executadas no tempo ou em intervalos.",
                             "image":"https://cdn.dribbble.com/users/1519999/screenshots/6834299/shot_adson-04_2x.png",
                             "content": [
                                 {
@@ -560,7 +560,7 @@
                         {
                             "id": 211,
                             "name": "Gradle",
-                            "description": "Gradle é um sistema de automação de compilação open source que se baseia nos conceitos de Apache Ant e Apache Maven e introduz uma linguagem de domínio específico baseada em Groovy em vez do XML usado pelo Apache Maven para declarar a configuração do projeto.",
+                            "description": "É um sistema de automação de compilação open source, baseia nos conceitos de Apache Ant e Apache Maven e introduz uma linguagem de domínio específico para declarar a configuração do projeto.",
                             "image": "https://cdn.buttercms.com/npcWmjoRyi7CBLQ6g0fQ",
                             "content": [
                                 {
@@ -610,12 +610,12 @@
                 {
                     "id": 220,
                     "name":"Web Frameworks",
-                    "description":"Um framework tem como foco a reusabilidade de código, dessa maneira, o desenvolvedor pode dedicar seu tempo em soluções mais complexas ao invés de ficar reescrevendo algo que já foi feito.",
+                    "description":"Um framework tem como foco a reusabilidade de código, o desenvolvedor pode dedicar seu tempo em soluções mais complexas ao invés de ficar reescrevendo algo que já foi feito.",
                     "tools": [
                         {
                             "id": 221,
                             "name":"Spring",
-                            "description": "O Spring é um framework open source para a plataforma Java criado por Rod Johnson e descrito em seu livro 'Expert One-on-One: JEE Design e Development'. Trata-se de um framework não intrusivo, baseado nos padrões de projeto inversão de controle e injeção de dependência.",
+                            "description": "O Spring é um framework open source para a plataforma Java. Trata-se de um framework não intrusivo, baseado nos padrões de projeto inversão de controle e injeção de dependência.",
                             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRQ8fqaQpvFKhZbZ25RXl0AL_C8zu5kdAcfukfIupAmtiwgtd-g",
                             "content": [
                                 {
@@ -685,7 +685,7 @@
                         {
                             "id": 229,
                             "name":"Play Framework",
-                            "description":"Play Framework é um framework de aplicativos da web de código aberto que segue o padrão de arquitetura model-view-controller. É escrito em Scala e utilizável a partir de outras linguagens de programação que são compiladas no JVM Bytecode, por exemplo Java.",
+                            "description":"Play Framework é um framework de aplicativos web de código aberto que segue o padrão de arquitetura model-view-controller. É escrito em Scala e utilizável a partir de outras linguagens de programação.",
                             "image": "https://i.udemycdn.com/course/750x422/298880_8785_2.jpg",
                             "content": [
                                 {
@@ -782,7 +782,7 @@
                         {
                             "id": 244,
                             "name":"Cucumber",
-                            "description": "Cucumber ou Pepino é uma ferramenta de software usada por programadores de computador que suporta o desenvolvimento orientado a comportamento. O ponto central da abordagem do BDD do pepino é o analisador de linguagem simples chamado Gherkin.",
+                            "description": "É uma ferramenta de software usada por programadores de computador que suporta o desenvolvimento orientado a comportamento. O ponto central da abordagem do BDD dele é o analisador de linguagem simples chamado Gherkin.",
                             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcStnej7qOiczhtQw_BkpsPQSwJDu_agS-qlR2a-IXf_KWaDddBd",
                             "content":[
                                 {
@@ -824,7 +824,7 @@
                         {
                             "id": 261,
                             "name":"Log4j",
-                            "description":"O Log4j é uma ferramenta utilizada em aplicativos escritos na linguagem de programação Java. O log4j é um software livre de código aberto desenvolvido pela Apache Software Foundation. Ele fornece uma API para que o desenvolvedor de software possa fazer log de dados na sua aplicação.",
+                            "description":"É um software livre de código aberto desenvolvido pela Apache Software Foundation. Ele fornece uma API para que o desenvolvedor de software possa fazer log de dados na sua aplicação.",
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTSleEmreR3N2fEM41cBymyWkVET3uU4wwEDIZdANi8-GEJP8_i",
                             "content":[
                                 {
@@ -894,7 +894,7 @@
                         {
                             "id": 291,
                             "name":"Caffeine",
-                            "description":"Caffeine é uma biblioteca de armazenamento em cache quase ideal, baseada em Java 8. Fornece um cache na memória usando uma API inspirada no Google Guava. As melhorias se baseiam em nossa experiência ao projetar o cache do Guava e o ConcurrentLinkedHashMap.",
+                            "description":"É uma biblioteca de armazenamento em cache quase ideal. Fornece um cache na memória usando uma API inspirada no Google Guava. As melhorias se baseiam em nossa experiência ao projetar o cache do Guava.",
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQv_X0o4aWNNKg3hhG1ESNg30n9_eelbo_qCBCUpayg_3ejMuHR",
                             "content":[
                                 {
@@ -949,7 +949,7 @@
                         {
                             "id": 281,
                             "name":"JSP",
-                            "description":"JSP é o acrônimo para Java Server Pages, uma linguagem criada pela SUN gratuita, JSP é uma linguagem de script com especificação aberta que tem como objetivo primário a geração de conteúdo dinâmico para páginas da Internet. Podemos ao invés de utilizar HTML para desenvolver páginas Web estáticas e sem funcionalidade, utilizar o JSP para criar dinamismo.",
+                            "description":"É uma linguagem de script com especificação aberta que tem como objetivo primário a geração de conteúdo dinâmico para páginas da Internet. Podemos ao invés de utilizar HTML para desenvolver páginas Web estáticas e sem funcionalidade.",
                             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRxgr2rU8vzLZMs8ha7DECWYmqnTXTwEldOFxBAsituLHpxPCkR",
                             "content":[
                                 {
@@ -1003,7 +1003,7 @@
                         {
                             "id": 276,
                             "name":"Atmosphere",
-                            "description":"O Atmosphere contém componentes do lado do cliente e do servidor para a criação de aplicativos Web assíncronos. O Atmosphere oferece suporte transparente a WebSockets, SSE (Server Sent Events), Long Polling, HTTP Streaming (Forever frame) e JSONP.",
+                            "description":"Contém componentes do lado do cliente e do servidor para a criação de aplicativos Web assíncronos. Oferece suporte transparente a WebSockets, SSE, Long Polling, HTTP Streaming e JSONP.",
                             "image":"https://blog-content.sfo2.cdn.digitaloceanspaces.com/media/2018/09/Main-Image.png",
                             "content":[
                                 {
@@ -1309,12 +1309,12 @@
                     ]
                 },
                 {
-                    "id": 460,
+                    "id": 450,
                     "name":"Caching",
                     "description":"Cache é um dispositivo de acesso rápido, interno a um sistema, que serve de intermediário entre um operador de um processo e o dispositivo de armazenamento ao qual esse operador acede.",
                     "tools":[
                         {
-                            "id": 461,
+                            "id": 451,
                             "name": "Beaker",
                             "description": "",
                             "image": "",
@@ -1323,12 +1323,12 @@
                     ]
                 },
                 {
-                    "id": 470,
+                    "id": 460,
                     "name":"Template Engines",
                     "description":"O uso de template engines no desenvolvimento de aplicações permite manipular e organizar conteúdo de forma dinâmica.",
                     "tools":[
                         {
-                            "id": 471,
+                            "id": 461,
                             "name": "Jinja",
                             "description": "",
                             "image": "",
