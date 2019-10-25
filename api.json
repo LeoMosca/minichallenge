@@ -1052,8 +1052,8 @@
                         {
                             "id": 311,
                             "name": "NuGet",
-                            "description": "",
-                            "image": "",
+                            "description": "É um gerenciador de pacotes gratuito e de código aberto projetado para a plataforma de desenvolvimento da Microsoft. O NuGet é distribuído como uma extensão do Visual Studio.",
+                            "image": "https://i.ytimg.com/vi/GKb94uCHlSo/maxresdefault.jpg",
                             "content": []
                         }
                     ]
@@ -1066,8 +1066,8 @@
                         {
                             "id": 321,
                             "name": ".NET Framework",
-                            "description": "",
-                            "image": "",
+                            "description": "É uma iniciativa da empresa Microsoft, que visa uma plataforma única para desenvolvimento e execução de sistemas e aplicações. Todo e qualquer código gerado para .NET pode ser executado em qualquer dispositivo que possua um framework de tal plataforma. ",
+                            "image": "https://img.comss.net/fit-in/200x200/filters:fill(FFFFFF)/logo/netframework.png",
                             "content": []
                         }
                     ]
@@ -1080,8 +1080,8 @@
                         {
                             "id": 331,
                             "name": "Entity Framework",
-                            "description": "",
-                            "image": "",
+                            "description": "É uma das principais ferramentas de persistência presentes na plataforma .NET, sendo parte integrante do pacote de tecnologias ADO.NET.",
+                            "image": "https://ilovecode.com.br/wp-content/uploads/2016/04/entity-framework-1900x700_c.png",
                             "content": []
                         }
                     ]
@@ -1094,22 +1094,22 @@
                         {
                             "id": 341,
                             "name": "NUnit",
-                            "description": "",
-                            "image": "",
+                            "description": "É uma estrutura de teste de unidade de código aberto para o Microsoft .NET. Ele serve ao mesmo propósito que o JUnit faz no mundo Java e é um dos muitos programas da família xUnit.",
+                            "image": "https://arquivo.devmedia.com.br/marketing/img/artigo-nunit-testes-unitarios-revista-engenharia-de-software-magazine-43-23037.png",
                             "content": []
                         },
                         {
                             "id": 342,
                             "name": "Moq",
-                            "description": "",
-                            "image": "",
+                            "description": "Serve para que consigamos criar dados fictícios, baseados em nosso modelo de negócios, para verificar o comportamento de nossas aplicações.",
+                            "image": "https://electrocars.lt/wp-content/uploads/2019/06/MOQ-logo.jpg",
                             "content": []
                         },
                         {
                             "id": 343,
                             "name": "FluentAssertions",
                             "description": "",
-                            "image": "",
+                            "image": "https://repository-images.githubusercontent.com/11718424/d3fff380-a4a0-11e9-9fac-3c69c9199641",
                             "content": []
                         }
                     ]
@@ -1123,21 +1123,21 @@
                             "id": 351,
                             "name": "RestSharp",
                             "description": "",
-                            "image": "",
+                            "image": "http://cagataykiziltan.net/wp-content/uploads/2018/11/RestSharpss-520x245.png",
                             "content": []
                         },
                         {
                             "id": 352,
                             "name": "OData",
                             "description": "",
-                            "image": "",
+                            "image": "https://www.ze.com/wp-content/uploads/opendata-ze.jpg",
                             "content": []
                         },
                         {
                             "id": 353,
                             "name": "GraphQL",
                             "description": "",
-                            "image": "",
+                            "image": "https://graphql.org/img/og_image.png",
                             "content": []
                         }
                     ]
@@ -1151,14 +1151,14 @@
                             "id": 361,
                             "name": "HangFire",
                             "description": "",
-                            "image": "",
+                            "image": "https://pbs.twimg.com/profile_images/788124341699481600/vCEV0AT7.jpg",
                             "content": []
                         },
                         {
                             "id": 362,
                             "name": "Redis",
                             "description": "",
-                            "image": "",
+                            "image": "https://miro.medium.com/max/609/0*nGF0l3f3ogq2wgNL.png",
                             "content": []
                         }
                     ]
@@ -1172,21 +1172,21 @@
                             "id": 371,
                             "name": "Log4Net",
                             "description": "",
-                            "image": "",
+                            "image": "https://realtechcode.files.wordpress.com/2018/04/log4net-hero-icon.png?w=1400",
                             "content": []
                         },
                         {
                             "id": 372,
                             "name": "Serilog",
                             "description": "",
-                            "image": "",
+                            "image": "https://stackify.com/wp-content/uploads/2018/08/Feature-Image-for-Serilog-Tutorial-for-881x440.jpg",
                             "content": []
                         },
                         {
                             "id": 373,
                             "name": "NLog",
                             "description": "",
-                            "image": "",
+                            "image": "https://ucarecdn.com/a6de9c6b-9447-4206-8c6e-a5a4c999fab2/",
                             "content": []
                         }
                     ]
@@ -1200,7 +1200,7 @@
                             "id": 381,
                             "name": "AutoMapper",
                             "description": "",
-                            "image": "",
+                            "image": "https://keyholesoftware.com/wp-content/uploads/AutoMapper.png",
                             "content": []
                         }
                     ]
@@ -1214,7 +1214,7 @@
                             "id": 391,
                             "name": "SignalR",
                             "description": "",
-                            "image": "",
+                            "image": "https://rsamorim.azurewebsites.net/wp-content/uploads/2018/11/Capture.png",
                             "content": []
                         }
                     ]
@@ -1254,7 +1254,7 @@
                             "id": 411,
                             "name": "Pip",
                             "description": "",
-                            "image": "",
+                            "image": "https://files.realpython.com/media/What-is-PIP_Watermarked.c46f49dc33f9.jpg",
                             "content": []
                         }
                     ]
@@ -1268,14 +1268,14 @@
                             "id": 421,
                             "name": "Django",
                             "description": "",
-                            "image": "",
+                            "image": "https://files.realpython.com/media/Get-Started-With-Django_Watermarked.15a1e05597bc.jpg",
                             "content": []
                         },
                         {
                             "id": 422,
                             "name": "Flask",
                             "description": "",
-                            "image": "",
+                            "image": "https://miro.medium.com/max/438/1*0G5zu7CnXdMT9pGbYUTQLQ.png",
                             "content": []
                         }
                     ]
@@ -1289,7 +1289,7 @@
                             "id": 431,
                             "name": "SQLAlchemy",
                             "description": "",
-                            "image": "",
+                            "image": "https://d2knvm16wkt3ia.cloudfront.net/og/python-sqlalchemy.png",
                             "content": []
                         }
                     ]
@@ -1303,21 +1303,7 @@
                             "id": 441,
                             "name": "pyUnit",
                             "description": "",
-                            "image": "",
-                            "content": []
-                        }
-                    ]
-                },
-                {
-                    "id": 450,
-                    "name":"API Clients",
-                    "description":"Ferramenta para integrar sistemas, possibilitando benefícios como a segurança dos dados, facilidade no intercâmbio entre informações com diferentes linguagens de programação.",
-                    "tools":[
-                        {
-                            "id": 451,
-                            "name": "Graphene",
-                            "description": "",
-                            "image": "",
+                            "image": "https://www.lambdatest.com/blog/wp-content/uploads/2019/01/20190107_182900_0000-01-1.jpeg",
                             "content": []
                         }
                     ]

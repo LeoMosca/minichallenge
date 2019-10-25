@@ -1261,14 +1261,14 @@
         <image name="Favorite" width="100" height="100"/>
         <image name="JavaIcon" width="80" height="80"/>
         <image name="Web Frameworks" width="426.66665649414062" height="266.66665649414062"/>
-        <image name="book" width="32" height="32"/>
+        <image name="book" width="24" height="24"/>
         <image name="emptyState1" width="833.33331298828125" height="694.33331298828125"/>
         <image name="emptyState2" width="575" height="383.33334350585938"/>
         <image name="estrela" width="300" height="300"/>
         <image name="success" width="21.333333969116211" height="21.333333969116211"/>
-        <image name="to-do" width="32" height="32"/>
+        <image name="to-do" width="24" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fht-7L-vOT"/>
+        <segue reference="Cch-iM-qj5"/>
     </inferredMetricsTieBreakers>
 </document>
