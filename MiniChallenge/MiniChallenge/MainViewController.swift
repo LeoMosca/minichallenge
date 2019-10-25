@@ -12,6 +12,11 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
     var languages:[Language] = [];
     var coreLangs:[LanguageAdded] = [];
     
+    
+    @IBOutlet weak var emptyText: UITextView!
+    
+    @IBOutlet weak var emptyImage: UIImageView!
+    @IBOutlet var mainView: UIView!
     @IBOutlet weak var lastViewed: UIView!
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var activ: UIActivityIndicatorView!
@@ -29,6 +34,9 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        self.emptyImage.isHidden = true
+        self.emptyText.isHidden = true
+        self.lastViewed.isHidden = true
         RequestAPI.fetchLanguages { (resp) in
             self.coreLangs = CoreDataManager.sharedInstance.getLanguages().filter({ !$0.isDone })
             self.languages = self.coreLangs.map({ core in
@@ -38,10 +46,25 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
                 self.activ.stopAnimating()
                 self.collectionView.reloadData()
                 
+                
+                
+                if self.coreLangs == []{
+                    self.emptyImage.isHidden = false
+                    self.emptyText.isHidden = false
+                    
+                }
+                else{
+                    self.lastViewed.isHidden = false
+                    self.lastViewedLanguage.text = ""
+                    self.lastViewedTitle.text = "Você ainda não visualizou nenhum artigo"
+                    self.lastViewedTopic.text = ""
+                    self.lastViewedTool.text = ""
+                }
+                
                 if let lastSeen = CoreDataManager.sharedInstance.getLastSeen() {
                     self.getLastViewedContent(lastSeen)
                 } else {
-                    self.lastViewed.isHidden = true
+                    //self.lastViewed.isHidden = true
                 }
             }
         }

@@ -164,6 +164,18 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="emptyState1" translatesAutoresizingMaskIntoConstraints="NO" id="mZa-uG-whg">
+                                <rect key="frame" x="20" y="161" width="374" height="477"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Aparenta que ainda não há linguagens aqui. Toque em + no canto superior direito para escolher uma nova." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPd-Ky-dtP">
+                                <rect key="frame" x="59" y="555" width="297" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" red="0.43529411764705883" green="0.43137254901960786" blue="0.43137254901960786" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -184,11 +196,14 @@
                     <connections>
                         <outlet property="activ" destination="Nex-Ql-HhD" id="yaE-3y-pUR"/>
                         <outlet property="collectionView" destination="PlU-2x-0lr" id="Fx9-dA-CWB"/>
+                        <outlet property="emptyImage" destination="mZa-uG-whg" id="ebZ-eD-RNQ"/>
+                        <outlet property="emptyText" destination="WPd-Ky-dtP" id="q27-fq-yva"/>
                         <outlet property="lastViewed" destination="fVR-wG-tGv" id="bN0-bC-0gd"/>
                         <outlet property="lastViewedLanguage" destination="KH9-0k-YCb" id="ZR4-nZ-7hx"/>
                         <outlet property="lastViewedTitle" destination="AlS-Ao-KN2" id="ltN-uj-tub"/>
                         <outlet property="lastViewedTool" destination="e7i-Yo-5gG" id="a3D-CQ-Z0w"/>
                         <outlet property="lastViewedTopic" destination="K3Z-5A-aec" id="HNP-FF-vm2"/>
+                        <outlet property="mainView" destination="8bC-Xf-vdC" id="E0l-BX-UBn"/>
                     </connections>
                 </viewController>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="ooC-SK-nsQ">
@@ -1143,7 +1158,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4Vf-Qz-SCN">
-                                <rect key="frame" x="20" y="105" width="374" height="691"/>
+                                <rect key="frame" x="20" y="103" width="374" height="691"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0zj-US-MRp">
@@ -1152,10 +1167,6 @@
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
-                                <activityIndicatorView key="backgroundView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" id="tq3-05-FUa">
-                                    <rect key="frame" x="0.0" y="0.0" width="374" height="691"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                </activityIndicatorView>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="mainCell" id="3tt-4F-rzW" customClass="MainCollectionViewCell" customModule="MiniChallenge" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="115" height="111"/>
@@ -1220,13 +1231,24 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="As linguagens que você estudar aparecerão aqui conforme você marcar todos os seus tópicos como &quot;já estudados&quot;" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7QF-Gi-bjM">
+                                <rect key="frame" x="54" y="532" width="307" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" red="0.43529411759999997" green="0.43137254899999999" blue="0.43137254899999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emptyState2" id="VQ1-ay-ILF">
+                                <rect key="frame" x="20" y="155" width="374" height="453"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="pdu-wg-g4d"/>
                     </view>
                     <navigationItem key="navigationItem" title="Concluidos" id="sZy-Kv-9WY"/>
                     <connections>
-                        <outlet property="activ" destination="tq3-05-FUa" id="2Js-KG-KSi"/>
                         <outlet property="collectionView" destination="4Vf-Qz-SCN" id="03h-0u-IfJ"/>
                     </connections>
                 </viewController>
@@ -1240,11 +1262,13 @@
         <image name="JavaIcon" width="80" height="80"/>
         <image name="Web Frameworks" width="426.66665649414062" height="266.66665649414062"/>
         <image name="book" width="32" height="32"/>
+        <image name="emptyState1" width="833.33331298828125" height="694.33331298828125"/>
+        <image name="emptyState2" width="575" height="383.33334350585938"/>
         <image name="estrela" width="300" height="300"/>
         <image name="success" width="21.333333969116211" height="21.333333969116211"/>
         <image name="to-do" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Cch-iM-qj5"/>
+        <segue reference="fht-7L-vOT"/>
     </inferredMetricsTieBreakers>
 </document>
