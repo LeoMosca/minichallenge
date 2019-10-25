@@ -9,6 +9,8 @@
 import UIKit
 
 class LanguageItemTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var studiedMark: UIImageView!
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var item: UILabel!
     @IBOutlet weak var icon: UIImageView!
@@ -17,6 +19,13 @@ class LanguageItemTableViewCell: UITableViewCell {
         self.name.text = name;
         self.item.text = String(items) + " itens";
         self.icon.image = UIImage(named: "[Ico] " + name);
+    }
+    
+    public func setStudied(_ topics: NSSet?, _ topicId: Int?){
+        if let topics = topics?.allObjects as? [TopicDone] {
+            let topic = topics.first(where: { $0.id_topic == Int16(topicId ?? -1) })
+            studiedMark.isHidden = (topic == nil)
+        }
     }
     
     override func awakeFromNib() {

@@ -21,6 +21,10 @@ class LanguageViewController: UIViewController, UITableViewDelegate, UITableView
         self.title = lang.language
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        tableView.reloadData()
+    }
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return indexPath.row == 0 ? 380 : 70
     }
@@ -42,9 +46,10 @@ class LanguageViewController: UIViewController, UITableViewDelegate, UITableView
             if let cell = tableView.dequeueReusableCell(withIdentifier: "languageCell", for: indexPath) as? LanguageItemTableViewCell {
                 let topic = lang.topics![indexPath.row - 1]
                 cell.setItem(topic.name!, topic.tools!.count)
+                cell.setStudied(corelang?.topics, topic.id)
+                
                 
                 return cell;
-                
             }
         }
         

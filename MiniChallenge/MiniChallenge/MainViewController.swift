@@ -34,37 +34,32 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        self.emptyImage.isHidden = true
-        self.emptyText.isHidden = true
-        self.lastViewed.isHidden = true
         RequestAPI.fetchLanguages { (resp) in
             self.coreLangs = CoreDataManager.sharedInstance.getLanguages().filter({ !$0.isDone })
             self.languages = self.coreLangs.map({ core in
                 return resp.filter({ Int16($0.id ?? 0) == core.id_lang })[0]
             })
+            
             DispatchQueue.main.async {
                 self.activ.stopAnimating()
                 self.collectionView.reloadData()
                 
-                
-                
-                if self.coreLangs == []{
+                if self.coreLangs.count == 0 {
                     self.emptyImage.isHidden = false
                     self.emptyText.isHidden = false
-                    
-                }
-                else{
-                    self.lastViewed.isHidden = false
-                    self.lastViewedLanguage.text = ""
-                    self.lastViewedTitle.text = "Você ainda não visualizou nenhum artigo"
-                    self.lastViewedTopic.text = ""
-                    self.lastViewedTool.text = ""
-                }
-                
-                if let lastSeen = CoreDataManager.sharedInstance.getLastSeen() {
-                    self.getLastViewedContent(lastSeen)
                 } else {
-                    //self.lastViewed.isHidden = true
+                    if let lastSeen = CoreDataManager.sharedInstance.getLastSeen() {
+                        self.getLastViewedContent(lastSeen)
+                    } else {
+                        self.lastViewed.isHidden = false
+                        self.lastViewedLanguage.text = ""
+                        self.lastViewedTitle.text = "Você ainda não visualizou nenhum artigo"
+                        self.lastViewedTopic.text = ""
+                        self.lastViewedTool.text = ""
+                    }
+
+                    self.emptyImage.isHidden = true
+                    self.emptyText.isHidden = true
                 }
             }
         }

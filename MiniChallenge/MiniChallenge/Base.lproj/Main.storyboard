@@ -39,11 +39,11 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JAVA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KH9-0k-YCb">
                                         <rect key="frame" x="22" y="115" width="36.5" height="17"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="•" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UBd-hW-lHM">
-                                        <rect key="frame" x="97" y="114" width="6" height="16"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="•" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UBd-hW-lHM">
+                                        <rect key="frame" x="69" y="114" width="6" height="16"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -61,7 +61,7 @@
                                             <constraint firstAttribute="height" constant="17" id="h4s-ee-dKy"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                        <color key="textColor" systemColor="systemGreenColor" red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -85,12 +85,17 @@
                                     <constraint firstItem="e7i-Yo-5gG" firstAttribute="top" secondItem="KH9-0k-YCb" secondAttribute="bottom" constant="2" id="uxs-4i-rfn"/>
                                     <constraint firstItem="AlS-Ao-KN2" firstAttribute="leading" secondItem="fVR-wG-tGv" secondAttribute="leading" constant="22" id="yql-zF-Rxy"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="PlU-2x-0lr">
                                 <rect key="frame" x="20" y="287" width="374" height="526"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hrx-zW-lHf">
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hrx-zW-lHf">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -319,7 +324,7 @@
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
                                                     </subviews>
-                                                    <color key="backgroundColor" systemColor="systemGrayColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="60" id="VHI-eU-Xdg"/>
                                                         <constraint firstAttribute="height" constant="80" id="YoN-ua-YWv"/>
@@ -647,12 +652,17 @@
                                                     <rect key="frame" x="35" y="23" width="24" height="24"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="studied" translatesAutoresizingMaskIntoConstraints="NO" id="t72-mj-Usf">
+                                                    <rect key="frame" x="50" y="40" width="14" height="14"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="icon" destination="Vhv-rp-oZ7" id="6is-5b-qof"/>
                                             <outlet property="item" destination="z8g-uo-yRz" id="LTm-rd-KW7"/>
                                             <outlet property="name" destination="yTP-X5-594" id="2BP-oT-wck"/>
+                                            <outlet property="studiedMark" destination="t72-mj-Usf" id="V06-dh-b70"/>
                                             <segue destination="4Ru-Dq-NPa" kind="show" id="8Di-br-Cgh"/>
                                         </connections>
                                     </tableViewCell>
@@ -1272,10 +1282,11 @@
         <image name="emptyState1" width="833.33331298828125" height="694.33331298828125"/>
         <image name="emptyState2" width="575" height="383.33334350585938"/>
         <image name="estrela" width="300" height="300"/>
+        <image name="studied" width="166.66667175292969" height="166.66667175292969"/>
         <image name="success" width="21.333333969116211" height="21.333333969116211"/>
         <image name="to-do" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fht-7L-vOT"/>
+        <segue reference="Cch-iM-qj5"/>
     </inferredMetricsTieBreakers>
 </document>
