@@ -15,6 +15,7 @@ class CompletedViewController: UIViewController, UICollectionViewDelegate, UICol
     @IBOutlet weak var emptyText: UITextView!
     
     var languages:[Language] = []
+    var coreLangs:[LanguageAdded] = []
     
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -30,16 +31,16 @@ class CompletedViewController: UIViewController, UICollectionViewDelegate, UICol
         self.emptyImage.isHidden = true
         self.emptyText.isHidden = true
         RequestAPI.fetchLanguages { (resp) in
-            let langID = CoreDataManager.sharedInstance.getLanguages()
-                .filter({ $0.isDone })
-                .map({ $0.id_lang })
+            self.coreLangs = CoreDataManager.sharedInstance.getLanguages().filter({ $0.isDone })
+            self.languages = self.coreLangs.map({ core in
+                return resp.filter({ Int16($0.id ?? 0) == core.id_lang })[0]
+            })
             
-            self.languages = resp.filter({ langID.contains(Int16($0.id ?? 0))})
             DispatchQueue.main.async {
                 self.activ.stopAnimating()
                 self.collectionView.reloadData()
                 
-                if langID == [] {
+                if self.coreLangs == [] {
                     self.emptyImage.isHidden = false
                     self.emptyText.isHidden = false
                 }
@@ -76,6 +77,7 @@ class CompletedViewController: UIViewController, UICollectionViewDelegate, UICol
         if let dest = segue.destination as? LanguageViewController {
             let item = collectionView.indexPathsForSelectedItems
             dest.lang = languages[item![0].row];
+            dest.corelang = coreLangs[item![0].row];
         }
     }
 

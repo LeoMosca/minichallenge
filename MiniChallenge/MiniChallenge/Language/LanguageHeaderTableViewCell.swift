@@ -87,15 +87,24 @@ class LanguageHeaderTableViewCell: UITableViewCell, UICollectionViewDelegate, UI
         let addedLangs = CoreDataManager.sharedInstance.getLanguages()
         var alert:UIAlertController?
         
-        if !addedLangs.map({ Int($0.id_lang) }).contains(lang.id ?? 0) {
+        if let addedlang = addedLangs.first(where: { $0.id_lang == Int16(lang.id ?? 0) }) {
+            alert = UIAlertController(title: "Ops...", message: "Aparenta que essa linguagem já foi adicionada. Deseja removê-la da sua lista?", preferredStyle: .alert)
+            alert?.addAction(UIAlertAction(title: "Não, obrigado", style: .default, handler: nil))
+            alert?.addAction(UIAlertAction(title: "Deletar", style: .destructive) { alert in
+                CoreDataManager.sharedInstance.deleteLanguage(object: addedlang)
+                let confirmalert = UIAlertController(title: "Tudo certo", message: "Perfeito, a linguagem \(self.lang.language ?? "") foi removida com sucesso", preferredStyle: .alert)
+                confirmalert.addAction(UIAlertAction(title: "Ok, entendi", style: .default) { alert in
+                    self.currentView?.navigationController?.popToRootViewController(animated: true)
+                })
+                
+                self.currentView?.showAlert(confirmalert);
+            })
+        } else {
             CoreDataManager.sharedInstance.insertLanguage(lang.id ?? 0, false, topics: [])
             alert = UIAlertController(title: "Sucesso!", message: "A linguagem \(lang.language ?? "") foi adicionada. Você já pode começar a estudar.", preferredStyle: .alert)
             alert?.addAction(UIAlertAction(title: "Ok, entendi", style: .default, handler: { (_) in
                 self.currentView?.navigationController?.popToRootViewController(animated: true)
             }))
-        } else {
-            alert = UIAlertController(title: "Ops...", message: "Aparenta que essa linguagem já foi adicionada", preferredStyle: .alert)
-            alert?.addAction(UIAlertAction(title: "Ok, entendi", style: .default, handler: nil))
         }
         
         if let alert = alert {

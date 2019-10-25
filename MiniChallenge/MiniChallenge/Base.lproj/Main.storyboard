@@ -652,7 +652,7 @@
                                                     <rect key="frame" x="35" y="23" width="24" height="24"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="studied" translatesAutoresizingMaskIntoConstraints="NO" id="t72-mj-Usf">
+                                                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="studied" translatesAutoresizingMaskIntoConstraints="NO" id="t72-mj-Usf">
                                                     <rect key="frame" x="50" y="40" width="14" height="14"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -740,8 +740,12 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <inset key="titleEdgeInsets" minX="33" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                     <state key="normal" title="Já Estudei"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="7"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
                                                     <connections>
-                                                        <action selector="addTopic:" destination="Fnq-Vv-zNe" eventType="touchUpInside" id="Rdn-c9-isX"/>
                                                         <action selector="markAsStudied:" destination="4Ru-Dq-NPa" eventType="touchUpInside" id="brS-ag-jc0"/>
                                                     </connections>
                                                 </button>
@@ -756,6 +760,7 @@
                                             <outlet property="languageImage" destination="MND-dH-IKN" id="CiA-DO-s2w"/>
                                             <outlet property="languageName" destination="8ZH-8l-wVU" id="35X-uj-ItS"/>
                                             <outlet property="studyButton" destination="3zk-2A-42B" id="xns-cn-4Oq"/>
+                                            <outlet property="studyButtonImage" destination="nac-7P-lUg" id="Lcn-Ou-Z7c"/>
                                             <outlet property="topicName" destination="jIm-CP-V5f" id="H1u-MQ-bx1"/>
                                         </connections>
                                     </tableViewCell>

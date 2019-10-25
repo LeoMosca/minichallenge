@@ -9,7 +9,6 @@
 import UIKit
 
 class TopicsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-
     @IBOutlet weak var tableView: UITableView!
     
     var corelang: LanguageAdded?
@@ -39,11 +38,13 @@ class TopicsViewController: UIViewController, UITableViewDataSource, UITableView
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if(indexPath.row == 0){
             if let cell = tableView.dequeueReusableCell(withIdentifier: "TopicCellHeader", for: indexPath) as? TopicsHeaderTableViewCell{
-                let topic = lang.topics?[topicIndex].name
+                let topic = lang.topics?[topicIndex]
                 let description = lang.topics?[topicIndex].description
                 let language = lang.language
                 
-                cell.setHeader(topic, description, language)
+                cell.corelang = corelang
+                cell.topicId = topic?.id ?? -1
+                cell.setHeader(topic?.name, description, language)
                 return cell
             }
             
@@ -83,19 +84,20 @@ class TopicsViewController: UIViewController, UITableViewDataSource, UITableView
                     alert.addAction(UIAlertAction(title: "Deletar", style: .destructive) { alert in
                         self.corelang?.removeFromTopics(addedtopic)
                         CoreDataManager.sharedInstance.saveContext()
+                        self.tableView.reloadData()
                     })
                     self.present(alert, animated: true, completion: nil)
                 } else {
                     corelang?.addToTopics(topic)
                     CoreDataManager.sharedInstance.saveContext()
+                    self.tableView.reloadData()
+                    
                     let alert = UIAlertController(title: "Perfeito!", message: "Obrigado por informar! Seu progresso foi registrado com sucesso", preferredStyle: .alert)
                     alert.addAction(UIAlertAction(title: "Entendi!", style: .default){ alert in
-                        print(self.corelang?.topics?.count)
-                        print(self.lang.topics?.count)
-                        
                         if self.corelang?.topics?.count ?? 0 >= self.lang.topics?.count ?? -1 {
                             self.corelang?.isDone = true
                             CoreDataManager.sharedInstance.saveContext()
+                            
                             let alert = UIAlertController(title: "Incrível!!", message: "Você acaba de completar a linguagem \(self.lang.language ?? ""), parabéns!! Quando desejar consultar seu material, acesse a aba \"Concluídos\" no menu abaixo.", preferredStyle: .alert)
                             alert.addAction(UIAlertAction(title: "Ok, entendi", style: .default, handler: nil))
                             self.present(alert, animated: true, completion: nil)
