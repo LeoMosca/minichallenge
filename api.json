@@ -131,7 +131,7 @@
                                     "type": "Artigo",
                                     "title":"Criando um CRUD simples com Koa",
                                     "subtitle":"Vamos direto ao ponto de como fazer um CRUD utilizando o Koajs que é feito e mantido pelo mesmo time do Express tendo as mesmas funcionalidades e suporte as funções geradoras do ECMASCRIPT6.",
-                                    "image":"http://blemediasolutions.com/blog/wp-content/uploads/2018/07/koa-js.jpg",
+                                    "image":"https://www.fao.org/fileadmin/templates/cfs/images/multimedia/medium.png",
                                     "url":"https://medium.com/@fabianomonte/criando-um-crud-simples-com-koa-67d9b99a71b4"
                                 }
                             ]
@@ -902,7 +902,7 @@
                                     "type": "Artigo",
                                     "title": "Spring Boot + Caching",
                                     "subtitle": "This topic will give you understanding of usage Spring Boot with Caching to increase your app performance significantly.",
-                                    "image": "http://www.fao.org/fileadmin/templates/cfs/images/multimedia/medium.png",
+                                    "image": "https://www.fao.org/fileadmin/templates/cfs/images/multimedia/medium.png",
                                     "url": "https://medium.com/@ihorkosandiak/spring-boot-caching-d74591abe117"
                                 },
                                 {
